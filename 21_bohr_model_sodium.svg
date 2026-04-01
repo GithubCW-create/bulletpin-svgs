@@ -1,49 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
   <rect width="400" height="300" fill="#1a1a2e"/>
-  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Bohr Model — Sodium</text>
-  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Na — 11 electrons</text>
-
-  <!--
-    BOHR MODEL STANDARD
-    ====================
-    Nucleus at (200, 155). Shells: r=30, r=55, r=80.
-    Electrons paired at compass points (top, right, bottom, left).
-    Shell 1: 2e → 1 pair at top.
-    Shell 2: 8e → 4 pairs at compass.
-    Shell 3: 1e → single at top.
-    Total: 2 + 8 + 1 = 11 ✓
-  -->
-
-  <!-- Electron shells -->
-  <circle cx="200" cy="155" r="30" stroke="#81c784" stroke-width="1.5" fill="none"/>
-  <circle cx="200" cy="155" r="55" stroke="#81c784" stroke-width="1.5" fill="none"/>
-  <circle cx="200" cy="155" r="80" stroke="#81c784" stroke-width="1.5" fill="none"/>
-
-  <!-- Nucleus -->
-  <circle cx="200" cy="155" r="14" fill="#ff6b35"/>
-  <text x="200" y="155" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Na</text>
-
-  <!-- Shell 1 (2e): 1 pair at top, y=155-30=125 -->
-  <circle cx="197" cy="125" r="4" fill="#4fc3f7"/>
-  <circle cx="203" cy="125" r="4" fill="#4fc3f7"/>
-
-  <!-- Shell 2 (8e): 4 pairs at compass points -->
-  <!-- Top pair: y=155-55=100 -->
-  <circle cx="197" cy="100" r="4" fill="#4fc3f7"/>
-  <circle cx="203" cy="100" r="4" fill="#4fc3f7"/>
-  <!-- Right pair: x=200+55=255 -->
-  <circle cx="255" cy="152" r="4" fill="#4fc3f7"/>
-  <circle cx="255" cy="158" r="4" fill="#4fc3f7"/>
-  <!-- Bottom pair: y=155+55=210 -->
-  <circle cx="197" cy="210" r="4" fill="#4fc3f7"/>
-  <circle cx="203" cy="210" r="4" fill="#4fc3f7"/>
-  <!-- Left pair: x=200-55=145 -->
-  <circle cx="145" cy="152" r="4" fill="#4fc3f7"/>
-  <circle cx="145" cy="158" r="4" fill="#4fc3f7"/>
-
-  <!-- Shell 3 (1e): single at top, y=155-80=75 -->
-  <circle cx="200" cy="75" r="4" fill="#4fc3f7"/>
-
-  <!-- Electronic structure label -->
-  <text x="200" y="252" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">Electronic structure: 2, 8, 1</text>
+  <text x="200" y="22" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Bohr Model — Sodium</text>
+  <text x="200" y="42" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffb74d">Na — 11 electrons</text>
+  <circle cx="200" cy="160" r="30" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <circle cx="200" cy="160" r="55" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <circle cx="200" cy="160" r="80" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <circle cx="200" cy="160" r="16" fill="#ff6b35"/>
+  <text x="200" y="160" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Na</text>
+  <circle cx="197" cy="130" r="5" fill="#4fc3f7"/>
+  <circle cx="203" cy="130" r="5" fill="#4fc3f7"/>
+  <circle cx="197" cy="105" r="5" fill="#4fc3f7"/>
+  <circle cx="203" cy="105" r="5" fill="#4fc3f7"/>
+  <circle cx="255" cy="157" r="5" fill="#4fc3f7"/>
+  <circle cx="255" cy="163" r="5" fill="#4fc3f7"/>
+  <circle cx="197" cy="215" r="5" fill="#4fc3f7"/>
+  <circle cx="203" cy="215" r="5" fill="#4fc3f7"/>
+  <circle cx="145" cy="157" r="5" fill="#4fc3f7"/>
+  <circle cx="145" cy="163" r="5" fill="#4fc3f7"/>
+  <circle cx="200" cy="80" r="5" fill="#4fc3f7"/>
+  <text x="200" y="264" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#ffffff">Electronic structure: 2, 8, 1</text>
 </svg>
