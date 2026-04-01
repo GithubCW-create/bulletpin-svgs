@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Collision Theory</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Particles must collide with enough energy</text>
+
+  <!-- Core concept -->
+  <rect x="70" y="52" width="260" height="42" rx="6" ry="6" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">For a reaction to occur, particles must:</text>
+  <text x="200" y="82" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Collide with energy ≥ activation energy (Ea)</text>
+
+  <!-- Factors table — centred -->
+  <text x="120" y="112" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Factor</text>
+  <text x="260" y="112" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Why rate increases</text>
+  <line x1="70" y1="124" x2="330" y2="124" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="120" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">↑ Temperature</text>
+  <text x="260" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Particles move faster, more</text>
+  <text x="260" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">collisions exceed Ea</text>
+  <line x1="70" y1="166" x2="330" y2="166" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="120" y="182" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">↑ Concentration</text>
+  <text x="260" y="182" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">More particles in same</text>
+  <text x="260" y="196" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">volume → more collisions</text>
+  <line x1="70" y1="206" x2="330" y2="206" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="120" y="222" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">↑ Surface area</text>
+  <text x="260" y="222" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">More particles exposed</text>
+  <text x="260" y="236" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">→ more frequent collisions</text>
+  <line x1="70" y1="246" x2="330" y2="246" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="120" y="262" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Catalyst</text>
+  <text x="260" y="262" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Lowers Ea → more collisions</text>
+  <text x="260" y="276" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">have enough energy</text>
+</svg>

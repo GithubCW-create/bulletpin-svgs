@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Life Cycle Assessment</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Cradle to grave — environmental impact</text>
+
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowGreen" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M 0,0 L 8,3 L 0,6" fill="#4fc3f7" stroke="none"/>
+    </marker>
+  </defs>
+
+  <!-- 4 boxes in a diamond layout, centred on (200, 118) -->
+  <!-- Top: Raw materials -->
+  <rect x="130" y="52" width="140" height="28" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#81c784">1. Raw materials</text>
+
+  <!-- Right: Manufacture -->
+  <rect x="240" y="104" width="120" height="28" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="300" y="118" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">2. Manufacture</text>
+
+  <!-- Bottom: Use -->
+  <rect x="130" y="156" width="140" height="28" rx="6" ry="6" stroke="#ffb74d" stroke-width="1.5" fill="none"/>
+  <text x="200" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ffb74d">3. Use (lifetime)</text>
+
+  <!-- Left: Disposal -->
+  <rect x="40" y="104" width="120" height="28" rx="6" ry="6" stroke="#ef5350" stroke-width="1.5" fill="none"/>
+  <text x="100" y="118" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ef5350">4. Disposal</text>
+
+  <!-- Curved arrows clockwise: Top→Right, Right→Bottom, Bottom→Left, Left→Top -->
+  <!-- Top-right corner: from right edge of top box to top edge of right box -->
+  <path d="M 270,72 Q 310,72 310,104" stroke="#4fc3f7" stroke-width="1.5" fill="none" marker-end="url(#arrowGreen)"/>
+  <!-- Bottom-right corner: from bottom edge of right box to right edge of bottom box -->
+  <path d="M 310,132 Q 310,164 270,164" stroke="#4fc3f7" stroke-width="1.5" fill="none" marker-end="url(#arrowGreen)"/>
+  <!-- Bottom-left corner: from left edge of bottom box to bottom edge of left box -->
+  <path d="M 130,164 Q 90,164 90,132" stroke="#4fc3f7" stroke-width="1.5" fill="none" marker-end="url(#arrowGreen)"/>
+  <!-- Top-left corner: from top edge of left box to left edge of top box -->
+  <path d="M 90,104 Q 90,72 130,72" stroke="#4fc3f7" stroke-width="1.5" fill="none" marker-end="url(#arrowGreen)"/>
+
+  <!-- What's assessed -->
+  <text x="200" y="204" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">At each stage, assess:</text>
+  <text x="200" y="222" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Energy use, water use, raw materials, waste</text>
+  <text x="200" y="238" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Pollutants released to air, water, land</text>
+
+  <!-- Limitation -->
+  <text x="200" y="262" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Limitation: some data is subjective or hard to quantify</text>
+</svg>

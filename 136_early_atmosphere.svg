@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Earth's Atmosphere</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">How it changed over 4.6 billion years</text>
+
+  <!-- Early atmosphere -->
+  <rect x="80" y="52" width="240" height="62" rx="6" ry="6" stroke="#ef5350" stroke-width="1.5" fill="none"/>
+  <text x="200" y="64" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ef5350">Early atmosphere (4 billion years ago)</text>
+  <text x="200" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Mainly CO₂ (like Mars/Venus today)</text>
+  <text x="200" y="94" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Water vapour, nitrogen, some ammonia/methane</text>
+  <text x="200" y="108" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Little or no oxygen</text>
+
+  <!-- Arrow -->
+  <line x1="200" y1="118" x2="200" y2="135" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="200,135 196,129 204,129" fill="#4fc3f7"/>
+
+  <!-- What changed -->
+  <rect x="80" y="137" width="240" height="48" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <text x="200" y="150" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#81c784">Key changes</text>
+  <text x="200" y="165" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Plants/algae evolved → photosynthesis → O₂ produced</text>
+  <text x="200" y="179" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">CO₂ dissolved in oceans → formed sedimentary rocks</text>
+
+  <!-- Arrow -->
+  <line x1="200" y1="189" x2="200" y2="206" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="200,206 196,200 204,200" fill="#4fc3f7"/>
+
+  <!-- Today's atmosphere -->
+  <rect x="80" y="208" width="240" height="55" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="220" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Today's atmosphere</text>
+  <text x="200" y="236" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">~78% nitrogen, ~21% oxygen</text>
+  <text x="200" y="252" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">~0.04% CO₂, small amounts of other gases</text>
+</svg>

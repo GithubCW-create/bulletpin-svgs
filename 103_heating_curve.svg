@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Heating Curve</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Temperature vs time — change of state</text>
+
+  <!-- Axes -->
+  <line x1="70" y1="240" x2="370" y2="240" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="70" y1="240" x2="70" y2="50" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="370,240 360,236 360,244" fill="#4fc3f7"/>
+  <polygon points="70,50 66,60 74,60" fill="#4fc3f7"/>
+
+  <text x="45" y="145" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" transform="rotate(-90 45 145)">Temperature (°C)</text>
+  <text x="220" y="258" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Time</text>
+
+  <!-- Heating curve: solid→liquid→gas -->
+  <!-- Segment 1: Solid heating (rising) -->
+  <line x1="80" y1="220" x2="130" y2="180" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Segment 2: Melting (flat — melting point) -->
+  <line x1="130" y1="180" x2="190" y2="180" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Segment 3: Liquid heating (rising) -->
+  <line x1="190" y1="180" x2="240" y2="120" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Segment 4: Boiling (flat — boiling point) -->
+  <line x1="240" y1="120" x2="310" y2="120" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Segment 5: Gas heating (rising) -->
+  <line x1="310" y1="120" x2="350" y2="75" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Melting point dashed line + label -->
+  <line x1="70" y1="180" x2="130" y2="180" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 3" opacity="0.4"/>
+  <text x="160" y="195" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Melting</text>
+
+  <!-- Boiling point dashed line + label -->
+  <line x1="70" y1="120" x2="240" y2="120" stroke="#ffffff" stroke-width="1" stroke-dasharray="4 3" opacity="0.4"/>
+  <text x="275" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Boiling</text>
+
+  <!-- State labels — consistent ~12px below the rising red line above each -->
+  <!-- Solid: rising line goes from y=220 to y=180, midpoint of segment ~y=200, label at y=213 -->
+  <text x="112" y="213" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Solid</text>
+  <!-- Liquid: rising line goes from y=180 to y=120, midpoint ~y=150, label at y=163 -->
+  <text x="222" y="163" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Liquid</text>
+  <!-- Gas: rising line goes from y=120 to y=75, midpoint ~y=97, label at y=110 -->
+  <text x="335" y="110" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Gas</text>
+
+  <!-- Annotation -->
+  <text x="200" y="278" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Flat sections: energy breaks bonds, temperature stays constant</text>
+</svg>

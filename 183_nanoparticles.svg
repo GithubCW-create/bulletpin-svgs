@@ -1,0 +1,57 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Nanoparticles &amp; Nanoscience</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Size range &amp; applications</text>
+
+  <!-- Size scale label -->
+  <text x="200" y="55" font-size="13px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Size scale</text>
+
+  <!-- Size range box -->
+  <rect x="120" y="65" width="160" height="30" fill="none" stroke="#4fc3f7" stroke-width="2" rx="3"/>
+  <text x="200" y="75" font-size="12px" fill="#4fc3f7" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">1—100 nanometres</text>
+  <text x="200" y="88" font-size="11px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">(10⁻⁹ m)</text>
+
+  <!-- Surface area comparison -->
+  <text x="200" y="110" font-size="13px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Surface area comparison</text>
+
+  <!-- Large cube -->
+  <rect x="90" y="125" width="50" height="50" fill="none" stroke="#ef5350" stroke-width="2"/>
+  <text x="115" y="145" font-size="11px" fill="#ef5350" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Large</text>
+  <text x="115" y="157" font-size="11px" fill="#ef5350" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">cube</text>
+
+  <!-- Small cubes -->
+  <circle cx="210" cy="135" r="4" fill="#81c784" opacity="0.8"/>
+  <circle cx="225" cy="135" r="4" fill="#81c784" opacity="0.8"/>
+  <circle cx="240" cy="135" r="4" fill="#81c784" opacity="0.8"/>
+  <circle cx="255" cy="135" r="4" fill="#81c784" opacity="0.8"/>
+  <circle cx="210" cy="150" r="4" fill="#81c784" opacity="0.8"/>
+  <circle cx="225" cy="150" r="4" fill="#81c784" opacity="0.8"/>
+  <circle cx="240" cy="150" r="4" fill="#81c784" opacity="0.8"/>
+  <circle cx="255" cy="150" r="4" fill="#81c784" opacity="0.8"/>
+  <text x="232" y="162" font-size="11px" fill="#81c784" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Many small cubes</text>
+  <text x="232" y="174" font-size="10px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Higher surface area</text>
+
+  <!-- Examples -->
+  <text x="200" y="195" font-size="13px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Examples</text>
+
+  <rect x="75" y="205" width="110" height="35" fill="none" stroke="#4fc3f7" stroke-width="1" rx="2"/>
+  <text x="130" y="215" font-size="11px" fill="#4fc3f7" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Carbon nanotubes</text>
+  <text x="130" y="228" font-size="10px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Electronics, sensors</text>
+
+  <rect x="215" y="205" width="110" height="35" fill="none" stroke="#ce93d8" stroke-width="1" rx="2"/>
+  <text x="270" y="215" font-size="11px" fill="#ce93d8" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Silver nanoparticles</text>
+  <text x="270" y="228" font-size="10px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Antibacterial, catalysts</text>
+
+  <!-- Key uses -->
+  <text x="200" y="255" font-size="13px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Key uses</text>
+
+  <text x="95" y="270" font-size="11px" fill="#81c784" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">• Drug delivery</text>
+  <text x="225" y="270" font-size="11px" fill="#81c784" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">• Catalysts</text>
+  <text x="95" y="284" font-size="11px" fill="#81c784" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">• Sun creams</text>
+  <text x="225" y="284" font-size="11px" fill="#81c784" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">• Electronics</text>
+</svg>

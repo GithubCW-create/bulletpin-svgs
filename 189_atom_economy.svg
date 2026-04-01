@@ -1,0 +1,48 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Atom Economy</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Measuring Sustainability</text>
+
+  <!-- Formula box -->
+  <rect x="50" y="48" width="300" height="30" fill="none" stroke="#4fc3f7" stroke-width="2" rx="4"/>
+  <text x="200" y="63" font-size="12px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Atom economy = (Mr desired product ÷ Mr all products) × 100</text>
+
+  <!-- Addition Reactions section -->
+  <rect x="60" y="85" width="130" height="15" fill="none" stroke="#81c784" stroke-width="1" rx="2"/>
+  <text x="125" y="92" font-size="12px" fill="#81c784" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Addition Reactions</text>
+
+  <text x="70" y="108" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">• All atoms → product</text>
+  <text x="70" y="122" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">• No waste products</text>
+  <text x="70" y="136" font-size="11px" fill="#81c784" font-weight="bold" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">100% atom economy</text>
+
+  <!-- Substitution Reactions section -->
+  <rect x="210" y="85" width="130" height="15" fill="none" stroke="#ce93d8" stroke-width="1" rx="2"/>
+  <text x="275" y="92" font-size="12px" fill="#ce93d8" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Substitution</text>
+
+  <text x="220" y="108" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">• Waste products form</text>
+  <text x="220" y="122" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">• Only some atoms useful</text>
+  <text x="220" y="136" font-size="11px" fill="#ef5350" font-weight="bold" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">&lt; 100% atom economy</text>
+
+  <!-- Examples -->
+  <text x="85" y="160" font-size="12px" fill="#ffb74d" font-weight="bold" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Example: Addition</text>
+  <text x="70" y="175" font-size="10px" fill="#4fc3f7" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">C₂H₄ + H₂ → C₂H₆</text>
+  <text x="70" y="188" font-size="10px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Mr product = 30, all = 30</text>
+  <text x="70" y="200" font-size="10px" fill="#81c784" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">(30÷30)×100 = 100%</text>
+
+  <text x="275" y="160" font-size="12px" fill="#ffb74d" font-weight="bold" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Example: Substitution</text>
+  <text x="220" y="175" font-size="10px" fill="#ce93d8" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">CH₄ + Cl₂ → CH₃Cl + HCl</text>
+  <text x="220" y="188" font-size="10px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Desired = 50.5, all = 117</text>
+  <text x="220" y="200" font-size="10px" fill="#ce93d8" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">(50.5÷117)×100 = 43%</text>
+
+  <!-- Key message -->
+  <rect x="60" y="220" width="280" height="70" fill="none" stroke="#81c784" stroke-width="2" rx="4"/>
+  <text x="200" y="233" font-size="12px" fill="#81c784" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Higher atom economy =</text>
+  <text x="200" y="248" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Less waste produced</text>
+  <text x="200" y="263" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">More sustainable process</text>
+  <text x="200" y="278" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Cost-effective for industry</text>
+</svg>

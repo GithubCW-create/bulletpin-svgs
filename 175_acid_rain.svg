@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Acid Rain</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Caused by SO₂ and NO₂ dissolving in rainwater</text>
+
+  <!-- Sources -->
+  <text x="200" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ef5350">Sources</text>
+  <rect x="70" y="68" width="260" height="42" rx="6" ry="6" stroke="#ef5350" stroke-width="1.5" fill="none"/>
+  <text x="200" y="82" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">SO₂ from burning fossil fuels (coal, oil)</text>
+  <text x="200" y="98" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">NO₂ from vehicle engines (high temperatures)</text>
+
+  <!-- Reactions -->
+  <text x="200" y="128" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Reactions in the atmosphere</text>
+  <text x="200" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">SO₂ + water + oxygen → sulfuric acid (H₂SO₄)</text>
+  <text x="200" y="166" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">NO₂ + water + oxygen → nitric acid (HNO₃)</text>
+
+  <!-- Effects -->
+  <text x="200" y="194" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ef5350">Effects</text>
+
+  <text x="140" y="214" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">On</text>
+  <text x="270" y="214" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Effect</text>
+  <line x1="90" y1="224" x2="320" y2="224" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+  <text x="140" y="238" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Lakes</text>
+  <text x="270" y="238" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Kills fish and organisms</text>
+  <text x="140" y="254" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Trees</text>
+  <text x="270" y="254" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Damages leaves and roots</text>
+  <text x="140" y="270" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Buildings</text>
+  <text x="270" y="270" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Erodes limestone and metal</text>
+
+  <text x="200" y="290" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#81c784">Reduced by: catalytic converters, desulfurisation, using less fossil fuel</text>
+</svg>

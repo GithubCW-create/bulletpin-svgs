@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">The pH Scale</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Measuring acidity and alkalinity</text>
+
+  <!-- pH scale bar: 0-14, each block ~24px wide, starting x=32 -->
+  <!-- Row of coloured blocks -->
+  <rect x="32" y="58" width="24" height="28" fill="#ff1744" rx="2" ry="2"/>
+  <rect x="56" y="58" width="24" height="28" fill="#ff5722" rx="2" ry="2"/>
+  <rect x="80" y="58" width="24" height="28" fill="#ff9100" rx="2" ry="2"/>
+  <rect x="104" y="58" width="24" height="28" fill="#ffab00" rx="2" ry="2"/>
+  <rect x="128" y="58" width="24" height="28" fill="#ffd600" rx="2" ry="2"/>
+  <rect x="152" y="58" width="24" height="28" fill="#c6ff00" rx="2" ry="2"/>
+  <rect x="176" y="58" width="24" height="28" fill="#76ff03" rx="2" ry="2"/>
+  <rect x="200" y="58" width="24" height="28" fill="#00c853" rx="2" ry="2"/>
+  <rect x="224" y="58" width="24" height="28" fill="#00bfa5" rx="2" ry="2"/>
+  <rect x="248" y="58" width="24" height="28" fill="#00b0ff" rx="2" ry="2"/>
+  <rect x="272" y="58" width="24" height="28" fill="#2979ff" rx="2" ry="2"/>
+  <rect x="296" y="58" width="24" height="28" fill="#651fff" rx="2" ry="2"/>
+  <rect x="320" y="58" width="24" height="28" fill="#7c4dff" rx="2" ry="2"/>
+  <rect x="344" y="58" width="24" height="28" fill="#aa00ff" rx="2" ry="2"/>
+  <rect x="368" y="58" width="24" height="28" fill="#6a1b9a" rx="2" ry="2"/>
+
+  <!-- pH numbers 0-14 -->
+  <text x="44" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">0</text>
+  <text x="68" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">1</text>
+  <text x="92" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">2</text>
+  <text x="116" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">3</text>
+  <text x="140" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#1a1a2e">4</text>
+  <text x="164" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#1a1a2e">5</text>
+  <text x="188" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#1a1a2e">6</text>
+  <text x="212" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">7</text>
+  <text x="236" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">8</text>
+  <text x="260" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">9</text>
+  <text x="284" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">10</text>
+  <text x="308" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">11</text>
+  <text x="332" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">12</text>
+  <text x="356" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">13</text>
+  <text x="380" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">14</text>
+
+  <!-- Category labels -->
+  <text x="92" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ef5350">ACIDIC</text>
+  <text x="212" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#81c784">NEUTRAL</text>
+  <text x="332" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#4fc3f7">ALKALINE</text>
+
+  <!-- Increasing H⁺ / OH⁻ arrows -->
+  <line x1="32" y1="120" x2="200" y2="120" stroke="#ef5350" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="32,120 40,117 40,123" fill="#ef5350"/>
+  <text x="116" y="132" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ef5350">← More H⁺ ions</text>
+
+  <line x1="224" y1="120" x2="392" y2="120" stroke="#4fc3f7" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="392,120 384,117 384,123" fill="#4fc3f7"/>
+  <text x="308" y="132" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#4fc3f7">More OH⁻ ions →</text>
+
+  <!-- Examples -->
+  <text x="200" y="155" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">Examples</text>
+
+  <text x="44" y="175" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">HCl</text>
+  <text x="92" y="175" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Vinegar</text>
+  <text x="152" y="175" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Rain</text>
+  <text x="212" y="175" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Water</text>
+  <text x="284" y="175" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Soap</text>
+  <text x="356" y="175" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">NaOH</text>
+
+  <!-- Key info -->
+  <text x="200" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Measured with universal indicator or pH meter</text>
+  <text x="200" y="216" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Neutralisation: acid + alkali → salt + water</text>
+</svg>

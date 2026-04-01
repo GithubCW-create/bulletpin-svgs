@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Halogen Displacement</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">More reactive halogen displaces less reactive</text>
+
+  <!-- Rule box -->
+  <rect x="70" y="52" width="260" height="28" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Reactivity: F₂ > Cl₂ > Br₂ > I₂</text>
+
+  <!-- Results table centred -->
+  <text x="110" y="98" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Added</text>
+  <text x="190" y="98" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">KBr</text>
+  <text x="270" y="98" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">KI</text>
+  <line x1="70" y1="108" x2="320" y2="108" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="110" y="126" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ce93d8">Cl₂</text>
+  <text x="190" y="126" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">✓ Orange</text>
+  <text x="270" y="126" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">✓ Brown</text>
+  <line x1="70" y1="140" x2="320" y2="140" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ce93d8">Br₂</text>
+  <text x="190" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">✗ No reaction</text>
+  <text x="270" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">✓ Brown</text>
+  <line x1="70" y1="170" x2="320" y2="170" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="186" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ce93d8">I₂</text>
+  <text x="190" y="186" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">✗ No reaction</text>
+  <text x="270" y="186" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">✗ No reaction</text>
+
+  <!-- Example equations -->
+  <text x="200" y="214" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">Example equations</text>
+  <text x="200" y="234" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Cl₂ + 2KBr → 2KCl + Br₂</text>
+  <text x="200" y="252" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Cl₂ + 2KI → 2KCl + I₂</text>
+  <text x="200" y="270" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Br₂ + 2KI → 2KBr + I₂</text>
+</svg>

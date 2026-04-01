@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Concentration</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Amount of solute dissolved in a solvent</text>
+
+  <!-- g/dm³ section -->
+  <text x="200" y="56" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#81c784">Concentration in g/dm³</text>
+
+  <!-- Triangle 1: apex (200,70), base (125,142)-(275,142) = 150px wide, 72px tall -->
+  <polygon points="200,70 125,142 275,142" fill="none" stroke="#4fc3f7" stroke-width="2"/>
+  <!-- Divider at y=110: progress=40/72=0.556, half-width=0.556*75=41.7 → x=158 to x=242 -->
+  <line x1="158" y1="110" x2="242" y2="110" stroke="#4fc3f7" stroke-width="2"/>
+  <line x1="200" y1="110" x2="200" y2="142" stroke="#4fc3f7" stroke-width="2"/>
+  <!-- "Mass (g)" at y=94 (well below apex at 70, centred in 70-110 section = 90, pushed to 94) -->
+  <text x="200" y="96" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">Mass (g)</text>
+  <text x="176" y="128" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">Conc</text>
+  <text x="226" y="128" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">Vol (dm³)</text>
+
+  <text x="200" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Conc (g/dm³) = Mass (g) ÷ Volume (dm³)</text>
+
+  <!-- mol/dm³ section -->
+  <text x="200" y="176" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#81c784">Concentration in mol/dm³</text>
+
+  <!-- Triangle 2: apex (200,190), base (125,262)-(275,262) = 150px wide, 72px tall -->
+  <polygon points="200,190 125,262 275,262" fill="none" stroke="#ef5350" stroke-width="2"/>
+  <!-- Divider at y=230: progress=40/72=0.556, half-width=41.7 → x=158 to x=242 -->
+  <line x1="158" y1="230" x2="242" y2="230" stroke="#ef5350" stroke-width="2"/>
+  <line x1="200" y1="230" x2="200" y2="262" stroke="#ef5350" stroke-width="2"/>
+  <!-- "Moles" at y=214 (consistent: same offset from apex as "Mass" above) -->
+  <text x="200" y="216" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">Moles</text>
+  <text x="176" y="248" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">Conc</text>
+  <text x="226" y="248" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffffff">Vol (dm³)</text>
+
+  <text x="200" y="276" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Conc (mol/dm³) = Moles ÷ Volume (dm³)</text>
+  <text x="200" y="290" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">1 dm³ = 1000 cm³</text>
+</svg>

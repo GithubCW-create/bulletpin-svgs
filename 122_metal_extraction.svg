@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Extracting Metals</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Method depends on reactivity</text>
+
+  <!-- Reactivity arrow on left -->
+  <line x1="55" y1="60" x2="55" y2="200" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="55,60 51,70 59,70" fill="#ffffff"/>
+  <text x="55" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Less</text>
+  <text x="55" y="220" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">reactive</text>
+  <text x="55" y="52" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">More</text>
+
+  <!-- Electrolysis section — narrower, shorter box -->
+  <rect x="75" y="58" width="280" height="45" rx="6" ry="6" stroke="#ef5350" stroke-width="1.5" fill="none"/>
+  <text x="100" y="70" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ef5350">Electrolysis</text>
+  <text x="100" y="83" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">K, Na, Ca, Mg, Al — too reactive for carbon</text>
+  <text x="100" y="95" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#81c784">Example: Al₂O₃ → Al (electrolysis of bauxite)</text>
+
+  <!-- Carbon line — broken around the word, centred -->
+  <line x1="75" y1="112" x2="178" y2="112" stroke="#ffb74d" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="215" y="112" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="#ffb74d">Carbon</text>
+  <line x1="252" y1="112" x2="355" y2="112" stroke="#ffb74d" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- Carbon reduction section — narrower, shorter box -->
+  <rect x="75" y="121" width="280" height="45" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="100" y="133" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Reduction with carbon</text>
+  <text x="100" y="146" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Zn, Fe, Sn, Pb — less reactive than carbon</text>
+  <text x="100" y="158" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#81c784">Example: Fe₂O₃ + 3C → 2Fe + 3CO₂ (blast furnace)</text>
+
+  <!-- Found native section — narrower, shorter box -->
+  <rect x="75" y="175" width="280" height="32" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <text x="100" y="185" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">Found native (uncombined)</text>
+  <text x="100" y="199" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Au, Pt — very unreactive, found as pure elements</text>
+
+  <!-- Key point -->
+  <text x="200" y="228" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">More reactive metals are harder and more expensive to extract</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" font-size="15px" font-weight="bold" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Isotopes</text>
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Same element, different neutrons</text>
+
+  <!-- Labels ABOVE circles -->
+  <text x="160" y="55" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Carbon-12</text>
+  <text x="240" y="55" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Carbon-14</text>
+
+  <!-- Left circle: Carbon-12 -->
+  <circle cx="160" cy="88" r="24" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="160" y="84" font-size="14px" fill="#ff6b35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">C</text>
+  <text x="160" y="98" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">6p 6n</text>
+
+  <!-- VS arrow centred between circles -->
+  <text x="200" y="88" font-size="9px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">vs</text>
+
+  <!-- Right circle: Carbon-14 -->
+  <circle cx="240" cy="88" r="24" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="240" y="84" font-size="14px" fill="#ff6b35" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">C</text>
+  <text x="240" y="98" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">6p 8n</text>
+
+  <!-- Explanation BELOW circles -->
+  <text x="200" y="124" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Same protons, different neutrons</text>
+
+  <!-- Definition box — narrower -->
+  <rect x="100" y="136" width="200" height="22" stroke="#4fc3f7" stroke-width="1" fill="none" rx="3"/>
+  <text x="200" y="147" font-size="10px" fill="#4fc3f7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Isotopes = same element, different mass</text>
+
+  <!-- Formula section -->
+  <text x="200" y="175" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Relative atomic mass (Ar)</text>
+  <text x="200" y="192" font-size="11px" fill="#4fc3f7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Ar = Σ(mass × abundance) ÷ 100</text>
+
+  <!-- Worked example box — narrower and taller -->
+  <rect x="100" y="205" width="200" height="76" stroke="#ffb74d" stroke-width="1" fill="none" rx="3"/>
+  <text x="200" y="218" font-size="10px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Chlorine:</text>
+  <text x="200" y="233" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">³⁵Cl = 75%    ³⁷Cl = 25%</text>
+  <text x="200" y="248" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">(35 × 75 + 37 × 25) ÷ 100</text>
+  <text x="200" y="268" font-size="11px" fill="#81c784" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Ar = 35.5</text>
+</svg>

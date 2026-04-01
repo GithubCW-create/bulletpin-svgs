@@ -1,0 +1,86 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Alloys</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Structure and properties</text>
+
+  <!-- Pure metal section -->
+  <text x="100" y="55" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Pure metal</text>
+
+  <!-- Pure metal atoms (regular grid) -->
+  <circle cx="70" cy="75" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="85" cy="75" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="100" cy="75" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="115" cy="75" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="130" cy="75" r="5" fill="#ff6b35" opacity="0.8"/>
+
+  <circle cx="70" cy="90" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="85" cy="90" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="100" cy="90" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="115" cy="90" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="130" cy="90" r="5" fill="#ff6b35" opacity="0.8"/>
+
+  <circle cx="70" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="85" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="100" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="115" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="130" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+
+  <!-- Sliding arrow for pure metal -->
+  <line x1="60" y1="125" x2="140" y2="125" stroke="#81c784" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="140,125 132,122 132,128" fill="#81c784"/>
+  <text x="100" y="140" font-size="10px" fill="#81c784" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Layers can slide</text>
+
+  <!-- Alloy section -->
+  <text x="300" y="55" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Alloy</text>
+
+  <!-- Alloy atoms (different sizes) -->
+  <circle cx="270" cy="75" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="285" cy="75" r="7" fill="#ce93d8" opacity="0.8"/>
+  <circle cx="300" cy="75" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="315" cy="75" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="330" cy="75" r="6" fill="#ce93d8" opacity="0.8"/>
+
+  <circle cx="270" cy="90" r="6" fill="#ce93d8" opacity="0.8"/>
+  <circle cx="285" cy="90" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="300" cy="90" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="315" cy="90" r="7" fill="#ce93d8" opacity="0.8"/>
+  <circle cx="330" cy="90" r="5" fill="#ff6b35" opacity="0.8"/>
+
+  <circle cx="270" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="285" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="300" cy="105" r="6" fill="#ce93d8" opacity="0.8"/>
+  <circle cx="315" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+  <circle cx="330" cy="105" r="5" fill="#ff6b35" opacity="0.8"/>
+
+  <!-- Locked arrow for alloy -->
+  <line x1="260" y1="125" x2="340" y2="125" stroke="#ef5350" stroke-width="2" stroke-dasharray="5,3"/>
+  <text x="300" y="140" font-size="10px" fill="#ef5350" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Layers locked (harder)</text>
+
+  <!-- Examples heading -->
+  <text x="200" y="165" font-size="12px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Common alloys</text>
+
+  <!-- Steel -->
+  <rect x="70" y="175" width="70" height="40" fill="none" stroke="#4fc3f7" stroke-width="1" rx="2"/>
+  <text x="105" y="188" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Steel</text>
+  <text x="105" y="202" font-size="10px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Iron + Carbon</text>
+
+  <!-- Brass -->
+  <rect x="165" y="175" width="70" height="40" fill="none" stroke="#ce93d8" stroke-width="1" rx="2"/>
+  <text x="200" y="188" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Brass</text>
+  <text x="200" y="202" font-size="10px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Copper + Zinc</text>
+
+  <!-- Bronze -->
+  <rect x="260" y="175" width="70" height="40" fill="none" stroke="#ef5350" stroke-width="1" rx="2"/>
+  <text x="295" y="188" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Bronze</text>
+  <text x="295" y="202" font-size="10px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Copper + Tin</text>
+
+  <!-- Key property -->
+  <text x="200" y="240" font-size="12px" fill="#81c784" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Alloys are stronger and harder</text>
+  <text x="200" y="255" font-size="11px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Different-sized atoms disrupt</text>
+  <text x="200" y="268" font-size="11px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">regular atomic layers</text>
+</svg>

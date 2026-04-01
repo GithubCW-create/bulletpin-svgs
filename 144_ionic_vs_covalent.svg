@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Ionic vs Covalent Properties</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Comparing bonding types</text>
+
+  <!-- Table — centred tight columns -->
+  <text x="110" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Property</text>
+  <text x="230" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ef5350">Ionic</text>
+  <text x="330" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">Simple covalent</text>
+  <line x1="50" y1="70" x2="380" y2="70" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="110" y="88" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Melting point</text>
+  <text x="230" y="88" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">High</text>
+  <text x="330" y="88" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Low</text>
+  <line x1="50" y1="100" x2="380" y2="100" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="118" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Structure</text>
+  <text x="230" y="118" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Giant lattice</text>
+  <text x="330" y="118" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Small molecules</text>
+  <line x1="50" y1="130" x2="380" y2="130" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Conduct (solid)</text>
+  <text x="230" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">No</text>
+  <text x="330" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">No</text>
+  <line x1="50" y1="160" x2="380" y2="160" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="178" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Conduct (liquid)</text>
+  <text x="230" y="178" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Yes</text>
+  <text x="330" y="178" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">No</text>
+  <line x1="50" y1="190" x2="380" y2="190" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="208" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Conduct (dissolved)</text>
+  <text x="230" y="208" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Yes</text>
+  <text x="330" y="208" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">No</text>
+  <line x1="50" y1="220" x2="380" y2="220" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="238" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Soluble in water</text>
+  <text x="230" y="238" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Often yes</text>
+  <text x="330" y="238" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Usually no</text>
+
+  <!-- Key reason -->
+  <text x="200" y="266" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Ionic: strong electrostatic forces throughout lattice</text>
+  <text x="200" y="282" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Covalent: weak intermolecular forces between molecules</text>
+</svg>

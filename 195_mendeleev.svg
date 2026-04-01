@@ -1,0 +1,59 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">History of the Periodic Table</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Development and arrangement of elements</text>
+
+  <!-- Mendeleev section -->
+  <rect x="20" y="50" width="160" height="85" fill="#4fc3f7" opacity="0.1" stroke="#4fc3f7" stroke-width="1"/>
+  <text x="100" y="65" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Mendeleev (1869)</text>
+  <text x="30" y="82" font-size="11px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Arranged by atomic mass</text>
+  <text x="30" y="97" font-size="11px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Left gaps for unknown</text>
+  <text x="30" y="112" font-size="11px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Predicted properties</text>
+  <text x="30" y="127" font-size="10px" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">(e.g. Germanium)</text>
+
+  <!-- Newlands section -->
+  <rect x="220" y="50" width="160" height="85" fill="#ce93d8" opacity="0.1" stroke="#ce93d8" stroke-width="1"/>
+  <text x="300" y="65" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Newlands (1865)</text>
+  <text x="230" y="82" font-size="11px" fill="#ce93d8" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Octaves theory</text>
+  <text x="230" y="97" font-size="11px" fill="#ce93d8" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Every 8th element similar</text>
+  <text x="230" y="112" font-size="11px" fill="#ce93d8" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Failed for heavy elements</text>
+  <text x="230" y="127" font-size="10px" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">(later disproved)</text>
+
+  <!-- Modern table section -->
+  <rect x="20" y="150" width="360" height="130" fill="#81c784" opacity="0.1" stroke="#81c784" stroke-width="1"/>
+
+  <text x="200" y="168" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Modern Periodic Table (Moseley)</text>
+
+  <text x="200" y="185" font-size="11px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Arranged by atomic number, not atomic mass</text>
+
+  <!-- Mini periodic table with gap -->
+  <g>
+    <!-- First row -->
+    <rect x="40" y="205" width="30" height="25" fill="#4fc3f7" opacity="0.3" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="55" y="217" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">H</text>
+
+    <rect x="80" y="205" width="30" height="25" fill="#4fc3f7" opacity="0.3" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="95" y="217" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">He</text>
+
+    <!-- Second row with gap -->
+    <rect x="40" y="235" width="30" height="25" fill="#4fc3f7" opacity="0.3" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="55" y="247" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Li</text>
+
+    <rect x="80" y="235" width="30" height="25" fill="#ce93d8" opacity="0.3" stroke="#ce93d8" stroke-width="2"/>
+    <text x="95" y="247" font-size="13px" fill="#ce93d8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">?</text>
+
+    <rect x="120" y="235" width="30" height="25" fill="#4fc3f7" opacity="0.3" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="135" y="247" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Be</text>
+
+    <rect x="160" y="235" width="30" height="25" fill="#4fc3f7" opacity="0.3" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="175" y="247" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">B</text>
+  </g>
+
+  <text x="200" y="265" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Key: Predicted gaps, later filled as new elements discovered</text>
+
+</svg>

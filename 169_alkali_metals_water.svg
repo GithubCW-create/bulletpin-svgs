@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Alkali Metals + Water</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Group 1 metals react vigorously with water</text>
+
+  <!-- General equation -->
+  <rect x="70" y="52" width="260" height="28" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Metal + Water → Metal hydroxide + H₂</text>
+
+  <!-- Table centred on x=200 -->
+  <text x="120" y="98" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Metal</text>
+  <text x="270" y="98" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Observation</text>
+  <line x1="80" y1="108" x2="320" y2="108" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="120" y="126" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Lithium</text>
+  <text x="270" y="126" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Fizzes gently, moves on surface</text>
+  <line x1="80" y1="140" x2="320" y2="140" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="120" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Sodium</text>
+  <text x="270" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Fizzes, melts into ball, moves fast</text>
+  <line x1="80" y1="170" x2="320" y2="170" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="120" y="186" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Potassium</text>
+  <text x="270" y="186" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Lilac flame, sparks, very vigorous</text>
+
+  <!-- Arrow showing trend — tip reaches bottom of Potassium (y=186) -->
+  <line x1="75" y1="120" x2="75" y2="186" stroke="#ef5350" stroke-width="1.5"/>
+  <polygon points="72,183 75,186 78,183" fill="#ef5350"/>
+  <text x="68" y="148" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ef5350">More</text>
+  <text x="68" y="158" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ef5350">reactive</text>
+
+  <!-- Equations -->
+  <text x="200" y="216" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">Equations</text>
+  <text x="200" y="236" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">2Li + 2H₂O → 2LiOH + H₂</text>
+  <text x="200" y="254" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">2Na + 2H₂O → 2NaOH + H₂</text>
+  <text x="200" y="272" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">2K + 2H₂O → 2KOH + H₂</text>
+
+  <text x="200" y="290" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffb74d">Products are alkaline (pH > 7)</text>
+</svg>

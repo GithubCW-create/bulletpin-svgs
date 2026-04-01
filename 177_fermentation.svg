@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Fermentation</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Making ethanol from glucose using yeast</text>
+
+  <!-- Equation -->
+  <rect x="70" y="52" width="260" height="28" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂</text>
+
+  <text x="200" y="92" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">glucose → ethanol + carbon dioxide</text>
+
+  <!-- Conditions table -->
+  <text x="140" y="118" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Condition</text>
+  <text x="270" y="118" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Why</text>
+  <line x1="90" y1="128" x2="320" y2="128" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="140" y="144" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Yeast</text>
+  <text x="270" y="144" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Biological catalyst (enzyme)</text>
+  <line x1="90" y1="156" x2="320" y2="156" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="140" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">~37°C</text>
+  <text x="270" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Optimum for yeast enzymes</text>
+  <line x1="90" y1="182" x2="320" y2="182" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="140" y="196" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">No oxygen</text>
+  <text x="270" y="196" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Anaerobic conditions needed</text>
+
+  <!-- Comparison box -->
+  <text x="200" y="222" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Fermentation vs Hydration</text>
+  <rect x="70" y="232" width="260" height="56" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1" fill="none"/>
+  <text x="200" y="246" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Fermentation: renewable, slow, batch, impure</text>
+  <text x="200" y="262" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Hydration of ethene: fast, continuous, pure</text>
+  <text x="200" y="278" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">but uses non-renewable crude oil</text>
+</svg>

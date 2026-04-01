@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Calcium Fluoride — Ionic</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">CaF₂ — dot-and-cross diagram</text>
+
+  <!--
+    CaF₂ IONIC DOT-AND-CROSS (equation style)
+    =============================================
+    F⁻ at x=110, Ca²⁺ at x=200, F⁻ at x=290 (90px spacing)
+    Ca: 2-char label → ±18 top/bottom, ±22 left/right, pairs ±4
+    F: 1-char label → ±14 top/bottom, ±16 left/right, pairs ±4
+    Ca²⁺ loses 2 electrons: [2,8] → has 8 electrons showing
+    F⁻ gains 1 electron: [2,7]+1 → has 8 electrons showing
+    Path brackets around all three ions
+  -->
+
+  <!-- F⁻ (left) at x=110, y=100 — 8 electrons (all ×, F's own) -->
+  <text x="110" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ce93d8">F</text>
+  <!-- Top pair -->
+  <text x="106" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <text x="114" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <!-- Right pair — separated vertically -->
+  <text x="126" y="96" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <text x="126" y="106" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <!-- Bottom pair — one × (F) + one dot (from Ca) -->
+  <text x="106" y="115" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <circle cx="114" cy="114" r="2.5" fill="#4fc3f7"/>
+  <!-- Left pair — separated vertically -->
+  <text x="94" y="96" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <text x="94" y="106" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+
+  <!-- Left F⁻ brackets -->
+  <path d="M 87,80 L 84,80 L 84,120 L 87,120" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 133,80 L 136,80 L 136,120 L 133,120" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="142" y="82" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">⁻</text>
+
+  <!-- Ca²⁺ (centre) at x=200, y=100 — 8 electrons (all dots, Ca's own) -->
+  <text x="200" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7">Ca</text>
+  <!-- Top pair -->
+  <circle cx="196" cy="83" r="2.5" fill="#4fc3f7"/>
+  <circle cx="204" cy="83" r="2.5" fill="#4fc3f7"/>
+  <!-- Right pair — separated -->
+  <circle cx="222" cy="95" r="2.5" fill="#4fc3f7"/>
+  <circle cx="222" cy="105" r="2.5" fill="#4fc3f7"/>
+  <!-- Bottom pair -->
+  <circle cx="196" cy="119" r="2.5" fill="#4fc3f7"/>
+  <circle cx="204" cy="119" r="2.5" fill="#4fc3f7"/>
+  <!-- Left pair — separated -->
+  <circle cx="178" cy="95" r="2.5" fill="#4fc3f7"/>
+  <circle cx="178" cy="105" r="2.5" fill="#4fc3f7"/>
+
+  <!-- Ca²⁺ brackets -->
+  <path d="M 170,76 L 167,76 L 167,124 L 170,124" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 230,76 L 233,76 L 233,124 L 230,124" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="237" y="78" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">2+</text>
+
+  <!-- F⁻ (right) at x=290, y=100 -->
+  <text x="290" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ce93d8">F</text>
+  <!-- Top pair -->
+  <text x="286" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <text x="294" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <!-- Right pair — separated vertically -->
+  <text x="306" y="96" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <text x="306" y="106" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <!-- Bottom pair — one × (F) + one dot (from Ca) -->
+  <circle cx="286" cy="114" r="2.5" fill="#4fc3f7"/>
+  <text x="294" y="115" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <!-- Left pair — separated vertically -->
+  <text x="274" y="96" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <text x="274" y="106" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+
+  <!-- Right F⁻ brackets -->
+  <path d="M 267,80 L 264,80 L 264,120 L 267,120" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 313,80 L 316,80 L 316,120 L 313,120" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="322" y="82" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">⁻</text>
+
+  <!-- Key -->
+  <circle cx="100" cy="160" r="2.5" fill="#4fc3f7"/>
+  <text x="110" y="160" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Ca electron</text>
+  <text x="210" y="160" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ce93d8">×</text>
+  <text x="222" y="160" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">F electron</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Tests for Anions</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Identifying negative ions</text>
+
+  <!-- Carbonates -->
+  <text x="200" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Carbonate (CO₃²⁻)</text>
+  <rect x="80" y="68" width="240" height="32" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1" fill="none"/>
+  <text x="200" y="78" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Add dilute acid → bubbles of CO₂</text>
+  <text x="200" y="92" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">CO₂ turns limewater milky</text>
+
+  <!-- Sulfates -->
+  <text x="200" y="116" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Sulfate (SO₄²⁻)</text>
+  <rect x="80" y="126" width="240" height="32" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1" fill="none"/>
+  <text x="200" y="136" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Add dilute HCl then BaCl₂ solution</text>
+  <text x="200" y="150" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">White precipitate of BaSO₄</text>
+
+  <!-- Halides -->
+  <text x="200" y="174" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Halides (Cl⁻, Br⁻, I⁻)</text>
+  <text x="200" y="192" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Add dilute HNO₃ then AgNO₃ solution</text>
+
+  <!-- Halide results table centred -->
+  <text x="140" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Ion</text>
+  <text x="260" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Precipitate</text>
+  <line x1="100" y1="220" x2="300" y2="220" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="140" y="236" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Cl⁻ (chloride)</text>
+  <text x="260" y="236" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">White</text>
+  <text x="140" y="254" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Br⁻ (bromide)</text>
+  <text x="260" y="254" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Cream</text>
+  <text x="140" y="272" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">I⁻ (iodide)</text>
+  <text x="260" y="272" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Yellow</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Biological Metal Extraction</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Phytomining and Bioleaching</text>
+
+  <!-- Left side: Phytomining -->
+  <g>
+    <text x="100" y="52" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">PHYTOMINING</text>
+
+    <!-- Step 1: Plants absorb -->
+    <rect x="35" y="65" width="130" height="40" fill="#81c784" opacity="0.2" stroke="#81c784" stroke-width="1"/>
+    <text x="100" y="80" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Plants absorb</text>
+    <text x="100" y="95" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">metal compounds</text>
+
+    <!-- Arrow down -->
+    <line x1="100" y1="108" x2="100" y2="125" stroke="#ffb74d" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Step 2: Harvest and burn -->
+    <rect x="35" y="125" width="130" height="45" fill="#ef5350" opacity="0.2" stroke="#ef5350" stroke-width="1"/>
+    <text x="100" y="140" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Harvest</text>
+    <text x="100" y="154" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Burn plants</text>
+
+    <!-- Arrow down -->
+    <line x1="100" y1="173" x2="100" y2="190" stroke="#ffb74d" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Step 3: Metal-rich ash -->
+    <rect x="35" y="190" width="130" height="35" fill="#4fc3f7" opacity="0.2" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="100" y="205" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Ash contains</text>
+    <text x="100" y="218" font-size="11px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">metal compounds</text>
+
+    <!-- Advantage box -->
+    <rect x="35" y="235" width="130" height="35" fill="#81c784" opacity="0.1" stroke="#81c784" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="100" y="250" font-size="10px" fill="#81c784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Eco-friendly for</text>
+    <text x="100" y="263" font-size="10px" fill="#81c784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">low-grade ore</text>
+  </g>
+
+  <!-- Right side: Bioleaching -->
+  <g>
+    <text x="300" y="52" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">BIOLEACHING</text>
+
+    <!-- Step 1: Bacteria leach -->
+    <rect x="235" y="65" width="130" height="40" fill="#ce93d8" opacity="0.2" stroke="#ce93d8" stroke-width="1"/>
+    <text x="300" y="80" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Bacteria produce</text>
+    <text x="300" y="95" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">leachate solution</text>
+
+    <!-- Arrow down -->
+    <line x1="300" y1="108" x2="300" y2="125" stroke="#ffb74d" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Step 2: Metal compounds in solution -->
+    <rect x="235" y="125" width="130" height="45" fill="#4fc3f7" opacity="0.2" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="300" y="140" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Solution contains</text>
+    <text x="300" y="154" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">metal compounds</text>
+
+    <!-- Arrow down -->
+    <line x1="300" y1="173" x2="300" y2="190" stroke="#ffb74d" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+    <!-- Step 3: Extract metal -->
+    <rect x="235" y="190" width="130" height="35" fill="#ff6b35" opacity="0.2" stroke="#ff6b35" stroke-width="1"/>
+    <text x="300" y="205" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Extract metal</text>
+    <text x="300" y="218" font-size="11px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">from solution</text>
+
+    <!-- Advantage box -->
+    <rect x="235" y="235" width="130" height="35" fill="#ce93d8" opacity="0.1" stroke="#ce93d8" stroke-width="1" stroke-dasharray="2,2"/>
+    <text x="300" y="250" font-size="10px" fill="#ce93d8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Sustainable for</text>
+    <text x="300" y="263" font-size="10px" fill="#ce93d8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">low-grade ore</text>
+  </g>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ffb74d"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">The Carbon Cycle</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">How carbon moves through the environment</text>
+
+  <!-- Central CO₂ box -->
+  <rect x="140" y="52" width="120" height="26" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">CO₂ in atmosphere</text>
+
+  <!-- Plants box (moved inward) -->
+  <rect x="85" y="110" width="80" height="26" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <text x="125" y="123" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#81c784">Plants</text>
+
+  <!-- Animals box (moved inward) -->
+  <rect x="235" y="110" width="80" height="26" rx="6" ry="6" stroke="#ffb74d" stroke-width="1.5" fill="none"/>
+  <text x="275" y="123" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffb74d">Animals</text>
+
+  <!-- Fossil fuels box (bottom left) -->
+  <rect x="55" y="180" width="80" height="26" rx="6" ry="6" stroke="#ef5350" stroke-width="1.5" fill="none"/>
+  <text x="95" y="193" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ef5350">Fossil fuels</text>
+
+  <!-- Oceans box (bottom right) -->
+  <rect x="265" y="180" width="80" height="26" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="305" y="193" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#4fc3f7">Oceans</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrG174" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M 0,0 L 6,3 L 0,6 Z" fill="#81c784"/></marker>
+    <marker id="arrO174" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M 0,0 L 6,3 L 0,6 Z" fill="#ffb74d"/></marker>
+    <marker id="arrR174" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M 0,0 L 6,3 L 0,6 Z" fill="#ef5350"/></marker>
+    <marker id="arrB174" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M 0,0 L 6,3 L 0,6 Z" fill="#4fc3f7"/></marker>
+    <marker id="arrW174" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M 0,0 L 6,3 L 0,6 Z" fill="#ffffff"/></marker>
+  </defs>
+
+  <!-- Photosynthesis: CO₂ → Plants (left side down) -->
+  <path d="M 155,78 Q 130,92 125,110" stroke="#81c784" stroke-width="1.5" fill="none" marker-end="url(#arrG174)"/>
+  <text x="118" y="90" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#81c784">Photosynthesis</text>
+
+  <!-- Respiration: Plants → CO₂ (right of plants, going up) -->
+  <path d="M 150,110 Q 165,92 175,78" stroke="#ffb74d" stroke-width="1.5" fill="none" marker-end="url(#arrO174)"/>
+  <text x="200" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ffb74d">Respiration</text>
+
+  <!-- Feeding: Plants → Animals (white arrow, white tip) -->
+  <path d="M 165,123 L 235,123" stroke="#ffffff" stroke-width="1" fill="none" marker-end="url(#arrW174)"/>
+  <text x="200" y="112" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ffffff">Feeding</text>
+
+  <!-- Respiration: Animals → CO₂ (left of animals, going up) -->
+  <path d="M 250,110 Q 235,92 225,78" stroke="#ffb74d" stroke-width="1.5" fill="none" marker-end="url(#arrO174)"/>
+
+  <!-- Decay: Plants → Fossil fuels (down-left) — shifted right to make room for combustion -->
+  <path d="M 125,136 L 115,180" stroke="#ef5350" stroke-width="1" fill="none" marker-end="url(#arrR174)"/>
+  <text x="132" y="158" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ef5350">Decay</text>
+
+  <!-- Combustion: Fossil fuels → CO₂ (route OUTSIDE left of Plants box) -->
+  <path d="M 55,185 Q 40,150 40,100 Q 40,75 140,65" stroke="#ef5350" stroke-width="1.5" fill="none" marker-end="url(#arrR174)"/>
+  <text x="58" y="158" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ef5350">Combustion</text>
+
+  <!-- Ocean dissolves: CO₂ → Oceans (route OUTSIDE right of Animals box) -->
+  <path d="M 260,65 Q 360,75 360,100 Q 360,150 345,180" stroke="#4fc3f7" stroke-width="1" fill="none" marker-end="url(#arrB174)"/>
+  <text x="342" y="158" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#4fc3f7">Dissolves</text>
+
+  <!-- Key points -->
+  <text x="200" y="228" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Carbon constantly recycled — not created or destroyed</text>
+  <text x="200" y="248" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Burning fossil fuels adds extra CO₂ faster</text>
+  <text x="200" y="264" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">than it can be removed → climate change</text>
+  <text x="200" y="284" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#81c784">Deforestation reduces CO₂ absorption</text>
+</svg>

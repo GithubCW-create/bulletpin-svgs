@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Simple Distillation</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Separating a solvent from a solution</text>
+
+  <!-- Erlenmeyer flask — shifted up, closer to subtitle -->
+  <path d="M 118,138 L 118,133 L 138,98 L 152,98 L 152,92 L 152,98 L 172,133 L 172,138 Z" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <!-- Liquid touching flask walls — follows slope -->
+  <path d="M 119,138 L 126,124 L 164,124 L 171,138 Z" fill="#4fc3f7" opacity="0.15"/>
+  <text x="145" y="132" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#4fc3f7">Solution</text>
+
+  <!-- Thermometer — bulb at side-arm junction -->
+  <line x1="152" y1="92" x2="152" y2="62" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="152" cy="94" r="3" fill="#ef5350"/>
+  <text x="164" y="62" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ffffff">Thermometer</text>
+
+  <!-- Delivery tube / condenser — from flask neck to right, then down -->
+  <path d="M 152,92 L 152,85 L 260,85 L 260,138" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+
+  <!-- Condenser water jacket — label on LEFT side -->
+  <rect x="250" y="92" width="20" height="40" rx="2" ry="2" stroke="#81c784" stroke-width="1" fill="none"/>
+  <text x="245" y="106" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#81c784">Cold water</text>
+  <text x="245" y="118" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#81c784">condenser</text>
+
+  <!-- Collection beaker — liquid touching sides -->
+  <rect x="245" y="138" width="30" height="25" rx="2" ry="2" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <rect x="247" y="148" width="26" height="13" fill="#4fc3f7" opacity="0.15"/>
+  <text x="260" y="172" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ffffff">Pure liquid</text>
+
+  <!-- Heat source — RED -->
+  <rect x="130" y="142" width="30" height="8" rx="2" ry="2" fill="#ef5350" opacity="0.4"/>
+  <text x="145" y="158" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ef5350">Heat</text>
+
+  <!-- Steps -->
+  <text x="200" y="188" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">How it works</text>
+  <text x="200" y="206" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">1. Solution heated → solvent evaporates</text>
+  <text x="200" y="222" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">2. Vapour travels into condenser</text>
+  <text x="200" y="238" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">3. Condenser cools vapour → pure liquid</text>
+
+  <!-- Key points -->
+  <text x="200" y="262" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Thermometer reads boiling point of solvent</text>
+  <text x="200" y="278" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Use when solvent has much lower bp than solute</text>
+</svg>

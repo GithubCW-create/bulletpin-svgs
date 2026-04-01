@@ -1,0 +1,79 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Tests for Gases</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Identification Tests</text>
+
+  <!-- Table header -->
+  <g>
+    <rect x="75" y="50" width="70" height="18" fill="none" stroke="#4fc3f7" stroke-width="1.5"/>
+    <text x="110" y="59" font-size="12px" fill="#4fc3f7" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Gas</text>
+
+    <rect x="155" y="50" width="90" height="18" fill="none" stroke="#4fc3f7" stroke-width="1.5"/>
+    <text x="200" y="59" font-size="12px" fill="#4fc3f7" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Test</text>
+
+    <rect x="255" y="50" width="70" height="18" fill="none" stroke="#4fc3f7" stroke-width="1.5"/>
+    <text x="290" y="59" font-size="12px" fill="#4fc3f7" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Result</text>
+  </g>
+
+  <!-- Row 1: H2 -->
+  <g>
+    <rect x="75" y="68" width="70" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="110" y="82" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">H₂</text>
+
+    <rect x="155" y="68" width="90" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="200" y="82" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Burning splint</text>
+
+    <rect x="255" y="68" width="70" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="290" y="82" font-size="11px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Squeaky pop!</text>
+  </g>
+
+  <!-- Row 2: O2 -->
+  <g>
+    <rect x="75" y="96" width="70" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="110" y="110" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">O₂</text>
+
+    <rect x="155" y="96" width="90" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="200" y="110" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Glowing splint</text>
+
+    <rect x="255" y="96" width="70" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="290" y="110" font-size="11px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Relights!</text>
+  </g>
+
+  <!-- Row 3: CO2 -->
+  <g>
+    <rect x="75" y="124" width="70" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="110" y="138" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">CO₂</text>
+
+    <rect x="155" y="124" width="90" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="200" y="138" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Limewater</text>
+
+    <rect x="255" y="124" width="70" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="290" y="138" font-size="11px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Turns milky</text>
+  </g>
+
+  <!-- Row 4: Cl2 -->
+  <g>
+    <rect x="75" y="152" width="70" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="110" y="166" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Cl₂</text>
+
+    <rect x="155" y="152" width="90" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="200" y="166" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Damp litmus</text>
+
+    <rect x="255" y="152" width="70" height="28" fill="none" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="290" y="166" font-size="11px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Bleaches</text>
+  </g>
+
+  <!-- Key info -->
+  <rect x="70" y="195" width="260" height="95" fill="none" stroke="#81c784" stroke-width="1" stroke-dasharray="3,3" rx="3"/>
+  <text x="200" y="210" font-size="12px" fill="#81c784" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Gas Identification</text>
+
+  <text x="80" y="228" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">H₂: Highly flammable, burns quickly</text>
+  <text x="80" y="242" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">O₂: Supports combustion, rekindles flame</text>
+  <text x="80" y="256" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">CO₂: Forms white precipitate (CaCO₃)</text>
+  <text x="80" y="270" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Cl₂: Toxic gas, strong bleaching action</text>
+</svg>

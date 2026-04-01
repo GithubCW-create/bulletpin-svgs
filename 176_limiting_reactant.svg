@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Limiting Reactant</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">The reactant that gets used up first</text>
+
+  <!-- Definition box -->
+  <rect x="70" y="52" width="260" height="56" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Limiting reactant = completely used up</text>
+  <text x="200" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Controls how much product is made</text>
+  <text x="200" y="94" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Excess reactant = some left over</text>
+
+  <!-- Worked example -->
+  <text x="200" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">Worked example</text>
+  <text x="200" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Mg + 2HCl → MgCl₂ + H₂</text>
+  <text x="200" y="158" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">0.1 mol Mg + 0.1 mol HCl</text>
+
+  <!-- Calculation table -->
+  <text x="130" y="180" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Step</text>
+  <text x="270" y="180" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Result</text>
+  <line x1="80" y1="190" x2="320" y2="190" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="130" y="206" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Ratio needed</text>
+  <text x="270" y="206" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">1 Mg : 2 HCl</text>
+
+  <text x="130" y="224" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">HCl needed</text>
+  <text x="270" y="224" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">0.1 × 2 = 0.2 mol</text>
+
+  <text x="130" y="242" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">HCl available</text>
+  <text x="270" y="242" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Only 0.1 mol ← not enough</text>
+
+  <!-- Answer -->
+  <rect x="70" y="258" width="260" height="28" rx="6" ry="6" stroke="#ef5350" stroke-width="1.5" fill="none"/>
+  <text x="200" y="272" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ef5350">HCl is the limiting reactant (runs out first)</text>
+</svg>

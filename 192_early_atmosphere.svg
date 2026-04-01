@@ -1,0 +1,67 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Early Atmosphere</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">How Earth's Air Changed</text>
+
+  <!-- Early Atmosphere label -->
+  <text x="100" y="55" font-size="12px" fill="#ffb74d" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Early Earth</text>
+
+  <!-- Early atmosphere bar -->
+  <g>
+    <!-- CO2 section -->
+    <rect x="60" y="70" width="80" height="45" fill="#ff6b35" opacity="0.8"/>
+    <text x="100" y="97" font-size="10px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">CO₂</text>
+
+    <!-- N2 section -->
+    <rect x="60" y="115" width="80" height="15" fill="#4fc3f7" opacity="0.8"/>
+    <text x="100" y="122" font-size="9px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">N₂</text>
+
+    <!-- Water vapour -->
+    <rect x="60" y="130" width="80" height="12" fill="#ce93d8" opacity="0.8"/>
+    <text x="100" y="136" font-size="9px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">H₂O</text>
+
+    <!-- O2 tiny -->
+    <rect x="60" y="142" width="80" height="3" fill="#81c784" opacity="0.8"/>
+  </g>
+
+  <!-- Today's Atmosphere label -->
+  <text x="300" y="55" font-size="12px" fill="#ffb74d" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Today</text>
+
+  <!-- Today's atmosphere bar -->
+  <g>
+    <!-- O2 section (21%) -->
+    <rect x="260" y="70" width="80" height="32" fill="#81c784" opacity="0.8"/>
+    <text x="300" y="86" font-size="10px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">21% O₂</text>
+
+    <!-- N2 section (78%) -->
+    <rect x="260" y="102" width="80" height="50" fill="#4fc3f7" opacity="0.8"/>
+    <text x="300" y="127" font-size="10px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">78% N₂</text>
+
+    <!-- CO2 and other (1%) -->
+    <rect x="260" y="152" width="80" height="5" fill="#ff6b35" opacity="0.8"/>
+    <text x="300" y="154" font-size="8px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">1%</text>
+  </g>
+
+  <!-- Changes section -->
+  <text x="85" y="190" font-size="12px" fill="#ffb74d" font-weight="bold" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Key events:</text>
+
+  <text x="70" y="207" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Volcanoes released CO₂ &amp; N₂</text>
+
+  <text x="70" y="222" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Oceans formed, dissolved CO₂</text>
+
+  <text x="70" y="237" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Photosynthesis produced O₂</text>
+
+  <text x="70" y="252" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">O₂ increased, CO₂ decreased</text>
+
+  <text x="70" y="267" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Fossil fuels later reversed trend</text>
+
+  <!-- Scale marker -->
+  <line x1="58" y1="70" x2="58" y2="152" stroke="#ffffff" stroke-width="1"/>
+  <line x1="142" y1="70" x2="142" y2="152" stroke="#ffffff" stroke-width="1"/>
+  <text x="100" y="165" font-size="9px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">80 units</text>
+</svg>

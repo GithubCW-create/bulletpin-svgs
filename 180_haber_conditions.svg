@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Haber Process Conditions</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Compromise conditions for ammonia production</text>
+
+  <!-- Equation -->
+  <rect x="70" y="52" width="260" height="28" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">N₂ + 3H₂ ⇌ 2NH₃ (exothermic)</text>
+
+  <!-- Conditions table — centred -->
+  <text x="130" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Condition</text>
+  <text x="270" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Why compromise?</text>
+  <line x1="80" y1="110" x2="320" y2="110" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="130" y="130" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">450°C</text>
+  <text x="270" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Low T = more NH₃ but too slow</text>
+  <text x="270" y="138" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">450°C = good rate, decent yield</text>
+  <line x1="80" y1="150" x2="320" y2="150" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="130" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">200 atm</text>
+  <text x="270" y="164" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">High P = more NH₃ (4 mol → 2 mol)</text>
+  <text x="270" y="178" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">200 atm = safe and cost-effective</text>
+  <line x1="80" y1="190" x2="320" y2="190" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="130" y="206" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Iron catalyst</text>
+  <text x="270" y="206" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Speeds up reaction (no yield change)</text>
+
+  <!-- Yield + recycling -->
+  <rect x="70" y="228" width="260" height="56" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <text x="200" y="242" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#81c784">Result</text>
+  <text x="200" y="258" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">~15% yield per pass</text>
+  <text x="200" y="274" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Unreacted N₂ and H₂ recycled back through</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Exothermic vs Endothermic</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Energy transfer in reactions</text>
+
+  <!-- Exothermic box -->
+  <rect x="25" y="55" width="165" height="130" rx="8" ry="8" stroke="#ef5350" stroke-width="2" fill="none"/>
+  <text x="107" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ef5350">Exothermic</text>
+  <text x="107" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Transfers energy to</text>
+  <text x="107" y="103" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">the surroundings</text>
+  <text x="107" y="122" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Temperature rises</text>
+  <text x="107" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#81c784">Examples:</text>
+  <text x="107" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Combustion</text>
+  <text x="107" y="169" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Neutralisation</text>
+
+  <!-- Endothermic box -->
+  <rect x="210" y="55" width="165" height="130" rx="8" ry="8" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <text x="292" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#4fc3f7">Endothermic</text>
+  <text x="292" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Takes in energy from</text>
+  <text x="292" y="103" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">the surroundings</text>
+  <text x="292" y="122" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Temperature drops</text>
+  <text x="292" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#81c784">Examples:</text>
+  <text x="292" y="156" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Thermal decomposition</text>
+  <text x="292" y="169" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Citric acid + NaHCO₃</text>
+
+  <!-- Energy level note -->
+  <text x="107" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">−ΔH (negative)</text>
+  <text x="292" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">+ΔH (positive)</text>
+
+  <text x="200" y="225" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Energy is always conserved — it is transferred, not created or destroyed</text>
+</svg>

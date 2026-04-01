@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Bond Energy Calculations</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Energy in = breaking bonds, energy out = making bonds</text>
+
+  <!-- Core concept -->
+  <rect x="70" y="52" width="260" height="42" rx="6" ry="6" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Breaking bonds: endothermic (takes energy in)</text>
+  <text x="200" y="82" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Making bonds: exothermic (releases energy out)</text>
+
+  <!-- Formula -->
+  <rect x="70" y="106" width="260" height="28" rx="6" ry="6" stroke="#ffb74d" stroke-width="1.5" fill="none"/>
+  <text x="200" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ffb74d">ΔH = Σ bonds broken − Σ bonds made</text>
+
+  <!-- Interpretation -->
+  <text x="200" y="150" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">If ΔH is negative → exothermic</text>
+  <text x="200" y="166" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">If ΔH is positive → endothermic</text>
+
+  <!-- Worked example -->
+  <text x="200" y="192" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Example: H₂ + Cl₂ → 2HCl</text>
+  <text x="200" y="212" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Bonds broken: H—H (436) + Cl—Cl (242) = 678 kJ</text>
+  <text x="200" y="230" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Bonds made: 2 × H—Cl (431) = 862 kJ</text>
+  <text x="200" y="250" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">ΔH = 678 − 862 = −184 kJ/mol</text>
+  <text x="200" y="268" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Negative → exothermic (more energy released)</text>
+</svg>

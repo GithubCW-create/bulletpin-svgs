@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Addition Polymerisation</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Ethene → Poly(ethene)</text>
+
+  <!--
+    ADDITION POLYMERISATION
+    ========================
+    Left: n ethene monomers (C=C with H's)
+    Arrow in middle
+    Right: repeating unit in brackets with extending bonds
+  -->
+
+  <!-- MONOMER (left side) -->
+  <text x="30" y="110" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff">n</text>
+
+  <!-- Ethene monomer -->
+  <text x="60" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="110" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">C</text>
+
+  <!-- Double bond -->
+  <line x1="72" y1="96" x2="98" y2="96" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="72" y1="104" x2="98" y2="104" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Monomer H atoms -->
+  <text x="60" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">H</text>
+  <line x1="60" y1="90" x2="60" y2="76" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="60" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">H</text>
+  <line x1="60" y1="110" x2="60" y2="124" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="110" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">H</text>
+  <line x1="110" y1="90" x2="110" y2="76" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="110" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">H</text>
+  <line x1="110" y1="110" x2="110" y2="124" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Arrow -->
+  <line x1="140" y1="100" x2="180" y2="100" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="180,100 172,96 172,104" fill="#ffffff"/>
+
+  <!-- POLYMER (right side) — repeating unit in brackets -->
+  <!-- Left extending bond -->
+  <line x1="195" y1="100" x2="218" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Left bracket — tighter to molecule -->
+  <path d="M 228,60 L 223,60 L 223,140 L 228,140" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Repeating unit C-C -->
+  <text x="240" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="290" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">C</text>
+
+  <!-- Single bond -->
+  <line x1="252" y1="100" x2="278" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Polymer H atoms -->
+  <text x="240" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">H</text>
+  <line x1="240" y1="90" x2="240" y2="76" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="240" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">H</text>
+  <line x1="240" y1="110" x2="240" y2="124" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="290" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">H</text>
+  <line x1="290" y1="90" x2="290" y2="76" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="290" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">H</text>
+  <line x1="290" y1="110" x2="290" y2="124" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Right bracket — tighter to molecule -->
+  <path d="M 302,60 L 307,60 L 307,140 L 302,140" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right extending bond -->
+  <line x1="310" y1="100" x2="328" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Subscript n -->
+  <text x="318" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff">n</text>
+
+  <!-- Annotation -->
+  <text x="85" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Monomer</text>
+  <text x="265" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Polymer</text>
+
+  <text x="200" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Double bond opens → single bonds link monomers</text>
+</svg>

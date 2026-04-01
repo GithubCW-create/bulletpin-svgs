@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Moles and Relative Formula Mass</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Counting atoms by weighing</text>
+
+  <!-- Mr definition -->
+  <rect x="80" y="52" width="240" height="32" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="62" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Mr = sum of Ar of all atoms in the formula</text>
+  <text x="200" y="76" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Ar values from periodic table (no units)</text>
+
+  <!-- Moles formula — triangle layout -->
+  <text x="200" y="103" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#81c784">The Mole Equation</text>
+
+  <!-- Larger triangle: apex (200,114), base (120,196)-(280,196) = 160px wide, 82px tall -->
+  <polygon points="200,114 120,196 280,196" fill="none" stroke="#4fc3f7" stroke-width="2"/>
+  <!-- Divider at y=160: progress=46/82=0.561, half-width=0.561*80=44.9 → x=155 to x=245 -->
+  <line x1="155" y1="160" x2="245" y2="160" stroke="#4fc3f7" stroke-width="2"/>
+  <line x1="200" y1="160" x2="200" y2="196" stroke="#4fc3f7" stroke-width="2"/>
+  <!-- "Mass (g)" well below apex, centred in upper section (y midpoint of 114-160 = 137, push to 142) -->
+  <text x="200" y="144" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Mass (g)</text>
+  <!-- Lower labels centred in their sections -->
+  <text x="175" y="180" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">Moles</text>
+  <text x="225" y="180" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">Mr</text>
+
+  <!-- Formulas -->
+  <text x="200" y="212" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Moles = Mass ÷ Mr</text>
+  <text x="200" y="228" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Mass = Moles × Mr</text>
+
+  <!-- Example -->
+  <text x="200" y="250" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Example: H₂O</text>
+  <text x="200" y="268" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Mr = (2 × 1) + 16 = 18</text>
+  <text x="200" y="284" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Moles in 36 g = 36 ÷ 18 = 2 mol</text>
+</svg>

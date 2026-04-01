@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Group 0 — Noble Gases</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">He, Ne, Ar, Kr, Xe, Rn</text>
+
+  <!-- Properties box -->
+  <rect x="70" y="52" width="260" height="55" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#4fc3f7">Properties</text>
+  <text x="200" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Full outer shell → very unreactive (inert)</text>
+  <text x="200" y="94" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Colourless, odourless gases, exist as single atoms</text>
+
+  <!-- Uses table — aligned to properties box width (x=70 to x=330) -->
+  <text x="110" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Gas</text>
+  <text x="240" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Use</text>
+  <line x1="70" y1="136" x2="330" y2="136" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <text x="110" y="152" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Helium</text>
+  <text x="240" y="152" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Balloons, airships (light)</text>
+  <line x1="70" y1="164" x2="330" y2="164" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="178" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Neon</text>
+  <text x="240" y="178" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Advertising signs (glows)</text>
+  <line x1="70" y1="190" x2="330" y2="190" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <text x="110" y="204" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Argon</text>
+  <text x="240" y="204" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Light bulbs, welding (inert)</text>
+
+  <!-- Trends -->
+  <text x="200" y="232" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Trends going down the group</text>
+  <text x="200" y="250" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Boiling point increases ↑</text>
+  <text x="200" y="266" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Density increases ↑</text>
+  <text x="200" y="282" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">More electrons → stronger intermolecular forces</text>
+</svg>

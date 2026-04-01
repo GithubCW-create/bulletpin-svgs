@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">RP: Electrolysis of Copper Sulfate</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Using copper electrodes (purification)</text>
+
+  <!-- Beaker with electrodes -->
+  <rect x="130" y="68" width="140" height="90" rx="4" ry="4" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <!-- Solution -->
+  <rect x="132" y="88" width="136" height="68" fill="#4fc3f7" opacity="0.12"/>
+  <text x="200" y="126" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#4fc3f7">CuSO₄(aq)</text>
+
+  <!-- Cathode (left) -->
+  <rect x="155" y="63" width="8" height="80" fill="#ef5350" opacity="0.4"/>
+  <text x="159" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#ef5350">−</text>
+
+  <!-- Anode (right) -->
+  <rect x="237" y="63" width="8" height="80" fill="#4fc3f7" opacity="0.4"/>
+  <text x="241" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#4fc3f7">+</text>
+
+  <!-- Battery/wires -->
+  <line x1="159" y1="63" x2="159" y2="53" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="159" y1="53" x2="241" y2="53" stroke="#ffffff" stroke-width="1.5"/>
+  <line x1="241" y1="63" x2="241" y2="53" stroke="#ffffff" stroke-width="1.5"/>
+  <rect x="192" y="48" width="16" height="10" rx="2" ry="2" stroke="#ffffff" stroke-width="1" fill="none"/>
+
+  <!-- Labels -->
+  <text x="120" y="93" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ef5350">Cathode</text>
+  <text x="120" y="105" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Cu forms</text>
+  <text x="280" y="93" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#4fc3f7">Anode</text>
+  <text x="280" y="105" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Cu dissolves</text>
+
+  <!-- Observations -->
+  <text x="200" y="168" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Observations</text>
+  <text x="200" y="186" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Cathode: gains mass (Cu deposited)</text>
+  <text x="200" y="202" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Anode: loses mass (Cu dissolves into solution)</text>
+  <text x="200" y="218" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Solution stays blue (Cu²⁺ concentration unchanged)</text>
+
+  <!-- Half equations -->
+  <text x="200" y="242" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">Half equations</text>
+  <text x="200" y="260" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Cathode: Cu²⁺ + 2e⁻ → Cu</text>
+  <text x="200" y="276" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Anode: Cu → Cu²⁺ + 2e⁻</text>
+</svg>

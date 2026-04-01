@@ -1,0 +1,56 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Titration Practical</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Acid-Alkali Neutralisation</text>
+
+  <!-- White tile base -->
+  <rect x="140" y="95" width="120" height="8" fill="#ffffff" rx="2"/>
+
+  <!-- Conical flask -->
+  <path d="M 150 95 L 145 85 L 145 70 Q 145 65 150 65 L 170 65 Q 175 65 175 70 L 175 85 L 180 95 Z" fill="none" stroke="#4fc3f7" stroke-width="2"/>
+  <text x="162" y="78" font-size="10px" fill="#ffb74d" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Alkali</text>
+  <text x="162" y="88" font-size="9px" fill="#ce93d8" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">+Ind.</text>
+
+  <!-- Burette -->
+  <g>
+    <!-- Burette tube -->
+    <rect x="190" y="50" width="20" height="50" fill="none" stroke="#4fc3f7" stroke-width="2"/>
+    <!-- Liquid in burette -->
+    <rect x="192" y="55" width="16" height="30" fill="#4fc3f7" opacity="0.3"/>
+    <!-- Scale markings -->
+    <line x1="188" y1="55" x2="212" y2="55" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="215" y="55" font-size="9px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">0</text>
+    <line x1="188" y1="85" x2="212" y2="85" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="215" y="85" font-size="9px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">50</text>
+    <!-- Tap -->
+    <rect x="195" y="100" width="10" height="4" fill="#ef5350" rx="1"/>
+  </g>
+
+  <!-- Label for acid in burette -->
+  <text x="225" y="75" font-size="11px" fill="#ff6b35" font-weight="bold" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Acid</text>
+
+  <!-- Steps section -->
+  <text x="60" y="125" font-size="12px" fill="#ffb74d" font-weight="bold" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Steps:</text>
+
+  <text x="70" y="142" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">1) Fill burette to 0 mark</text>
+
+  <text x="70" y="158" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">2) Add alkali + indicator to flask</text>
+
+  <text x="70" y="174" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">3) Add acid drop by drop</text>
+
+  <text x="70" y="190" font-size="11px" fill="#ffffff" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">4) Stop at colour change</text>
+
+  <text x="85" y="205" font-size="10px" fill="#ce93d8" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">(end point/equivalence)</text>
+
+  <!-- Tip -->
+  <rect x="60" y="220" width="280" height="70" fill="none" stroke="#81c784" stroke-width="1" stroke-dasharray="3,3" rx="3"/>
+  <text x="200" y="233" font-size="11px" fill="#81c784" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Record burette readings before and after</text>
+  <text x="200" y="248" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">Repeat until concordant results (within</text>
+  <text x="200" y="263" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">0.1 cm³) then calculate mean volume</text>
+  <text x="200" y="278" font-size="11px" fill="#ffffff" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif">used to find concentration of alkali</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Condensation Polymerisation</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Monomers join, releasing a small molecule</text>
+
+  <!-- Comparison -->
+  <text x="200" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Addition vs Condensation</text>
+
+  <!-- Addition box — text shifted up to centre -->
+  <rect x="25" y="72" width="165" height="60" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <text x="107" y="83" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#81c784">Addition</text>
+  <text x="107" y="96" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">One type of monomer</text>
+  <text x="107" y="109" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">C=C double bond opens</text>
+  <text x="107" y="122" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Only product is polymer</text>
+
+  <!-- Condensation box — text shifted up to centre -->
+  <rect x="210" y="72" width="165" height="60" rx="6" ry="6" stroke="#ef5350" stroke-width="1.5" fill="none"/>
+  <text x="292" y="83" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#ef5350">Condensation</text>
+  <text x="292" y="96" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Two types of monomer</text>
+  <text x="292" y="109" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Functional groups react</text>
+  <text x="292" y="122" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Polymer + water lost</text>
+
+  <!-- Polyester formation -->
+  <text x="200" y="152" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">Polyesters</text>
+  <text x="200" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Dicarboxylic acid + diol → polyester + water</text>
+
+  <!-- Functional groups — centred tightly -->
+  <text x="130" y="194" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">—COOH</text>
+  <text x="160" y="194" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">+</text>
+  <text x="190" y="194" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">HO—</text>
+  <text x="218" y="194" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">→</text>
+  <text x="268" y="194" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">—COO— + H₂O</text>
+  <text x="200" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffb74d">ester link formed</text>
+
+  <!-- Natural condensation polymers -->
+  <text x="200" y="234" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Natural examples</text>
+  <text x="200" y="252" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Proteins (amino acids → peptide bonds + H₂O)</text>
+  <text x="200" y="268" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">DNA (nucleotides → phosphodiester bonds)</text>
+  <text x="200" y="284" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Starch, cellulose (glucose monomers)</text>
+</svg>

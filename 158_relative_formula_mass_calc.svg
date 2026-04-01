@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Calculating Mr</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Relative formula mass — worked examples</text>
+
+  <!-- Key Ar values -->
+  <rect x="70" y="52" width="260" height="28" rx="6" ry="6" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <text x="200" y="66" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Key Ar: H=1, C=12, N=14, O=16, Na=23, Cl=35.5, Ca=40</text>
+
+  <!-- Example 1 -->
+  <text x="200" y="98" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">1. NaCl</text>
+  <text x="200" y="116" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Mr = 23 + 35.5 = 58.5</text>
+
+  <!-- Example 2 -->
+  <text x="200" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">2. H₂O</text>
+  <text x="200" y="160" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Mr = (2 × 1) + 16 = 18</text>
+
+  <!-- Example 3 -->
+  <text x="200" y="186" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">3. CaCO₃</text>
+  <text x="200" y="204" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Mr = 40 + 12 + (3 × 16) = 100</text>
+
+  <!-- Example 4 -->
+  <text x="200" y="230" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">4. Ca(OH)₂</text>
+  <text x="200" y="248" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Mr = 40 + 2 × (16 + 1) = 40 + 34 = 74</text>
+
+  <!-- Tip -->
+  <rect x="70" y="268" width="260" height="22" rx="5" ry="5" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <text x="200" y="279" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Tip: expand brackets first, then add all Ar values</text>
+</svg>

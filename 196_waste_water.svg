@@ -1,0 +1,61 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" font-weight="bold" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Waste Water Treatment</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Multi-stage vertical flow process</text>
+
+  <!-- Box 1: Screening -->
+  <rect x="110" y="50" width="180" height="30" fill="#4fc3f7" opacity="0.2" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="200" y="59" font-size="11px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Screening</text>
+  <text x="200" y="70" font-size="9px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Remove large solids</text>
+
+  <!-- Arrow 1 -->
+  <line x1="200" y1="80" x2="200" y2="100" stroke="#4fc3f7" stroke-width="2"/>
+  <polygon points="200,100 195,90 205,90" fill="#4fc3f7"/>
+
+  <!-- Box 2: Sedimentation -->
+  <rect x="110" y="100" width="180" height="30" fill="#4fc3f7" opacity="0.2" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="200" y="109" font-size="11px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Sedimentation</text>
+  <text x="200" y="120" font-size="9px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Settle out particles</text>
+
+  <!-- Sludge branch from right side of Box 2 -->
+  <line x1="290" y1="115" x2="325" y2="115" stroke="#ef5350" stroke-width="1.5"/>
+  <polygon points="325,115 317,111 317,119" fill="#ef5350"/>
+
+  <!-- Sludge pathway — all aligned on x=345, Sludge centred on arrow y=115 -->
+  <text x="345" y="115" font-size="10px" fill="#ef5350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Sludge</text>
+  <line x1="345" y1="122" x2="345" y2="137" stroke="#ef5350" stroke-width="1.5"/>
+  <polygon points="345,140 341,134 349,134" fill="#ef5350"/>
+
+  <text x="345" y="147" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Anaerobic</text>
+  <text x="345" y="158" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">digestion</text>
+  <line x1="345" y1="164" x2="345" y2="179" stroke="#81c784" stroke-width="1.5"/>
+  <polygon points="345,182 341,176 349,176" fill="#81c784"/>
+
+  <text x="345" y="191" font-size="10px" fill="#81c784" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Biogas</text>
+
+  <!-- Arrow 2 -->
+  <line x1="200" y1="130" x2="200" y2="150" stroke="#4fc3f7" stroke-width="2"/>
+  <polygon points="200,150 195,140 205,140" fill="#4fc3f7"/>
+
+  <!-- Box 3: Biological treatment -->
+  <rect x="110" y="150" width="180" height="36" fill="#81c784" opacity="0.2" stroke="#81c784" stroke-width="1.5"/>
+  <text x="200" y="159" font-size="11px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Biological treatment</text>
+  <text x="200" y="172" font-size="9px" fill="#81c784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Bacteria break down waste</text>
+
+  <!-- Arrow 3 -->
+  <line x1="200" y1="186" x2="200" y2="206" stroke="#4fc3f7" stroke-width="2"/>
+  <polygon points="200,206 195,196 205,196" fill="#4fc3f7"/>
+
+  <!-- Box 4: Final treatment -->
+  <rect x="110" y="206" width="180" height="30" fill="#4fc3f7" opacity="0.2" stroke="#4fc3f7" stroke-width="1.5"/>
+  <text x="200" y="215" font-size="11px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Final treatment</text>
+  <text x="200" y="226" font-size="9px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Polish and disinfect</text>
+
+  <!-- Bottom key point -->
+  <text x="200" y="260" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Treats sewage and industrial waste water</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Testing for Alkenes</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Bromine water test</text>
+
+  <!-- Left: Alkane test -->
+  <text x="110" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Alkane (saturated)</text>
+
+  <!-- Test tube with orange liquid -->
+  <rect x="85" y="75" width="50" height="80" rx="8" ry="8" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <rect x="87" y="105" width="46" height="48" rx="6" ry="6" fill="#ff6b35" opacity="0.5"/>
+  <text x="110" y="125" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Br₂(aq)</text>
+
+  <text x="110" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Stays orange</text>
+  <text x="110" y="185" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">No reaction</text>
+
+  <!-- Right: Alkene test -->
+  <text x="290" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">Alkene (unsaturated)</text>
+
+  <!-- Test tube with colourless liquid -->
+  <rect x="265" y="75" width="50" height="80" rx="8" ry="8" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <rect x="267" y="105" width="46" height="48" rx="6" ry="6" fill="#ffffff" opacity="0.12"/>
+  <text x="290" y="125" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Clear</text>
+
+  <text x="290" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Turns colourless</text>
+  <text x="290" y="185" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Decolourised</text>
+
+  <!-- Arrow between -->
+  <text x="200" y="118" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#ffb74d">→</text>
+
+  <!-- Explanation -->
+  <text x="200" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">Why?</text>
+  <text x="200" y="228" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Alkenes have a C=C double bond</text>
+  <text x="200" y="244" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Br₂ adds across the double bond (addition reaction)</text>
+  <text x="200" y="260" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">C₂H₄ + Br₂ → C₂H₄Br₂</text>
+  <text x="200" y="276" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">(dibromoethane — colourless)</text>
+</svg>

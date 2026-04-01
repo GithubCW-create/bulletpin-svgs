@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Electrolysis of Brine</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">NaCl(aq) — products at each electrode</text>
+
+  <!-- Cell container -->
+  <rect x="80" y="70" width="240" height="110" rx="6" ry="6" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+
+  <!-- Solution fill -->
+  <rect x="82" y="90" width="236" height="88" rx="4" ry="4" fill="#4fc3f7" opacity="0.1"/>
+  <text x="200" y="168" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Brine — NaCl(aq)</text>
+
+  <!-- Cathode (−) left -->
+  <rect x="120" y="65" width="10" height="80" rx="2" ry="2" fill="#ffffff" opacity="0.5" stroke="#ffffff" stroke-width="1"/>
+  <text x="125" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">−</text>
+
+  <!-- Anode (+) right -->
+  <rect x="270" y="65" width="10" height="80" rx="2" ry="2" fill="#ffffff" opacity="0.5" stroke="#ffffff" stroke-width="1"/>
+  <text x="275" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ef5350">+</text>
+
+  <!-- Wire connecting to battery -->
+  <line x1="125" y1="65" x2="125" y2="50" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="125" y1="50" x2="275" y2="50" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="275" y1="50" x2="275" y2="65" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Battery symbol -->
+  <line x1="193" y1="44" x2="193" y2="56" stroke="#ffb74d" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="200" y1="47" x2="200" y2="53" stroke="#ffb74d" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="207" y1="44" x2="207" y2="56" stroke="#ffb74d" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Products -->
+  <!-- Cathode product -->
+  <text x="125" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">H₂</text>
+  <text x="125" y="215" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Hydrogen gas</text>
+
+  <!-- Anode product -->
+  <text x="275" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">Cl₂</text>
+  <text x="275" y="215" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Chlorine gas</text>
+
+  <!-- Solution product -->
+  <text x="200" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">NaOH</text>
+  <text x="200" y="215" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Left in solution</text>
+
+  <!-- Ion movement arrows -->
+  <text x="160" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Na⁺→</text>
+  <text x="240" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">←Cl⁻</text>
+
+  <!-- Labels -->
+  <text x="125" y="240" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Cathode (−)</text>
+  <text x="275" y="240" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">Anode (+)</text>
+</svg>

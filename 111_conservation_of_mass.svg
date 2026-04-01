@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Conservation of Mass</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Mass is neither created nor destroyed</text>
+
+  <!-- Before reaction (left) -->
+  <text x="110" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">Before</text>
+
+  <!-- Flask -->
+  <rect x="75" y="75" width="70" height="60" rx="6" ry="6" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <rect x="77" y="100" width="66" height="33" rx="4" ry="4" fill="#4fc3f7" opacity="0.15"/>
+
+  <!-- Balance -->
+  <line x1="60" y1="145" x2="160" y2="145" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <rect x="95" y="145" width="30" height="15" rx="3" ry="3" stroke="#ffffff" stroke-width="1" fill="none"/>
+  <text x="110" y="153" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">50 g</text>
+
+  <!-- Arrow -->
+  <line x1="175" y1="110" x2="215" y2="110" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="215,110 207,106 207,114" fill="#ffffff"/>
+
+  <!-- After reaction (right) -->
+  <text x="290" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#81c784">After</text>
+
+  <!-- Flask with different colour solution -->
+  <rect x="255" y="75" width="70" height="60" rx="6" ry="6" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <rect x="257" y="100" width="66" height="33" rx="4" ry="4" fill="#ffb74d" opacity="0.15"/>
+
+  <!-- Balance -->
+  <line x1="240" y1="145" x2="340" y2="145" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <rect x="275" y="145" width="30" height="15" rx="3" ry="3" stroke="#ffffff" stroke-width="1" fill="none"/>
+  <text x="290" y="153" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffffff">50 g</text>
+
+  <!-- Equals sign -->
+  <text x="200" y="153" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#81c784">=</text>
+
+  <!-- Explanation -->
+  <text x="200" y="190" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">In a sealed system: total mass of reactants = total mass of products</text>
+  <text x="200" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Atoms are rearranged, not created or destroyed</text>
+
+  <!-- Note about open systems -->
+  <text x="200" y="235" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffb74d">Open system: mass may appear to change if gas escapes</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Half Equations</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Electrolysis — electrode reactions</text>
+
+  <!-- Cathode section -->
+  <text x="200" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#81c784">At the cathode (−) — reduction</text>
+
+  <!-- Example 1: Hydrogen -->
+  <text x="200" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">2H⁺ + 2e⁻ → H₂</text>
+  <text x="200" y="106" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffb74d">Hydrogen ions gain electrons</text>
+
+  <!-- Example 2: Copper -->
+  <text x="200" y="128" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">Cu²⁺ + 2e⁻ → Cu</text>
+  <text x="200" y="144" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffb74d">Copper ions gain electrons</text>
+
+  <!-- Divider -->
+  <line x1="60" y1="160" x2="340" y2="160" stroke="#4fc3f7" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- Anode section -->
+  <text x="200" y="178" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ef5350">At the anode (+) — oxidation</text>
+
+  <!-- Example 3: Chlorine -->
+  <text x="200" y="203" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">2Cl⁻ → Cl₂ + 2e⁻</text>
+  <text x="200" y="219" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffb74d">Chloride ions lose electrons</text>
+
+  <!-- Example 4: Oxygen -->
+  <text x="200" y="241" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">4OH⁻ → O₂ + 2H₂O + 4e⁻</text>
+  <text x="200" y="257" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#ffb74d">Hydroxide ions lose electrons</text>
+
+  <!-- Memory aid -->
+  <text x="200" y="282" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">OIL RIG: Oxidation Is Loss, Reduction Is Gain</text>
+</svg>

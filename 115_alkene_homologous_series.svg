@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Alkenes — Homologous Series</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">CₙH₂ₙ — unsaturated hydrocarbons</text>
+
+  <!-- Header row -->
+  <text x="50" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Name</text>
+  <text x="145" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Formula</text>
+  <text x="240" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Carbons</text>
+  <text x="330" y="60" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">State (25°C)</text>
+
+  <line x1="15" y1="72" x2="385" y2="72" stroke="#4fc3f7" stroke-width="1" opacity="0.4"/>
+
+  <!-- Ethene -->
+  <text x="50" y="92" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Ethene</text>
+  <text x="145" y="92" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ff6b35">C₂H₄</text>
+  <text x="240" y="92" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">2</text>
+  <text x="330" y="92" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">Gas</text>
+
+  <line x1="15" y1="106" x2="385" y2="106" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Propene -->
+  <text x="50" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Propene</text>
+  <text x="145" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ff6b35">C₃H₆</text>
+  <text x="240" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">3</text>
+  <text x="330" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">Gas</text>
+
+  <line x1="15" y1="134" x2="385" y2="134" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Butene -->
+  <text x="50" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Butene</text>
+  <text x="145" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ff6b35">C₄H₈</text>
+  <text x="240" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">4</text>
+  <text x="330" y="148" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">Gas</text>
+
+  <!-- Test for alkenes -->
+  <line x1="60" y1="172" x2="340" y2="172" stroke="#4fc3f7" stroke-width="0.8" opacity="0.3"/>
+  <text x="200" y="192" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Test: bromine water turns colourless → C=C present</text>
+  <text x="200" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">All have one C=C double bond (unsaturated)</text>
+  <text x="200" y="228" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">More reactive than alkanes due to double bond</text>
+</svg>

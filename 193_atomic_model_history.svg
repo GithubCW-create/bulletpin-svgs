@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" font-size="15px" font-weight="bold" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Atomic Model History</text>
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">How our understanding developed</text>
+
+  <!-- Timeline arrow far left -->
+  <line x1="42" y1="55" x2="42" y2="225" stroke="#4fc3f7" stroke-width="2"/>
+  <polygon points="42,230 38,222 46,222" fill="#4fc3f7"/>
+
+  <!-- Row 1: Dalton -->
+  <text x="62" y="58" font-size="9px" fill="#ffb74d" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">1803</text>
+  <circle cx="130" cy="58" r="10" fill="#ffffff" opacity="0.5"/>
+  <text x="150" y="58" font-size="10px" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Dalton — Solid sphere</text>
+
+  <!-- Row 2: Thomson -->
+  <text x="62" y="98" font-size="9px" fill="#ffb74d" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">1897</text>
+  <circle cx="130" cy="98" r="10" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <circle cx="126" cy="96" r="1.5" fill="#ce93d8"/>
+  <circle cx="134" cy="96" r="1.5" fill="#ce93d8"/>
+  <circle cx="130" cy="102" r="1.5" fill="#ce93d8"/>
+  <text x="150" y="98" font-size="10px" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Thomson — Plum pudding</text>
+
+  <!-- Row 3: Rutherford -->
+  <text x="62" y="138" font-size="9px" fill="#ffb74d" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">1911</text>
+  <circle cx="130" cy="138" r="10" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <circle cx="130" cy="138" r="3" fill="#ff6b35"/>
+  <text x="150" y="138" font-size="10px" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Rutherford — Dense nucleus</text>
+
+  <!-- Row 4: Bohr -->
+  <text x="62" y="178" font-size="9px" fill="#ffb74d" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">1913</text>
+  <circle cx="130" cy="178" r="10" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <circle cx="130" cy="178" r="6" stroke="#81c784" stroke-width="1" fill="none" opacity="0.7"/>
+  <circle cx="130" cy="178" r="2.5" fill="#ff6b35"/>
+  <text x="150" y="178" font-size="10px" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Bohr — Electron shells</text>
+
+  <!-- Row 5: Chadwick -->
+  <text x="62" y="218" font-size="9px" fill="#ffb74d" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">1932</text>
+  <circle cx="130" cy="218" r="10" stroke="#4fc3f7" stroke-width="1.5" fill="none"/>
+  <circle cx="127" cy="218" r="2.5" fill="#ff6b35"/>
+  <circle cx="133" cy="218" r="2.5" fill="#81c784"/>
+  <text x="150" y="218" font-size="10px" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Chadwick — Neutron found</text>
+
+  <!-- Bottom note -->
+  <text x="200" y="255" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Each model improved as new evidence emerged</text>
+</svg>

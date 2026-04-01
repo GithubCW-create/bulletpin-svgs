@@ -1,0 +1,89 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Polymers: Two Types</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Thermoplastic vs Thermosetting</text>
+
+  <!-- Left side: Thermoplastic -->
+  <g>
+    <text x="100" y="52" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">THERMOPLASTIC</text>
+
+    <!-- Polymer chains with weak forces - centred under heading at x=100 -->
+    <g>
+      <!-- Chain 1 -->
+      <path d="M 80 70 Q 90 65 100 70 Q 110 75 120 70" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+      <!-- Chain 2 -->
+      <path d="M 80 82 Q 90 77 100 82 Q 110 87 120 82" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+      <!-- Chain 3 -->
+      <path d="M 80 94 Q 90 89 100 94 Q 110 99 120 94" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+
+      <!-- Weak intermolecular forces (dotted lines) -->
+      <line x1="85" y1="75" x2="85" y2="80" stroke="#ce93d8" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+      <line x1="95" y1="72" x2="95" y2="80" stroke="#ce93d8" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+      <line x1="105" y1="75" x2="105" y2="80" stroke="#ce93d8" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+      <line x1="85" y1="87" x2="85" y2="92" stroke="#ce93d8" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+      <line x1="95" y1="84" x2="95" y2="92" stroke="#ce93d8" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+      <line x1="105" y1="87" x2="105" y2="92" stroke="#ce93d8" stroke-width="1" stroke-dasharray="2,2" opacity="0.6"/>
+    </g>
+
+    <text x="100" y="118" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Weak intermolecular</text>
+    <text x="100" y="131" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">forces between chains</text>
+
+    <!-- Properties box -->
+    <rect x="30" y="143" width="140" height="70" fill="#4fc3f7" opacity="0.1" stroke="#4fc3f7" stroke-width="1"/>
+    <text x="100" y="155" font-size="11px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Properties:</text>
+    <text x="40" y="170" font-size="10px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Can be melted</text>
+    <text x="40" y="182" font-size="10px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Can be reshaped</text>
+    <text x="40" y="194" font-size="10px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Recyclable</text>
+    <text x="40" y="206" font-size="10px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Softer, flexible</text>
+
+    <!-- Example -->
+    <rect x="30" y="223" width="140" height="38" fill="#81c784" opacity="0.1" stroke="#81c784" stroke-width="1"/>
+    <text x="100" y="236" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Example:</text>
+    <text x="100" y="251" font-size="11px" fill="#81c784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Poly(ethene)</text>
+  </g>
+
+  <!-- Right side: Thermosetting -->
+  <g>
+    <text x="300" y="52" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">THERMOSETTING</text>
+
+    <!-- Polymer chains with strong crosslinks - centred under heading at x=300 -->
+    <g>
+      <!-- Chain 1 -->
+      <path d="M 280 70 Q 290 65 300 70 Q 310 75 320 70" stroke="#ef5350" stroke-width="2" fill="none"/>
+      <!-- Chain 2 -->
+      <path d="M 280 82 Q 290 77 300 82 Q 310 87 320 82" stroke="#ef5350" stroke-width="2" fill="none"/>
+      <!-- Chain 3 -->
+      <path d="M 280 94 Q 290 89 300 94 Q 310 99 320 94" stroke="#ef5350" stroke-width="2" fill="none"/>
+
+      <!-- Strong covalent crosslinks (solid lines) -->
+      <line x1="285" y1="75" x2="285" y2="80" stroke="#ffb74d" stroke-width="2" opacity="0.8"/>
+      <line x1="295" y1="72" x2="295" y2="80" stroke="#ffb74d" stroke-width="2" opacity="0.8"/>
+      <line x1="305" y1="75" x2="305" y2="80" stroke="#ffb74d" stroke-width="2" opacity="0.8"/>
+      <line x1="285" y1="87" x2="285" y2="92" stroke="#ffb74d" stroke-width="2" opacity="0.8"/>
+      <line x1="295" y1="84" x2="295" y2="92" stroke="#ffb74d" stroke-width="2" opacity="0.8"/>
+      <line x1="305" y1="87" x2="305" y2="92" stroke="#ffb74d" stroke-width="2" opacity="0.8"/>
+    </g>
+
+    <text x="300" y="118" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Strong covalent</text>
+    <text x="300" y="131" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">crosslinks between chains</text>
+
+    <!-- Properties box -->
+    <rect x="230" y="143" width="140" height="70" fill="#ef5350" opacity="0.1" stroke="#ef5350" stroke-width="1"/>
+    <text x="300" y="155" font-size="11px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Properties:</text>
+    <text x="240" y="170" font-size="10px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Cannot be melted</text>
+    <text x="240" y="182" font-size="10px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Cannot be reshaped</text>
+    <text x="240" y="194" font-size="10px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Not recyclable</text>
+    <text x="240" y="206" font-size="10px" fill="#ffb74d" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">• Hard, rigid</text>
+
+    <!-- Example -->
+    <rect x="230" y="223" width="140" height="38" fill="#ce93d8" opacity="0.1" stroke="#ce93d8" stroke-width="1"/>
+    <text x="300" y="236" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Example:</text>
+    <text x="300" y="251" font-size="11px" fill="#ce93d8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Bakelite</text>
+  </g>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Percentage Yield</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">How much product you actually get</text>
+
+  <!-- Formula box — centred, narrow -->
+  <rect x="80" y="52" width="240" height="38" rx="8" ry="8" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+  <text x="140" y="64" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Actual yield</text>
+  <line x1="100" y1="71" x2="180" y2="71" stroke="#4fc3f7" stroke-width="1"/>
+  <text x="140" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Theoretical yield</text>
+  <text x="200" y="71" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">× 100</text>
+  <text x="260" y="71" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= % yield</text>
+
+  <!-- Why less than 100% -->
+  <text x="200" y="110" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#4fc3f7">Why is yield less than 100%?</text>
+
+  <rect x="80" y="124" width="240" height="90" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <text x="200" y="141" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Reaction is reversible</text>
+  <text x="200" y="157" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Product lost during filtering/transfer</text>
+  <text x="200" y="173" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Side reactions produce by-products</text>
+  <text x="200" y="189" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Reactants impure</text>
+  <text x="200" y="205" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Reaction incomplete</text>
+
+  <!-- Example -->
+  <text x="200" y="232" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#ffb74d">Example</text>
+  <text x="200" y="250" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Theoretical yield = 10 g, actual yield = 7.5 g</text>
+  <text x="200" y="266" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">% yield = (7.5 ÷ 10) × 100 = 75%</text>
+</svg>
