@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Carbon Dioxide (CO₂)</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Two double covalent bonds</text>
+
+  <!--
+    CO₂ DOT-AND-CROSS
+    ==================
+    O=C=O. C shares 2 pairs with each O (double bond each side).
+    O₁(164,75), C(200,75), O₂(236,75). 36px between bonded atoms.
+    × = C electron (#ff6b35). • = O electron (#ffb74d).
+    Each O has 2 lone pairs (top + bottom).
+  -->
+
+  <!-- Atom labels -->
+  <text x="164" y="75" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffb74d">O</text>
+  <text x="200" y="75" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="236" y="75" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffb74d">O</text>
+
+  <!-- Left shared region: between O₁(164) and C(200), midpoint x=182 -->
+  <!-- Upper pair -->
+  <circle cx="178" cy="69" r="3" fill="#ffb74d"/>
+  <text x="186" y="70" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">×</text>
+  <!-- Lower pair -->
+  <circle cx="178" cy="81" r="3" fill="#ffb74d"/>
+  <text x="186" y="82" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">×</text>
+
+  <!-- Right shared region: between C(200) and O₂(236), midpoint x=218 -->
+  <!-- Upper pair -->
+  <text x="214" y="70" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">×</text>
+  <circle cx="222" cy="69" r="3" fill="#ffb74d"/>
+  <!-- Lower pair -->
+  <text x="214" y="82" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">×</text>
+  <circle cx="222" cy="81" r="3" fill="#ffb74d"/>
+
+  <!-- O₁ lone pairs (all •, amber) — top and bottom -->
+  <!-- Top pair: y=75-14=61, x=164±4 -->
+  <circle cx="160" cy="61" r="3" fill="#ffb74d"/>
+  <circle cx="168" cy="61" r="3" fill="#ffb74d"/>
+  <!-- Bottom pair: y=75+14=89, x=164±4 -->
+  <circle cx="160" cy="89" r="3" fill="#ffb74d"/>
+  <circle cx="168" cy="89" r="3" fill="#ffb74d"/>
+
+  <!-- O₂ lone pairs (all •, amber) — top and bottom -->
+  <!-- Top pair: y=61, x=236±4 -->
+  <circle cx="232" cy="61" r="3" fill="#ffb74d"/>
+  <circle cx="240" cy="61" r="3" fill="#ffb74d"/>
+  <!-- Bottom pair: y=89, x=236±4 -->
+  <circle cx="232" cy="89" r="3" fill="#ffb74d"/>
+  <circle cx="240" cy="89" r="3" fill="#ffb74d"/>
+
+  <!-- Key -->
+  <text x="176" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ff6b35">×</text>
+  <text x="200" y="120" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= C electron</text>
+  <circle cx="176" cy="135" r="3" fill="#ffb74d"/>
+  <text x="200" y="135" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= O electron</text>
+</svg>

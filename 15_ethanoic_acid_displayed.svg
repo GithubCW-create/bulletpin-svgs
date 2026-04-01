@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Displayed Formula — Ethanoic Acid</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">CH₃COOH</text>
+
+  <!--
+    DISPLAYED FORMULA GRID STANDARD
+    ================================
+    Bond gap from atom centre: 12px on ALL sides (uniform)
+    Atom spacing: 42px horizontal, 42px vertical
+    Bond line stops 12px from each atom centre it connects to.
+    C1 (methyl): x=140, y=95
+    C2 (carbonyl): x=210, y=95
+    Shift down so subtitle (y=35) clears the diagram top.
+  -->
+
+  <!-- C1—C2 bond: 140+12=152 to 210-12=198 -->
+  <line x1="152" y1="95" x2="198" y2="95" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- C1—H top: C1 y=95, H at y=53. Line: 95-12=83 to 53+12=65 -->
+  <line x1="140" y1="83" x2="140" y2="65" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- C1—H bottom: H at y=137. Line: 95+12=107 to 137-12=125 -->
+  <line x1="140" y1="107" x2="140" y2="125" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- C1—H left: H at x=98. Line: 140-12=128 to 98+12=110 -->
+  <line x1="128" y1="95" x2="110" y2="95" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- C2=O top: O at x=260, y=55. Diagonal from C2(210,95).
+       Direction vector: (50,-40), normalised ~(0.78,-0.63). 12px offset each end.
+       From C2: (210+9.4, 95-7.5) = (219,87). To O: (260-9.4, 55+7.5) = (251,63). -->
+  <!-- C2=O double bond (diagonal)
+       Centre line: C2(210,95) → O(260,55). Direction (50,-40), length≈64.
+       Unit vec (0.781,-0.625). Perp vec (0.625,0.781).
+       12px gap each end → start (219,88), end (251,63).
+       ±3px perp offset for parallel lines. -->
+  <line x1="221" y1="90" x2="253" y2="65" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="218" y1="85" x2="249" y2="60" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- C2—O bottom: O at x=210, y=145. Line: 95+12=107 to 145-12=133 -->
+  <line x1="210" y1="107" x2="210" y2="133" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- O—H right: H at x=260, y=145. Line: 210+12=222 to 260-12=248 -->
+  <line x1="222" y1="145" x2="248" y2="145" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Atom labels -->
+  <text x="140" y="95" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="210" y="95" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="140" y="53" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="140" y="137" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="98" y="95" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="260" y="55" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffb74d">O</text>
+  <text x="210" y="145" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffb74d">O</text>
+  <text x="260" y="145" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Functional group highlight: enclose C2, =O, O-H. Padded 10px around atoms -->
+  <rect x="195" y="42" width="82" height="116" rx="6" fill="none" stroke="#81c784" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="236" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">—COOH</text>
+</svg>

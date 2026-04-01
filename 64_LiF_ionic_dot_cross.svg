@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Lithium Fluoride (LiF)</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Ionic bonding</text>
+
+  <!--
+    LiF IONIC DOT-AND-CROSS (FIXED v3)
+    ====================================
+    90px between ions. Li⁺ at (155,68), F⁻ at (245,68).
+    Li⁺ brackets SAME SIZE as F⁻ brackets (y=51→85, ~34px tall).
+    F brackets: left=223, right=267, top=51, bottom=85.
+    Li brackets: same height, tight to atom. x=139→173, y=51→85.
+    Path brackets, ×=12px, dots r=2.5, 3px outside outermost positions.
+  -->
+
+  <!-- ========== Li⁺ at (155,68) — 2 electrons (all ×) ========== -->
+  <text x="155" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7">Li</text>
+  <!-- Top pair ×× y=68-14=54 (using same ±14 as F for matching bracket height) -->
+  <text x="151" y="54" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="159" y="54" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Brackets: SAME dimensions as F⁻ — top y=51, bottom y=85 -->
+  <path d="M139,51 L136,51 L136,85 L139,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M171,51 L174,51 L174,85 L171,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge + -->
+  <text x="180" y="51" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">+</text>
+
+  <!-- ========== F⁻ at (245,68) — 7 dots + 1 × (transferred) ========== -->
+  <text x="245" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ce93d8">F</text>
+  <!-- Top pair •• y=68-14=54 -->
+  <circle cx="241" cy="54" r="2.5" fill="#ce93d8"/>
+  <circle cx="249" cy="54" r="2.5" fill="#ce93d8"/>
+  <!-- Bottom pair •• y=68+14=82 -->
+  <circle cx="241" cy="82" r="2.5" fill="#ce93d8"/>
+  <circle cx="249" cy="82" r="2.5" fill="#ce93d8"/>
+  <!-- Right pair •• x=245+16=261 -->
+  <circle cx="261" cy="64" r="2.5" fill="#ce93d8"/>
+  <circle cx="261" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Left pair (1× transferred + 1•). x=245-16=229 -->
+  <text x="229" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <circle cx="229" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Brackets: left x=226, right x=264, top y=51, bottom y=85 -->
+  <path d="M226,51 L223,51 L223,85 L226,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M264,51 L267,51 L267,85 L264,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge − -->
+  <text x="274" y="51" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">−</text>
+
+  <!-- Electron configurations -->
+  <text x="155" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2]</text>
+  <text x="245" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+
+  <!-- Key -->
+  <text x="158" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="165" y="123" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = Li electron</text>
+  <circle cx="158" cy="137" r="3" fill="#ce93d8"/>
+  <text x="165" y="136" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = F electron</text>
+</svg>

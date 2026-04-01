@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Nitrogen (N₂)</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Triple covalent bond</text>
+
+  <!--
+    N₂ DOT-AND-CROSS
+    ==================
+    Two N atoms, 36px apart. N1 at (182,90), N2 at (218,90).
+    Each N has 5 outer electrons. 3 shared pairs (triple bond) + 1 lone pair each.
+    N1 electrons shown as dots •, N2 electrons shown as crosses ×.
+    Shared region between atoms: 3 pairs (•× stacked).
+    N1 lone pair at left, N2 lone pair at right.
+  -->
+
+  <!-- Atom labels -->
+  <text x="182" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#81c784">N</text>
+  <text x="218" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#81c784">N</text>
+
+  <!-- Triple bond shared pairs (between atoms, x=196 and x=204) -->
+  <!-- Pair 1 (top): y=78 -->
+  <circle cx="196" cy="78" r="2.5" fill="#81c784"/>
+  <text x="204" y="79" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+  <!-- Pair 2 (middle): y=90 -->
+  <circle cx="196" cy="90" r="2.5" fill="#81c784"/>
+  <text x="204" y="91" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+  <!-- Pair 3 (bottom): y=102 -->
+  <circle cx="196" cy="102" r="2.5" fill="#81c784"/>
+  <text x="204" y="103" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+
+  <!-- N1 lone pair (left side, x=166) -->
+  <circle cx="166" cy="86" r="2.5" fill="#81c784"/>
+  <circle cx="166" cy="94" r="2.5" fill="#81c784"/>
+
+  <!-- N2 lone pair (right side, x=234) -->
+  <text x="234" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+  <text x="234" y="95" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+
+  <!-- Annotation -->
+  <text x="200" y="130" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">Triple bond — 3 shared pairs</text>
+
+  <!-- Key -->
+  <circle cx="140" cy="155" r="3" fill="#81c784"/>
+  <text x="148" y="155" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = N₁ electron</text>
+  <text x="140" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+  <text x="148" y="170" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = N₂ electron</text>
+</svg>

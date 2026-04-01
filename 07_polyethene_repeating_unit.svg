@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Poly(ethene)</text>
+  <text x="200" y="43" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Repeating unit</text>
+
+  <!-- Centre of diagram: 200, 160 -->
+  <!-- Grid: C atoms at x=170 and x=230, y=160 -->
+  <!-- H atoms 60px above and below each C -->
+
+  <!-- Bond lines (draw first, behind text) -->
+  <!-- C—C bond -->
+  <line x1="180" y1="160" x2="220" y2="160" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left C—H top -->
+  <line x1="170" y1="148" x2="170" y2="108" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Left C—H bottom -->
+  <line x1="170" y1="172" x2="170" y2="212" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Right C—H top -->
+  <line x1="230" y1="148" x2="230" y2="108" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Right C—H bottom -->
+  <line x1="230" y1="172" x2="230" y2="212" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Extension bonds (to show repeating) -->
+  <!-- Left extension bond -->
+  <line x1="158" y1="160" x2="128" y2="160" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Right extension bond -->
+  <line x1="242" y1="160" x2="272" y2="160" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Atom labels -->
+  <!-- Left C -->
+  <text x="170" y="160" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ff6b35">C</text>
+  <!-- Right C -->
+  <text x="230" y="160" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#ff6b35">C</text>
+  <!-- H atoms -->
+  <text x="170" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">H</text>
+  <text x="170" y="220" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">H</text>
+  <text x="230" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">H</text>
+  <text x="230" y="220" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Large brackets for repeating unit -->
+  <!-- Left bracket -->
+  <path d="M140 80 L125 80 L125 240 L140 240" stroke="#81c784" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Right bracket -->
+  <path d="M260 80 L275 80 L275 240 L260 240" stroke="#81c784" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- n subscript -->
+  <text x="285" y="245" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#81c784">n</text>
+
+  <!-- Label -->
+  <text x="200" y="275" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">Addition polymer of ethene</text>
+</svg>

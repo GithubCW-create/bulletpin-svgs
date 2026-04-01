@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Fractional Distillation</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Separating crude oil</text>
+
+  <!--
+    FRACTIONAL DISTILLATION COLUMN
+    ================================
+    Vertical column with fractions taken off at different heights.
+    Hot at bottom, cool at top. Fractions labelled.
+  -->
+
+  <!-- Column outline -->
+  <rect x="140" y="48" width="80" height="210" rx="8" ry="8" stroke="#4fc3f7" stroke-width="2" fill="none"/>
+
+  <!-- Temperature gradient arrow (right side) -->
+  <line x1="235" y1="60" x2="235" y2="248" stroke="#ffffff" stroke-width="1" stroke-linecap="round"/>
+  <polygon points="235,248 231,240 239,240" fill="#ffffff"/>
+  <text x="248" y="80" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Cool</text>
+  <text x="248" y="240" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Hot</text>
+
+  <!-- Crude oil input (bottom) -->
+  <line x1="100" y1="240" x2="140" y2="240" stroke="#ffb74d" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="140,240 132,236 132,244" fill="#ffb74d"/>
+  <text x="90" y="240" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Crude oil</text>
+
+  <!-- Fraction lines (dotted) and labels (top to bottom) -->
+  <!-- Refinery gases (top) -->
+  <line x1="220" y1="65" x2="290" y2="65" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="295" y="65" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Gases</text>
+
+  <!-- Petrol -->
+  <line x1="220" y1="95" x2="290" y2="95" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="295" y="95" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Petrol</text>
+
+  <!-- Kerosene -->
+  <line x1="220" y1="125" x2="290" y2="125" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="295" y="125" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Kerosene</text>
+
+  <!-- Diesel -->
+  <line x1="220" y1="155" x2="290" y2="155" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="295" y="155" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Diesel</text>
+
+  <!-- Fuel oil -->
+  <line x1="220" y1="190" x2="290" y2="190" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="295" y="190" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Fuel oil</text>
+
+  <!-- Bitumen (bottom) -->
+  <line x1="220" y1="225" x2="290" y2="225" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <text x="295" y="225" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Bitumen</text>
+
+  <!-- Column internal dividers (trays) -->
+  <line x1="148" y1="80" x2="212" y2="80" stroke="#4fc3f7" stroke-width="0.8" opacity="0.4"/>
+  <line x1="148" y1="110" x2="212" y2="110" stroke="#4fc3f7" stroke-width="0.8" opacity="0.4"/>
+  <line x1="148" y1="140" x2="212" y2="140" stroke="#4fc3f7" stroke-width="0.8" opacity="0.4"/>
+  <line x1="148" y1="172" x2="212" y2="172" stroke="#4fc3f7" stroke-width="0.8" opacity="0.4"/>
+  <line x1="148" y1="208" x2="212" y2="208" stroke="#4fc3f7" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Annotation — shifted right closer to column -->
+  <text x="75" y="150" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784" transform="rotate(-90 75 150)">Boiling point increases ↓</text>
+</svg>

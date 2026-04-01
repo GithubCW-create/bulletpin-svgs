@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Ammonia — Dot-and-Cross</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">NH₃ — covalent bonding</text>
+
+  <!--
+    NH₃ COVALENT DOT-AND-CROSS (equation style)
+    =============================================
+    N in centre, H top, H left, H right. 36px atom distance.
+    N has 1 lone pair (bottom). 3 shared pairs (top, left, right).
+    H electrons = dots (white). N electrons = × (#81c784 green).
+  -->
+
+  <!-- Atom labels -->
+  <text x="200" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#81c784">N</text>
+  <text x="200" y="84" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+  <text x="164" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+  <text x="236" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- N lone pair — bottom (×× at y=134) -->
+  <text x="196" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+  <text x="204" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+
+  <!-- Shared pair N-H top (between N at y=120 and H at y=84, midpoint y=102) -->
+  <circle cx="196" cy="99" r="2.5" fill="#ffffff"/>
+  <text x="204" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+
+  <!-- Shared pair N-H left (between N at 200,120 and H at 164,140, midpoint ~182,130) -->
+  <circle cx="178" cy="127" r="2.5" fill="#ffffff"/>
+  <text x="186" y="133" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+
+  <!-- Shared pair N-H right (between N at 200,120 and H at 236,140, midpoint ~218,130) -->
+  <text x="214" y="133" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+  <circle cx="222" cy="127" r="2.5" fill="#ffffff"/>
+
+  <!-- Key -->
+  <circle cx="120" cy="185" r="2.5" fill="#ffffff"/>
+  <text x="130" y="185" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">H electron</text>
+  <text x="210" y="185" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+  <text x="222" y="185" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">N electron</text>
+
+  <!-- Annotation -->
+  <text x="200" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">3 bonding pairs + 1 lone pair on N</text>
+</svg>

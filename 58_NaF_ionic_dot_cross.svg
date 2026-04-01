@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Sodium Fluoride (NaF)</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Ionic bonding</text>
+
+  <!--
+    NaF IONIC DOT-AND-CROSS (equation style)
+    ==========================================
+    Following MgO pattern: path brackets, ×=12px, dots r=2.5.
+    90px between ion centres.
+    Na⁺ at (155,68), F⁻ at (245,68).
+    Na⁺ [2,8] shows 8 × in outer shell.
+    F⁻ [2,8] shows 7• + 1× (transferred from Na).
+    Na = 2-char → ±18/±22 offsets. F = 1-char → ±14/±16 offsets.
+  -->
+
+  <!-- ========== Na⁺ at (155,68) — 8 electrons (all ×), 2-char offsets ========== -->
+  <text x="155" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7">Na</text>
+  <!-- Top pair ×× y=68-18=50, +1=51 -->
+  <text x="151" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="159" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Bottom pair ×× y=68+18=86, +1=87 -->
+  <text x="151" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="159" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Right pair ×× x=155+22=177 -->
+  <text x="177" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="177" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Left pair ×× x=155-22=133 -->
+  <text x="133" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="133" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Brackets: 3px outside outermost. Left x=130, right x=180, top y=47, bottom y=91 -->
+  <path d="M130,47 L127,47 L127,91 L130,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M180,47 L183,47 L183,91 L180,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge + -->
+  <text x="190" y="47" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">+</text>
+
+  <!-- ========== F⁻ at (245,68) — 7 dots + 1 × (transferred), 1-char offsets ========== -->
+  <text x="245" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ce93d8">F</text>
+  <!-- Top pair •• y=68-14=54 -->
+  <circle cx="241" cy="54" r="2.5" fill="#ce93d8"/>
+  <circle cx="249" cy="54" r="2.5" fill="#ce93d8"/>
+  <!-- Bottom pair •• y=68+14=82 -->
+  <circle cx="241" cy="82" r="2.5" fill="#ce93d8"/>
+  <circle cx="249" cy="82" r="2.5" fill="#ce93d8"/>
+  <!-- Right pair •• x=245+16=261 -->
+  <circle cx="261" cy="64" r="2.5" fill="#ce93d8"/>
+  <circle cx="261" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Left pair (facing Na): 1× transferred + 1•. x=245-16=229 -->
+  <text x="229" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <circle cx="229" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Brackets: left x=226, right x=264, top y=51, bottom y=85 -->
+  <path d="M226,51 L223,51 L223,85 L226,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M264,51 L267,51 L267,85 L264,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge − -->
+  <text x="274" y="51" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">−</text>
+
+  <!-- Electron configurations -->
+  <text x="155" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+  <text x="245" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+
+  <!-- Key (two lines, coloured symbols) -->
+  <text x="158" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="165" y="123" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = Na electron</text>
+  <circle cx="158" cy="137" r="3" fill="#ce93d8"/>
+  <text x="165" y="136" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = F electron</text>
+</svg>

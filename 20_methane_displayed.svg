@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Displayed Formula — Methane</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">CH₄</text>
+
+  <!--
+    DISPLAYED FORMULA GRID STANDARD
+    ================================
+    Bond gap from atom centre: 12px on ALL sides (uniform)
+    C at centre: x=200, y=90
+    H spacing: 42px from C centre in each direction
+  -->
+
+  <!-- C—H top: 90-12=78 to 48+12=60 -->
+  <line x1="200" y1="78" x2="200" y2="60" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- C—H bottom: 90+12=102 to 132-12=120 -->
+  <line x1="200" y1="102" x2="200" y2="120" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- C—H left: 200-12=188 to 158+12=170 -->
+  <line x1="188" y1="90" x2="170" y2="90" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- C—H right: 200+12=212 to 242-12=230 -->
+  <line x1="212" y1="90" x2="230" y2="90" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Atom labels -->
+  <text x="200" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="200" y="48" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="200" y="132" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="158" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="242" y="90" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+</svg>

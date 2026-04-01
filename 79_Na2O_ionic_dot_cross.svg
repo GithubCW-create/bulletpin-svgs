@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Sodium Oxide</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">2Na⁺ O²⁻ (ionic bonding)</text>
+
+  <!--
+    Na₂O IONIC DOT-AND-CROSS (90px standard)
+    ===========================================
+    3 ions: Na⁺ at (110,68), O²⁻ at (200,68), Na⁺ at (290,68).
+    Na lost 1 electron each → 2 transferred to O.
+    Na = 2-char → ±18/±22. O = 1-char → ±14/±16.
+    Path brackets, ×=12px, dots r=2.5.
+  -->
+
+  <!-- ========== Na⁺ (left) at (110,68) — 8 electrons (all ×) ========== -->
+  <text x="110" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7">Na</text>
+  <!-- Top pair ×× y=51 -->
+  <text x="106" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="114" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Bottom pair ×× y=87 -->
+  <text x="106" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="114" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Left pair ×× x=88 -->
+  <text x="88" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="88" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Right pair ×× x=132 -->
+  <text x="132" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="132" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Brackets: left x=85→82, right x=135→138, top y=47, bottom y=91 -->
+  <path d="M85,47 L82,47 L82,91 L85,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M135,47 L138,47 L138,91 L135,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="144" y="47" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">+</text>
+
+  <!-- ========== O²⁻ at (200,68) — 6 dots + 2 crosses ========== -->
+  <text x="200" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffb74d">O</text>
+  <!-- Top pair •• y=54 -->
+  <circle cx="196" cy="54" r="2.5" fill="#ffb74d"/>
+  <circle cx="204" cy="54" r="2.5" fill="#ffb74d"/>
+  <!-- Bottom pair •• y=82 -->
+  <circle cx="196" cy="82" r="2.5" fill="#ffb74d"/>
+  <circle cx="204" cy="82" r="2.5" fill="#ffb74d"/>
+  <!-- Right pair •• x=216 -->
+  <circle cx="216" cy="64" r="2.5" fill="#ffb74d"/>
+  <circle cx="216" cy="72" r="2.5" fill="#ffb74d"/>
+  <!-- Left pair ×× (transferred from Na) x=184 -->
+  <text x="184" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="184" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Brackets: left x=181→178, right x=219→222, top y=51, bottom y=85 -->
+  <path d="M181,51 L178,51 L178,85 L181,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M219,51 L222,51 L222,85 L219,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="228" y="51" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">2−</text>
+
+  <!-- ========== Na⁺ (right) at (290,68) — 8 electrons (all ×) ========== -->
+  <text x="290" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7">Na</text>
+  <text x="286" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="294" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="286" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="294" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="268" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="268" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="312" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="312" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <path d="M265,47 L262,47 L262,91 L265,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M315,47 L318,47 L318,91 L315,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="324" y="47" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">+</text>
+
+  <!-- Electron configurations -->
+  <text x="110" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+  <text x="200" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+  <text x="290" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+
+  <!-- Key -->
+  <text x="158" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="165" y="123" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = Na electron</text>
+  <circle cx="158" cy="137" r="3" fill="#ffb74d"/>
+  <text x="165" y="136" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = O electron</text>
+</svg>

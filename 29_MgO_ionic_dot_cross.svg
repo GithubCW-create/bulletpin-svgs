@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Magnesium Oxide</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Mg²⁺O²⁻ (ionic bonding)</text>
+
+  <!--
+    MgO IONIC DOT-AND-CROSS (equation style)
+    ==========================================
+    Standard bracketed-ion distance: 90px (from NaCl standard).
+    Mg²⁺ at (155,68), O²⁻ at (245,68).
+    Mg offsets widened: ±18px top/bottom, ±22px left/right (for 2-char text at size 22).
+    O offsets standard: ±14px top/bottom, ±16px left/right.
+    × text y+2 for visual alignment with dots.
+  -->
+
+  <!-- Mg²⁺ ion at (155,68) — 8 electrons (all ×), widened offsets for "Mg" text width -->
+  <text x="155" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7">Mg</text>
+  <!-- Top pair ×× y=68-18=50, +1=51 -->
+  <text x="151" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="159" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Bottom pair ×× y=68+18=86, +1=87 -->
+  <text x="151" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="159" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Right pair ×× x=155+22=177 -->
+  <text x="177" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="177" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Left pair ×× x=155-22=133 -->
+  <text x="133" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="133" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Brackets: 3px outside outermost electrons. Left x=130, right x=180, top y=47, bottom y=91 -->
+  <path d="M130,47 L127,47 L127,91 L130,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M180,47 L183,47 L183,91 L180,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge 2+ -->
+  <text x="190" y="47" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">2+</text>
+
+  <!-- O²⁻ ion at (245,68) — 6 dots + 2 crosses = 8. Standard ±14/±16 offsets -->
+  <text x="245" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffb74d">O</text>
+  <!-- Top pair •• y=54 -->
+  <circle cx="241" cy="54" r="2.5" fill="#ffb74d"/>
+  <circle cx="249" cy="54" r="2.5" fill="#ffb74d"/>
+  <!-- Bottom pair •• y=82 -->
+  <circle cx="241" cy="82" r="2.5" fill="#ffb74d"/>
+  <circle cx="249" cy="82" r="2.5" fill="#ffb74d"/>
+  <!-- Right pair •• x=261 -->
+  <circle cx="261" cy="64" r="2.5" fill="#ffb74d"/>
+  <circle cx="261" cy="72" r="2.5" fill="#ffb74d"/>
+  <!-- Left pair ×× (transferred from Mg) x=229 -->
+  <text x="229" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="229" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Brackets: left x=226, right x=264, top y=51, bottom y=85 -->
+  <path d="M226,51 L223,51 L223,85 L226,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M264,51 L267,51 L267,85 L264,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge 2− -->
+  <text x="274" y="51" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">2−</text>
+
+  <!-- Electron configurations -->
+  <text x="155" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+  <text x="245" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+
+  <!-- Key (two lines, coloured symbols, matching dot size) -->
+  <text x="158" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="165" y="123" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = Mg electron</text>
+  <circle cx="158" cy="137" r="3" fill="#ffb74d"/>
+  <text x="165" y="136" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = O electron</text>
+</svg>

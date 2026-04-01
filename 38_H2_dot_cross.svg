@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Hydrogen (H₂)</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Single covalent bond</text>
+
+  <!--
+    H₂ DOT-AND-CROSS
+    =================
+    Simplest covalent molecule. 1 shared pair.
+    H(a) at (182,80), H(b) at (218,80). 36px apart.
+    Shared pair at midpoint: • from H(a), × from H(b).
+    No lone pairs on either atom.
+  -->
+
+  <!-- Atom labels -->
+  <text x="182" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+  <text x="218" y="80" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Shared pair at midpoint (x=200) -->
+  <!-- • from H(a) -->
+  <circle cx="196" cy="80" r="3" fill="#ffffff"/>
+  <!-- × from H(b) — y+1 rule -->
+  <text x="204" y="81" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">×</text>
+
+  <!-- Key -->
+  <text x="196" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">×</text>
+  <text x="220" y="120" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= electron from H(b)</text>
+  <circle cx="196" cy="135" r="3" fill="#ffffff"/>
+  <text x="220" y="135" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= electron from H(a)</text>
+</svg>

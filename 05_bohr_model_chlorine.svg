@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="15" fill="#ffffff" font-weight="bold">Electron Configuration — Chlorine</text>
+  <text x="200" y="43" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="12" fill="#ffb74d">Cl (atomic number 17)</text>
+
+  <!-- Centre: 200, 165 -->
+
+  <!-- Shell 3 (outermost) r=90 -->
+  <circle cx="200" cy="165" r="90" fill="none" stroke="#81c784" stroke-width="1.5"/>
+  <!-- Shell 2 r=60 -->
+  <circle cx="200" cy="165" r="60" fill="none" stroke="#81c784" stroke-width="1.5"/>
+  <!-- Shell 1 r=30 -->
+  <circle cx="200" cy="165" r="30" fill="none" stroke="#81c784" stroke-width="1.5"/>
+
+  <!-- Nucleus -->
+  <circle cx="200" cy="165" r="14" fill="#ff6b35"/>
+  <text x="200" y="165" text-anchor="middle" dominant-baseline="central"
+        font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" font-weight="bold">Cl</text>
+
+  <!-- ===== SHELL 1: 2 electrons — 1 pair at 12 o'clock ===== -->
+  <circle cx="196" cy="135" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="135" r="4" fill="#4fc3f7"/>
+
+  <!-- ===== SHELL 2: 8 electrons — 4 pairs at compass points ===== -->
+  <!-- Top pair (12 o'clock) y=165-60=105 -->
+  <circle cx="196" cy="105" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="105" r="4" fill="#4fc3f7"/>
+  <!-- Right pair (3 o'clock) x=200+60=260 -->
+  <circle cx="260" cy="161" r="4" fill="#4fc3f7"/>
+  <circle cx="260" cy="169" r="4" fill="#4fc3f7"/>
+  <!-- Bottom pair (6 o'clock) y=165+60=225 -->
+  <circle cx="196" cy="225" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="225" r="4" fill="#4fc3f7"/>
+  <!-- Left pair (9 o'clock) x=200-60=140 -->
+  <circle cx="140" cy="161" r="4" fill="#4fc3f7"/>
+  <circle cx="140" cy="169" r="4" fill="#4fc3f7"/>
+
+  <!-- ===== SHELL 3: 7 electrons — 3 pairs + 1 single ===== -->
+  <!-- Top pair (12 o'clock) y=165-90=75 -->
+  <circle cx="196" cy="75" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="75" r="4" fill="#4fc3f7"/>
+  <!-- Right pair (3 o'clock) x=200+90=290 -->
+  <circle cx="290" cy="161" r="4" fill="#4fc3f7"/>
+  <circle cx="290" cy="169" r="4" fill="#4fc3f7"/>
+  <!-- Bottom pair (6 o'clock) y=165+90=255 -->
+  <circle cx="196" cy="255" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="255" r="4" fill="#4fc3f7"/>
+  <!-- Single at left (9 o'clock) x=200-90=110 -->
+  <circle cx="110" cy="165" r="4" fill="#4fc3f7"/>
+
+  <!-- Configuration label -->
+  <text x="200" y="280" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="13" fill="#81c784">2 , 8 , 7</text>
+</svg>

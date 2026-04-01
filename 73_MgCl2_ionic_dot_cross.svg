@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Magnesium Chloride</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Mg²⁺ 2Cl⁻ (ionic bonding)</text>
+
+  <!--
+    MgCl₂ IONIC DOT-AND-CROSS (FIXED — 90px standard spacing)
+    ============================================================
+    3 ions at 90px apart: Cl⁻ at (110,68), Mg²⁺ at (200,68), Cl⁻ at (290,68).
+    Cl = 2-char → ±18/±22. Mg = 2-char → ±18/±22.
+    Path brackets, ×=12px, dots r=2.5, brackets 3px outside outermost.
+  -->
+
+  <!-- ========== Cl⁻ (left) at (110,68) ========== -->
+  <text x="110" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ce93d8">Cl</text>
+  <!-- Top pair •• y=68-18=50 -->
+  <circle cx="106" cy="50" r="2.5" fill="#ce93d8"/>
+  <circle cx="114" cy="50" r="2.5" fill="#ce93d8"/>
+  <!-- Bottom pair •• y=68+18=86 -->
+  <circle cx="106" cy="86" r="2.5" fill="#ce93d8"/>
+  <circle cx="114" cy="86" r="2.5" fill="#ce93d8"/>
+  <!-- Left pair •• x=110-22=88 -->
+  <circle cx="88" cy="64" r="2.5" fill="#ce93d8"/>
+  <circle cx="88" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Right pair (1× transferred + 1•) x=110+22=132 -->
+  <text x="132" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <circle cx="132" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Brackets: left x=85→82, right x=135→138, top y=47, bottom y=89 -->
+  <path d="M85,47 L82,47 L82,89 L85,89" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M135,47 L138,47 L138,89 L135,89" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge − -->
+  <text x="144" y="47" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">−</text>
+
+  <!-- ========== Mg²⁺ at (200,68) — 8 electrons (all ×) ========== -->
+  <text x="200" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7">Mg</text>
+  <!-- Top pair ×× y=51 -->
+  <text x="196" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="204" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Bottom pair ×× y=87 -->
+  <text x="196" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="204" y="87" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Right pair ×× x=222 -->
+  <text x="222" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="222" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Left pair ×× x=178 -->
+  <text x="178" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="178" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Brackets: left x=175→172, right x=225→228, top y=47, bottom y=91 -->
+  <path d="M175,47 L172,47 L172,91 L175,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M225,47 L228,47 L228,91 L225,91" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge 2+ -->
+  <text x="234" y="47" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">2+</text>
+
+  <!-- ========== Cl⁻ (right) at (290,68) ========== -->
+  <text x="290" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ce93d8">Cl</text>
+  <!-- Top pair •• y=50 -->
+  <circle cx="286" cy="50" r="2.5" fill="#ce93d8"/>
+  <circle cx="294" cy="50" r="2.5" fill="#ce93d8"/>
+  <!-- Bottom pair •• y=86 -->
+  <circle cx="286" cy="86" r="2.5" fill="#ce93d8"/>
+  <circle cx="294" cy="86" r="2.5" fill="#ce93d8"/>
+  <!-- Right pair •• x=290+22=312 -->
+  <circle cx="312" cy="64" r="2.5" fill="#ce93d8"/>
+  <circle cx="312" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Left pair (1× transferred + 1•) x=290-22=268 -->
+  <text x="268" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <circle cx="268" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Brackets: left x=265→262, right x=315→318, top y=47, bottom y=89 -->
+  <path d="M265,47 L262,47 L262,89 L265,89" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M315,47 L318,47 L318,89 L315,89" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Charge − -->
+  <text x="324" y="47" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">−</text>
+
+  <!-- Electron configurations -->
+  <text x="110" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8,8]</text>
+  <text x="200" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8]</text>
+  <text x="290" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8,8]</text>
+
+  <!-- Key -->
+  <text x="158" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="165" y="123" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = Mg electron</text>
+  <circle cx="158" cy="137" r="3" fill="#ce93d8"/>
+  <text x="165" y="136" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = Cl electron</text>
+</svg>

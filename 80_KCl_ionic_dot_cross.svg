@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Potassium Chloride (KCl)</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Ionic bonding</text>
+
+  <!--
+    KCl IONIC DOT-AND-CROSS (MgO pattern, 90px)
+    ==============================================
+    K⁺ at (155,68), Cl⁻ at (245,68). 90px apart.
+    K = 1-char → ±14/±16. Cl = 2-char → ±18/±22.
+    K⁺ [2,8,8] has 8× in outer shell.
+    Cl⁻ [2,8,8] has 7• + 1×.
+  -->
+
+  <!-- ========== K⁺ at (155,68) — 8 electrons (all ×) ========== -->
+  <text x="155" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#4fc3f7">K</text>
+  <!-- Top pair ×× y=54 -->
+  <text x="151" y="54" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="159" y="54" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Bottom pair ×× y=82 -->
+  <text x="151" y="82" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="159" y="82" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Left pair ×× x=139 -->
+  <text x="139" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="139" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Right pair ×× x=171 -->
+  <text x="171" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="171" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <!-- Brackets: left x=136→133, right x=174→177, top y=51, bottom y=85 -->
+  <path d="M136,51 L133,51 L133,85 L136,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M174,51 L177,51 L177,85 L174,85" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="183" y="51" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">+</text>
+
+  <!-- ========== Cl⁻ at (245,68) — 7 dots + 1 × ========== -->
+  <text x="245" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ce93d8">Cl</text>
+  <!-- Top pair •• y=50 -->
+  <circle cx="241" cy="50" r="2.5" fill="#ce93d8"/>
+  <circle cx="249" cy="50" r="2.5" fill="#ce93d8"/>
+  <!-- Bottom pair •• y=86 -->
+  <circle cx="241" cy="86" r="2.5" fill="#ce93d8"/>
+  <circle cx="249" cy="86" r="2.5" fill="#ce93d8"/>
+  <!-- Right pair •• x=267 -->
+  <circle cx="267" cy="64" r="2.5" fill="#ce93d8"/>
+  <circle cx="267" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Left pair (1× transferred + 1•) x=223 -->
+  <text x="223" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <circle cx="223" cy="72" r="2.5" fill="#ce93d8"/>
+  <!-- Brackets: left x=220→217, right x=270→273, top y=47, bottom y=89 -->
+  <path d="M220,47 L217,47 L217,89 L220,89" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M270,47 L273,47 L273,89 L270,89" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="279" y="47" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">−</text>
+
+  <!-- Electron configurations -->
+  <text x="155" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8,8]</text>
+  <text x="245" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">[2,8,8]</text>
+
+  <!-- Key -->
+  <text x="158" y="124" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#4fc3f7">×</text>
+  <text x="165" y="123" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = K electron</text>
+  <circle cx="158" cy="137" r="3" fill="#ce93d8"/>
+  <text x="165" y="136" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = Cl electron</text>
+</svg>

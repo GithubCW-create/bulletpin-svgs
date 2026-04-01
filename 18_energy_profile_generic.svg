@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Reaction Profile — Exothermic</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Activation energy and overall energy change</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="260" x2="60" y2="50" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="56,55 60,45 64,55" fill="#ffffff"/>
+  <line x1="60" y1="260" x2="370" y2="260" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="365,256 375,260 365,264" fill="#ffffff"/>
+
+  <!-- Axis labels -->
+  <text x="25" y="155" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" transform="rotate(-90 25 155)">Energy</text>
+  <text x="215" y="280" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Progress of reaction</text>
+
+  <!-- Reactant level: y=155 -->
+  <line x1="70" y1="155" x2="140" y2="155" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Product level: y=215 -->
+  <line x1="280" y1="215" x2="355" y2="215" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Energy curve -->
+  <path d="M140 155 C160 155, 185 70, 215 70 C245 70, 265 215, 280 215" stroke="#4fc3f7" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Labels -->
+  <text x="105" y="145" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Reactants</text>
+  <text x="318" y="207" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Products</text>
+
+  <!-- Activation energy arrow (Ea): reactant level to peak -->
+  <!-- Dashed horizontal from reactant level -->
+  <line x1="140" y1="155" x2="240" y2="155" stroke="#ffb74d" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- Vertical arrow -->
+  <line x1="230" y1="155" x2="230" y2="70" stroke="#ffb74d" stroke-width="1.5"/>
+  <polygon points="227,78 230,70 233,78" fill="#ffb74d"/>
+  <polygon points="227,147 230,155 233,147" fill="#ffb74d"/>
+  <text x="242" y="110" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ffb74d">Ea</text>
+
+  <!-- Overall energy change (ΔH) -->
+  <!-- Dashed horizontal from product level -->
+  <line x1="280" y1="215" x2="355" y2="215" stroke="#ffb74d" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="345" y1="155" x2="345" y2="215" stroke="#ffb74d" stroke-width="1.5"/>
+  <polygon points="342,163 345,155 348,163" fill="#ffb74d"/>
+  <polygon points="342,207 345,215 348,207" fill="#ffb74d"/>
+  <!-- Dashed horizontal at reactant level -->
+  <line x1="140" y1="155" x2="355" y2="155" stroke="#ffb74d" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="357" y="185" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ffb74d">ΔH</text>
+</svg>

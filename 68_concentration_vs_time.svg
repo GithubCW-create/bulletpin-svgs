@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Concentration vs Time</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Effect of concentration on rate</text>
+
+  <!--
+    CONCENTRATION VS TIME GRAPH (FIXED v3)
+    ========================================
+    FIX: "Lower concentration" moved close to x-axis (y=218).
+    FIX: "Steeper gradient" annotation shifted right to x=310.
+  -->
+
+  <!-- Axes -->
+  <line x1="60" y1="230" x2="360" y2="230" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="230" x2="60" y2="55" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Axis arrows -->
+  <polygon points="360,230 350,226 350,234" fill="#4fc3f7"/>
+  <polygon points="60,55 56,65 64,65" fill="#4fc3f7"/>
+
+  <!-- Axis labels (20px from axis line) -->
+  <text x="40" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" transform="rotate(-90 40 140)">Concentration (mol/dm³)</text>
+  <text x="210" y="250" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Time (s)</text>
+
+  <!-- Higher initial concentration curve — #ef5350 red -->
+  <path d="M 70,80 C 110,82 150,120 190,160 C 220,190 260,215 340,225" stroke="#ef5350" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Lower initial concentration curve — #81c784 green -->
+  <path d="M 70,140 C 100,142 130,165 170,190 C 200,210 240,222 340,225" stroke="#81c784" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Curve labels -->
+  <text x="125" y="72" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ef5350">Higher concentration</text>
+  <text x="125" y="218" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">Lower concentration</text>
+
+  <!-- Gradient annotation — shifted right to avoid red line -->
+  <text x="310" y="178" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff" opacity="0.7">Steeper gradient = faster rate</text>
+
+  <!-- Key -->
+  <line x1="80" y1="270" x2="100" y2="270" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="108" y="270" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Higher initial conc.</text>
+  <line x1="230" y1="270" x2="250" y2="270" stroke="#81c784" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="258" y="270" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Lower initial conc.</text>
+</svg>

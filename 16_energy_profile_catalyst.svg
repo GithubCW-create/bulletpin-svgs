@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Reaction Profile — Exothermic with Catalyst</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Effect of a catalyst on activation energy</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="260" x2="60" y2="50" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="56,55 60,45 64,55" fill="#ffffff"/>
+  <line x1="60" y1="260" x2="370" y2="260" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="365,256 375,260 365,264" fill="#ffffff"/>
+
+  <!-- Axis labels -->
+  <text x="25" y="155" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" transform="rotate(-90 25 155)">Energy</text>
+  <text x="215" y="280" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Progress of reaction</text>
+
+  <!-- Reactant level: y=160 -->
+  <line x1="70" y1="160" x2="130" y2="160" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Product level: y=220 (exothermic = lower) -->
+  <line x1="290" y1="220" x2="360" y2="220" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Without catalyst curve: peak at y=75 -->
+  <path d="M130 160 C150 160, 170 75, 210 75 C250 75, 270 220, 290 220" stroke="#4fc3f7" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- With catalyst curve: peak at y=120 (lower) -->
+  <path d="M130 160 C148 160, 165 120, 200 120 C235 120, 265 220, 290 220" stroke="#81c784" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-dasharray="6 3"/>
+
+  <!-- Reactants / Products labels -->
+  <text x="100" y="150" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Reactants</text>
+  <text x="325" y="212" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Products</text>
+
+  <!-- Ea without catalyst: arrow from reactant level to peak -->
+  <line x1="250" y1="160" x2="250" y2="75" stroke="#ffb74d" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <line x1="247" y1="160" x2="253" y2="160" stroke="#ffb74d" stroke-width="1.5"/>
+  <line x1="247" y1="75" x2="253" y2="75" stroke="#ffb74d" stroke-width="1.5"/>
+  <text x="280" y="110" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">Ea without</text>
+  <text x="280" y="122" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">catalyst</text>
+
+  <!-- Ea with catalyst: arrow from reactant level to catalyst peak -->
+  <line x1="150" y1="160" x2="150" y2="120" stroke="#81c784" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <line x1="147" y1="160" x2="153" y2="160" stroke="#81c784" stroke-width="1.5"/>
+  <line x1="147" y1="120" x2="153" y2="120" stroke="#81c784" stroke-width="1.5"/>
+  <text x="100" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Ea with catalyst</text>
+
+  <!-- ΔH arrow -->
+  <line x1="340" y1="160" x2="340" y2="220" stroke="#ffb74d" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <line x1="337" y1="160" x2="343" y2="160" stroke="#ffb74d" stroke-width="1.5"/>
+  <line x1="337" y1="220" x2="343" y2="220" stroke="#ffb74d" stroke-width="1.5"/>
+  <text x="355" y="190" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffb74d">ΔH</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!--
+    Vertical Rhythm: Title(20) → Subtitle(35) → Diagram(65) → Annotation(+13) → Key(+20)
+    Dot-and-Cross Grid: top/bottom ±14, left/right ±16, pairs ±4
+    HCl: Cl has 7 outer e⁻ (×). H has 1 (○ dot). 1 shared pair (×○), 3 lone pairs (××) on Cl.
+    Layout: H left, Cl right. Shared pair between them.
+  -->
+
+  <!-- Title -->
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Hydrogen Chloride</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">HCl (covalent bonding)</text>
+
+  <!-- H: x=155, y=65 -->
+  <text x="155" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Shared pair between H and Cl: midpoint x=186, y=65±4 -->
+  <!-- ○ (H's electron) on top, × (Cl's electron) below -->
+  <circle cx="186" cy="61" r="2.5" fill="#ffffff"/>
+  <text x="186" y="69" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+
+  <!-- Cl: x=218, y=65 -->
+  <text x="218" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ce93d8">Cl</text>
+
+  <!-- 3 lone pairs on Cl (6 remaining electrons) -->
+  <!-- Top ××: y=65-14=51, x=218±4 -->
+  <text x="214" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="222" y="51" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <!-- Right ××: x=218+16=234, y=65±4 -->
+  <text x="234" y="61" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="234" y="69" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <!-- Bottom ××: y=65+14=79, x=218±4 -->
+  <text x="214" y="79" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="222" y="79" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+
+  <!-- Annotation: y = 79 + 13 = 92 -->
+  <text x="200" y="92" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">1 bonding pair, 3 lone pairs on Cl</text>
+
+  <!-- Key: y = 92 + 20 = 112 -->
+  <circle cx="110" cy="112" r="2.5" fill="#ffffff"/>
+  <text x="118" y="112" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= H electron (dot)</text>
+  <text x="225" y="112" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="235" y="112" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= Cl electron (cross)</text>
+</svg>

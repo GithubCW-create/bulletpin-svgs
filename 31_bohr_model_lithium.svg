@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Bohr Model — Lithium</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Li (atomic number 3)</text>
+
+  <!--
+    BOHR MODEL LITHIUM
+    ==================
+    Electron config: 2, 1
+    Nucleus at (200,140). Shell 1 r=35, Shell 2 r=65.
+    Paired distribution at compass points.
+  -->
+
+  <!-- Shells -->
+  <circle cx="200" cy="140" r="35" stroke="#81c784" stroke-width="1" fill="none"/>
+  <circle cx="200" cy="140" r="65" stroke="#81c784" stroke-width="1" fill="none"/>
+
+  <!-- Nucleus -->
+  <circle cx="200" cy="140" r="14" fill="#ff6b35"/>
+  <text x="200" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Li</text>
+
+  <!-- Shell 1: 2 electrons — 1 pair at top (12 o'clock) -->
+  <circle cx="196" cy="105" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="105" r="4" fill="#4fc3f7"/>
+
+  <!-- Shell 2: 1 electron — single at top (12 o'clock) -->
+  <circle cx="200" cy="75" r="4" fill="#4fc3f7"/>
+
+  <!-- Electron configuration -->
+  <text x="200" y="223" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">2, 1</text>
+</svg>

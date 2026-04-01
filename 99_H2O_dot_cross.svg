@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Water — Dot-and-Cross</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">H₂O — covalent bonding</text>
+
+  <!--
+    H₂O COVALENT DOT-AND-CROSS (equation style, no shells)
+    =========================================================
+    O in centre, H left and H right. 36px atom distance.
+    O has 2 lone pairs (top, bottom). 2 shared pairs (left, right).
+    H electrons = dots (r=2.5, white). O electrons = × (12px, #ffb74d).
+  -->
+
+  <!-- Atom labels -->
+  <text x="164" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+  <text x="200" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffb74d">O</text>
+  <text x="236" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- O lone pairs — top (×× at y=106) -->
+  <text x="196" y="107" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="204" y="107" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+
+  <!-- O lone pairs — bottom (×× at y=134) -->
+  <text x="196" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="204" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+
+  <!-- Shared pair H-O left bond (between H at 164 and O at 200, midpoint=182) -->
+  <!-- dot (H electron) at 178, × (O electron) at 186 — separated -->
+  <circle cx="178" cy="120" r="2.5" fill="#ffffff"/>
+  <text x="186" y="121" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+
+  <!-- Shared pair H-O right bond (between O at 200 and H at 236, midpoint=218) -->
+  <text x="214" y="121" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <circle cx="222" cy="120" r="2.5" fill="#ffffff"/>
+
+  <!-- Key -->
+  <circle cx="120" cy="180" r="2.5" fill="#ffffff"/>
+  <text x="130" y="180" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">H electron</text>
+  <text x="210" y="180" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="222" y="180" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">O electron</text>
+
+  <!-- Annotation -->
+  <text x="200" y="205" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">2 bonding pairs + 2 lone pairs on O</text>
+</svg>

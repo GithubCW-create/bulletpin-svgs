@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Bohr Model — Oxygen</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">O — 8 electrons</text>
+
+  <!--
+    BOHR MODEL STANDARD
+    ====================
+    Nucleus at (200, 135). Shells: r=35, r=65.
+    Moved up from y=155 to y=135 to reduce gap between title and diagram.
+    Shell 1: 2e → 1 pair at top.
+    Shell 2: 6e → 3 pairs (top, right, bottom).
+    Total: 2 + 6 = 8 ✓
+  -->
+
+  <!-- Electron shells -->
+  <circle cx="200" cy="135" r="35" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <circle cx="200" cy="135" r="65" stroke="#81c784" stroke-width="1.5" fill="none"/>
+
+  <!-- Nucleus -->
+  <circle cx="200" cy="135" r="14" fill="#ff6b35"/>
+  <text x="200" y="135" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">O</text>
+
+  <!-- Shell 1 (2e): 1 pair at top, y=135-35=100 -->
+  <circle cx="197" cy="100" r="4" fill="#4fc3f7"/>
+  <circle cx="203" cy="100" r="4" fill="#4fc3f7"/>
+
+  <!-- Shell 2 (6e): 3 pairs at top, right, bottom -->
+  <!-- Top pair: y=135-65=70 -->
+  <circle cx="197" cy="70" r="4" fill="#4fc3f7"/>
+  <circle cx="203" cy="70" r="4" fill="#4fc3f7"/>
+  <!-- Right pair: x=200+65=265 -->
+  <circle cx="265" cy="132" r="4" fill="#4fc3f7"/>
+  <circle cx="265" cy="138" r="4" fill="#4fc3f7"/>
+  <!-- Bottom pair: y=135+65=200 -->
+  <circle cx="197" cy="200" r="4" fill="#4fc3f7"/>
+  <circle cx="203" cy="200" r="4" fill="#4fc3f7"/>
+
+  <!-- Electronic structure label -->
+  <text x="200" y="220" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">Electronic structure: 2, 6</text>
+</svg>

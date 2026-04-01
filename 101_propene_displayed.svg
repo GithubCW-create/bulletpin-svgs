@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Propene</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">C₃H₆ — displayed formula</text>
+
+  <!--
+    PROPENE DISPLAYED FORMULA
+    ==========================
+    CH₃—CH=CH₂  backbone at y=100, 60px C-C spacing
+    C1(140)—C2(200)=C3(260)
+    C1: H left, H up, H down
+    C2: H up
+    C3: H up, H down (or H left, H right but AQA shows up/down)
+    Double bond between C2 and C3
+  -->
+
+  <!-- Carbon backbone at y=100 -->
+  <text x="140" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="200" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="260" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+
+  <!-- C1-C2 single bond -->
+  <line x1="152" y1="100" x2="188" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C2=C3 double bond -->
+  <line x1="212" y1="96" x2="248" y2="96" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="212" y1="104" x2="248" y2="104" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C1 hydrogens: left, up, down -->
+  <text x="100" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff">H</text>
+  <line x1="128" y1="100" x2="112" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="140" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff">H</text>
+  <line x1="140" y1="88" x2="140" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="140" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff">H</text>
+  <line x1="140" y1="112" x2="140" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C2 hydrogen: up -->
+  <text x="200" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff">H</text>
+  <line x1="200" y1="88" x2="200" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C3 hydrogens: up, down -->
+  <text x="260" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff">H</text>
+  <line x1="260" y1="88" x2="260" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <text x="260" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ffffff">H</text>
+  <line x1="260" y1="112" x2="260" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Double bond highlight — encircles both C2 and C3 with H atoms and bonds -->
+  <rect x="182" y="48" width="96" height="104" rx="6" stroke="#81c784" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <text x="230" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">C=C double bond (alkene)</text>
+</svg>

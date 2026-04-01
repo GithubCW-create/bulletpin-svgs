@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Displayed Formula — Methane</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">CH₄ (alkane)</text>
+
+  <!--
+    METHANE DISPLAYED FORMULA
+    ==========================
+    Single C at centre (200,100). 4 H atoms at compass points.
+    Bond gap: 12px from atom centre. H at 42px from C.
+  -->
+
+  <!-- Central carbon -->
+  <text x="200" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+
+  <!-- H atoms -->
+  <text x="200" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="200" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="158" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="242" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Bonds -->
+  <!-- C—H up -->
+  <line x1="200" y1="88" x2="200" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <!-- C—H down -->
+  <line x1="200" y1="112" x2="200" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <!-- C—H left -->
+  <line x1="188" y1="100" x2="170" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <!-- C—H right -->
+  <line x1="212" y1="100" x2="230" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+</svg>

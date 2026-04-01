@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Paper Chromatography</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Separating dissolved substances</text>
+
+  <!--
+    PAPER CHROMATOGRAPHY DIAGRAM
+    ==============================
+    Chromatography paper in beaker with solvent.
+    Baseline with spots, separated spots above.
+    Solvent front marked.
+  -->
+
+  <!-- Beaker outline -->
+  <rect x="100" y="80" width="200" height="180" rx="5" ry="5" stroke="#ffffff" stroke-width="2" fill="none"/>
+
+  <!-- Solvent level -->
+  <rect x="102" y="230" width="196" height="28" rx="3" ry="3" fill="#4fc3f7" opacity="0.12"/>
+  <line x1="102" y1="230" x2="298" y2="230" stroke="#4fc3f7" stroke-width="1" stroke-dasharray="4 3" opacity="0.5"/>
+  <text x="310" y="240" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Solvent</text>
+
+  <!-- Chromatography paper -->
+  <rect x="155" y="75" width="90" height="180" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.4" rx="2" ry="2"/>
+
+  <!-- Baseline (pencil line) -->
+  <line x1="165" y1="220" x2="235" y2="220" stroke="#ffffff" stroke-width="1" stroke-dasharray="3 3" opacity="0.6"/>
+  <text x="310" y="220" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">Baseline</text>
+
+  <!-- Original spots on baseline -->
+  <circle cx="185" cy="220" r="3" fill="#ef5350" opacity="0.5"/>
+  <circle cx="215" cy="220" r="3" fill="#81c784" opacity="0.5"/>
+
+  <!-- Separated spots (after development) -->
+  <!-- Sample A spots -->
+  <circle cx="185" cy="140" r="5" fill="#ef5350" opacity="0.7"/>
+  <circle cx="185" cy="180" r="4" fill="#ffb74d" opacity="0.7"/>
+
+  <!-- Sample B spots -->
+  <circle cx="215" cy="140" r="5" fill="#ef5350" opacity="0.7"/>
+  <circle cx="215" cy="165" r="4" fill="#81c784" opacity="0.7"/>
+
+  <!-- Solvent front -->
+  <line x1="165" y1="105" x2="235" y2="105" stroke="#4fc3f7" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="310" y="105" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Solvent front</text>
+
+  <!-- Sample labels -->
+  <text x="185" y="250" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">A</text>
+  <text x="215" y="250" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff">B</text>
+
+  <!-- Rf annotation -->
+  <text x="200" y="275" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Rf = distance moved by spot ÷ distance moved by solvent</text>
+</svg>

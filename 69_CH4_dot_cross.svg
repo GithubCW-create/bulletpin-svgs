@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Methane (CH₄)</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Covalent bonding</text>
+
+  <!--
+    CH₄ DOT-AND-CROSS
+    ===================
+    C at centre (200,100). 4 H atoms at 36px distance (compass points).
+    C has 4 outer electrons (dots) + 4 H electrons (crosses), 1 shared pair per bond.
+    Each bond: 1 C dot + 1 H cross at the overlap region.
+    H atoms at: top (200,64), right (236,100), bottom (200,136), left (164,100).
+  -->
+
+  <!-- Central carbon -->
+  <text x="200" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ff6b35">C</text>
+
+  <!-- H atoms at compass points, 36px from C -->
+  <text x="200" y="64" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">H</text>
+  <text x="236" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">H</text>
+  <text x="200" y="136" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">H</text>
+  <text x="164" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Shared pairs (C dot • + H cross ×) in overlap region between C and each H -->
+  <!-- Top bond: C•(196,78) H×(204,78) -->
+  <circle cx="196" cy="78" r="2.5" fill="#ff6b35"/>
+  <text x="204" y="79" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+
+  <!-- Right bond: C•(222,96) H×(222,104) -->
+  <circle cx="222" cy="96" r="2.5" fill="#ff6b35"/>
+  <text x="222" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+
+  <!-- Bottom bond: C•(196,122) H×(204,122) -->
+  <circle cx="196" cy="122" r="2.5" fill="#ff6b35"/>
+  <text x="204" y="123" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+
+  <!-- Left bond: C•(178,96) H×(178,104) -->
+  <circle cx="178" cy="96" r="2.5" fill="#ff6b35"/>
+  <text x="178" y="105" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+
+  <!-- Key -->
+  <circle cx="140" cy="175" r="3" fill="#ff6b35"/>
+  <text x="148" y="175" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = C electron</text>
+  <text x="140" y="190" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">×</text>
+  <text x="148" y="190" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = H electron</text>
+</svg>

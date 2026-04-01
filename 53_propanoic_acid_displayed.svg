@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Displayed Formula — Propanoic Acid</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">C₂H₅COOH (carboxylic acid)</text>
+
+  <!--
+    PROPANOIC ACID DISPLAYED FORMULA
+    =================================
+    Backbone at y=100 (rule).
+    C1(100,100) — C2(170,100) — C3(240,100). 70px spacing.
+    C1: H left, H up, H down (CH₃).
+    C2: H up, H down (CH₂).
+    C3: =O up (double bond), O—H down (carboxyl group).
+    Bond gap: 12px. Terminal H at 42px.
+  -->
+
+  <!-- Backbone atom labels -->
+  <text x="100" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="170" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="240" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+
+  <!-- C1 hydrogen atoms (CH₃) -->
+  <text x="58" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="100" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="100" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- C2 hydrogen atoms (CH₂) -->
+  <text x="170" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="170" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- C3: =O above (carbonyl) -->
+  <text x="240" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffb74d">O</text>
+
+  <!-- C3: O—H below (hydroxyl of carboxyl) -->
+  <text x="240" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffb74d">O</text>
+  <text x="282" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Backbone bonds -->
+  <line x1="112" y1="100" x2="158" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="182" y1="100" x2="228" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C1—H left -->
+  <line x1="88" y1="100" x2="70" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <!-- C1—H up/down -->
+  <line x1="100" y1="88" x2="100" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="100" y1="112" x2="100" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C2—H up/down -->
+  <line x1="170" y1="88" x2="170" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="170" y1="112" x2="170" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C3=O up (double bond — two parallel vertical lines 4px apart) -->
+  <line x1="238" y1="88" x2="238" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="242" y1="88" x2="242" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C3—O down -->
+  <line x1="240" y1="112" x2="240" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- O—H right -->
+  <line x1="252" y1="142" x2="270" y2="142" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Carboxyl group highlight —COOH -->
+  <rect x="218" y="45" width="78" height="110" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <text x="257" y="170" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">carboxyl (—COOH)</text>
+</svg>

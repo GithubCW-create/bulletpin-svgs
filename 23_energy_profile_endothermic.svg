@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Reaction Profile — Endothermic</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Activation energy and overall energy change</text>
+
+  <!-- Axes -->
+  <line x1="60" y1="260" x2="60" y2="50" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="56,55 60,45 64,55" fill="#ffffff"/>
+  <line x1="60" y1="260" x2="370" y2="260" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="365,256 375,260 365,264" fill="#ffffff"/>
+
+  <!-- Axis labels -->
+  <text x="40" y="155" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" transform="rotate(-90 40 155)">Energy</text>
+  <text x="215" y="280" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Progress of reaction</text>
+
+  <!-- Reactant level: y=210 (lower) -->
+  <line x1="70" y1="210" x2="140" y2="210" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Product level: y=150 (higher — endothermic) -->
+  <line x1="280" y1="150" x2="355" y2="150" stroke="#4fc3f7" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Energy curve: peak at y=75 -->
+  <path d="M140 210 C160 210, 185 75, 215 75 C245 75, 265 150, 280 150" stroke="#4fc3f7" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Labels -->
+  <text x="105" y="200" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Reactants</text>
+  <text x="318" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Products</text>
+
+  <!-- Activation energy arrow (Ea): reactant level to peak, x=215 aligns with curve top -->
+  <line x1="215" y1="210" x2="215" y2="75" stroke="#ffb74d" stroke-width="1.5"/>
+  <polygon points="212,83 215,75 218,83" fill="#ffb74d"/>
+  <polygon points="212,202 215,210 218,202" fill="#ffb74d"/>
+  <text x="222" y="140" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ffb74d">Ea</text>
+
+  <!-- Overall energy change (ΔH) — positive (endothermic) -->
+  <line x1="345" y1="210" x2="345" y2="150" stroke="#ffb74d" stroke-width="1.5"/>
+  <polygon points="342,158 345,150 348,158" fill="#ffb74d"/>
+  <polygon points="342,202 345,210 348,202" fill="#ffb74d"/>
+  <!-- Dashed horizontal lines -->
+  <line x1="140" y1="210" x2="355" y2="210" stroke="#ffb74d" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="280" y1="150" x2="355" y2="150" stroke="#ffb74d" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="357" y="180" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ffb74d">+ΔH</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Bohr Model — Magnesium</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Mg — 12 electrons</text>
+
+  <!--
+    BOHR MODEL STANDARD
+    ====================
+    Nucleus at (200, 150). Shells: r=35, r=60, r=85.
+    Increased shell radii to give more space between Mg text and inner electrons.
+    Shell 1: 2e → 1 pair at top.
+    Shell 2: 8e → 4 pairs at compass.
+    Shell 3: 2e → 1 pair at top.
+    Total: 2 + 8 + 2 = 12 ✓
+  -->
+
+  <!-- Electron shells -->
+  <circle cx="200" cy="150" r="35" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <circle cx="200" cy="150" r="60" stroke="#81c784" stroke-width="1.5" fill="none"/>
+  <circle cx="200" cy="150" r="85" stroke="#81c784" stroke-width="1.5" fill="none"/>
+
+  <!-- Nucleus -->
+  <circle cx="200" cy="150" r="16" fill="#ff6b35"/>
+  <text x="200" y="150" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Mg</text>
+
+  <!-- Shell 1 (2e): 1 pair at top, y=150-35=115 -->
+  <circle cx="197" cy="115" r="4" fill="#4fc3f7"/>
+  <circle cx="203" cy="115" r="4" fill="#4fc3f7"/>
+
+  <!-- Shell 2 (8e): 4 pairs at compass points -->
+  <!-- Top pair: y=150-60=90 -->
+  <circle cx="197" cy="90" r="4" fill="#4fc3f7"/>
+  <circle cx="203" cy="90" r="4" fill="#4fc3f7"/>
+  <!-- Right pair: x=200+60=260 -->
+  <circle cx="260" cy="147" r="4" fill="#4fc3f7"/>
+  <circle cx="260" cy="153" r="4" fill="#4fc3f7"/>
+  <!-- Bottom pair: y=150+60=210 -->
+  <circle cx="197" cy="210" r="4" fill="#4fc3f7"/>
+  <circle cx="203" cy="210" r="4" fill="#4fc3f7"/>
+  <!-- Left pair: x=200-60=140 -->
+  <circle cx="140" cy="147" r="4" fill="#4fc3f7"/>
+  <circle cx="140" cy="153" r="4" fill="#4fc3f7"/>
+
+  <!-- Shell 3 (2e): 1 pair at top, y=150-85=65 -->
+  <circle cx="197" cy="65" r="4" fill="#4fc3f7"/>
+  <circle cx="203" cy="65" r="4" fill="#4fc3f7"/>
+
+  <!-- Electronic structure label -->
+  <text x="200" y="252" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">Electronic structure: 2, 8, 2</text>
+</svg>

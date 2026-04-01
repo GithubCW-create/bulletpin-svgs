@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Effect of a Catalyst</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Energy profile — with and without catalyst</text>
+
+  <!--
+    CATALYST ENERGY PROFILE — FIXED v3
+    =====================================
+    FIX: Ea(cat) arrow+label moved to RIGHT SIDE (x=340) so it's completely
+    clear of both curves. Perfectly vertical. Label below arrow.
+    Reactant dashed line extended to x=122. Product dashed line from x=293.
+  -->
+
+  <!-- Axes -->
+  <line x1="60" y1="230" x2="360" y2="230" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="60" y1="230" x2="60" y2="55" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="360,230 350,226 350,234" fill="#4fc3f7"/>
+  <polygon points="60,55 56,65 64,65" fill="#4fc3f7"/>
+
+  <text x="40" y="140" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff" transform="rotate(-90 40 140)">Energy</text>
+  <text x="210" y="250" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Progress of reaction</text>
+
+  <!-- Reactant level — extended right to x=122 -->
+  <line x1="70" y1="150" x2="122" y2="150" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4 3" stroke-linecap="round"/>
+  <text x="96" y="162" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Reactants</text>
+
+  <!-- Product level — extended left to x=293 -->
+  <line x1="293" y1="195" x2="350" y2="195" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4 3" stroke-linecap="round"/>
+  <text x="321" y="207" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Products</text>
+
+  <!-- Without catalyst curve (higher peak) — red, smooth single arc -->
+  <path d="M 125,150 C 145,150 160,145 175,110 C 185,85 190,68 207,68 C 224,68 230,85 240,110 C 255,145 270,195 290,195" stroke="#ef5350" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- With catalyst curve (lower peak) — green, dashed, smooth arc -->
+  <path d="M 125,150 C 145,150 165,145 180,120 C 190,103 195,97 207,97 C 219,97 225,103 235,120 C 250,145 270,195 290,195" stroke="#81c784" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-dasharray="6 4"/>
+
+  <!-- Ea (without catalyst) — left side, solid line with arrowheads like green -->
+  <line x1="150" y1="150" x2="150" y2="68" stroke="#ef5350" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="150,68 146,76 154,76" fill="#ef5350"/>
+  <polygon points="150,150 146,142 154,142" fill="#ef5350"/>
+  <text x="140" y="108" text-anchor="end" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ef5350">Eₐ</text>
+
+  <!-- Ea (with catalyst) — RIGHT SIDE, closer to curves (x=310) -->
+  <!-- Faint reference lines connect levels to the arrow -->
+  <line x1="290" y1="150" x2="310" y2="150" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.3"/>
+  <line x1="290" y1="97" x2="310" y2="97" stroke="#81c784" stroke-width="0.5" stroke-dasharray="4 4" opacity="0.3"/>
+  <!-- The arrow itself — perfectly vertical at x=310 -->
+  <line x1="310" y1="150" x2="310" y2="97" stroke="#81c784" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="310,97 306,105 314,105" fill="#81c784"/>
+  <polygon points="310,150 306,142 314,142" fill="#81c784"/>
+  <text x="320" y="118" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">Eₐ</text>
+  <text x="320" y="130" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">(cat)</text>
+
+  <!-- Key -->
+  <line x1="80" y1="270" x2="100" y2="270" stroke="#ef5350" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="108" y="270" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">Without catalyst</text>
+  <line x1="230" y1="270" x2="250" y2="270" stroke="#81c784" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="6 4"/>
+  <text x="258" y="270" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">With catalyst</text>
+</svg>

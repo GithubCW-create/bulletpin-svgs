@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Displayed Formula — Propanol</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">CH₃CH(OH)CH₃ (secondary alcohol)</text>
+
+  <!--
+    PROPANOL (SECONDARY) DISPLAYED FORMULA — FIXED
+    =================================================
+    Title: "Propanol" (no positional numbering per rule).
+    Hydroxyl label shifted down below dashed box.
+    Backbone at y=100. 60px spacing. Symmetric about x=200.
+  -->
+
+  <text x="140" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="200" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="260" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+
+  <!-- C2 substituents: H up, O down -->
+  <text x="200" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="200" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffb74d">O</text>
+  <text x="200" y="184" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- C1 hydrogens -->
+  <text x="98" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="140" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="140" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- C3 hydrogens (mirror of C1) -->
+  <text x="302" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="260" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="260" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Backbone bonds -->
+  <line x1="152" y1="100" x2="188" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="212" y1="100" x2="248" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C2—H up -->
+  <line x1="200" y1="88" x2="200" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <!-- C2—O down -->
+  <line x1="200" y1="112" x2="200" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <!-- O—H down -->
+  <line x1="200" y1="154" x2="200" y2="172" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C1 bonds -->
+  <line x1="128" y1="100" x2="110" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="140" y1="88" x2="140" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="140" y1="112" x2="140" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C3 bonds (mirror) -->
+  <line x1="272" y1="100" x2="290" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="260" y1="88" x2="260" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <line x1="260" y1="112" x2="260" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hydroxyl group highlight -->
+  <rect x="187" y="130" width="26" height="66" rx="4" ry="4" stroke="#81c784" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <!-- Label shifted DOWN below the box (box bottom = 196, label at 210) -->
+  <text x="240" y="210" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">hydroxyl group (—OH)</text>
+</svg>

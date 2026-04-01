@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Nitrogen</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">N₂ (triple covalent bond)</text>
+
+  <!--
+    N₂ DOT-AND-CROSS — STANDARD COVALENT LAYOUT
+    ==============================================
+    N₁ at (182,68), N₂ at (218,68). Distance 36px (matches O₂ standard).
+    × text y shifted +2px vs dot cy to correct visual alignment.
+  -->
+
+  <!-- Atom labels -->
+  <text x="182" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#81c784">N</text>
+  <text x="218" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#81c784">N</text>
+
+  <!-- N₁ lone pair (× crosses) — left of N₁ -->
+  <text x="166" y="65" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+  <text x="166" y="73" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+
+  <!-- N₂ lone pair (• dots) — right of N₂ -->
+  <circle cx="234" cy="64" r="2.5" fill="#81c784"/>
+  <circle cx="234" cy="72" r="2.5" fill="#81c784"/>
+
+  <!-- 3 shared pairs at midpoint (x=200) — × y+1 for alignment -->
+  <!-- Pair 1: centre y=58 -->
+  <text x="197" y="59" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+  <circle cx="203" cy="58" r="2.5" fill="#81c784"/>
+  <!-- Pair 2: centre y=68 -->
+  <text x="197" y="69" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+  <circle cx="203" cy="68" r="2.5" fill="#81c784"/>
+  <!-- Pair 3: centre y=78 -->
+  <text x="197" y="79" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+  <circle cx="203" cy="78" r="2.5" fill="#81c784"/>
+
+  <!-- Key (two lines, coloured symbols, matching dot size) -->
+  <text x="148" y="106" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">×</text>
+  <text x="155" y="105" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = N atom 1 electron</text>
+  <circle cx="148" cy="119" r="3" fill="#81c784"/>
+  <text x="155" y="118" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = N atom 2 electron</text>
+</svg>

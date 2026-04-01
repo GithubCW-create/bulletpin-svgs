@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Bohr Model — Aluminium</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Al (atomic number 13)</text>
+
+  <!--
+    BOHR MODEL ALUMINIUM
+    ====================
+    Electron config: 2, 8, 3
+    Nucleus at (200,150). Shell 1 r=35, Shell 2 r=60, Shell 3 r=85.
+    Shell 3 has 3 electrons: 1 pair at top + 1 single at right.
+  -->
+
+  <!-- Shells -->
+  <circle cx="200" cy="150" r="35" stroke="#81c784" stroke-width="1" fill="none"/>
+  <circle cx="200" cy="150" r="60" stroke="#81c784" stroke-width="1" fill="none"/>
+  <circle cx="200" cy="150" r="85" stroke="#81c784" stroke-width="1" fill="none"/>
+
+  <!-- Nucleus -->
+  <circle cx="200" cy="150" r="16" fill="#ff6b35"/>
+  <text x="200" y="150" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Al</text>
+
+  <!-- Shell 1: 2 electrons — 1 pair at top -->
+  <circle cx="196" cy="115" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="115" r="4" fill="#4fc3f7"/>
+
+  <!-- Shell 2: 8 electrons — 4 pairs at compass points -->
+  <!-- Top pair -->
+  <circle cx="196" cy="90" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="90" r="4" fill="#4fc3f7"/>
+  <!-- Right pair -->
+  <circle cx="260" cy="146" r="4" fill="#4fc3f7"/>
+  <circle cx="260" cy="154" r="4" fill="#4fc3f7"/>
+  <!-- Bottom pair -->
+  <circle cx="196" cy="210" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="210" r="4" fill="#4fc3f7"/>
+  <!-- Left pair -->
+  <circle cx="140" cy="146" r="4" fill="#4fc3f7"/>
+  <circle cx="140" cy="154" r="4" fill="#4fc3f7"/>
+
+  <!-- Shell 3: 3 electrons — 1 pair at top + 1 single at right -->
+  <!-- Top pair -->
+  <circle cx="196" cy="65" r="4" fill="#4fc3f7"/>
+  <circle cx="204" cy="65" r="4" fill="#4fc3f7"/>
+  <!-- Right single -->
+  <circle cx="285" cy="150" r="4" fill="#4fc3f7"/>
+
+  <!-- Electron configuration -->
+  <text x="200" y="253" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff">2, 8, 3</text>
+</svg>

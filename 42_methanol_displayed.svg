@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Displayed Formula — Methanol</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">CH₃OH (alcohol)</text>
+
+  <!--
+    METHANOL DISPLAYED FORMULA
+    ===========================
+    Backbone at y=100 (rule: displayed formula backbone y=100).
+    C(160,100) — O(230,100). 70px backbone spacing.
+    C: H left, H up, H down (CH₃).
+    O: H right (—OH).
+    Bond gap: 12px from each atom centre. Terminal H at 42px.
+  -->
+
+  <!-- Backbone atom labels -->
+  <text x="160" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ff6b35">C</text>
+  <text x="230" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffb74d">O</text>
+
+  <!-- C hydrogen atoms (CH₃) -->
+  <text x="118" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="160" y="58" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+  <text x="160" y="142" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- O hydrogen atom -->
+  <text x="272" y="100" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">H</text>
+
+  <!-- Backbone bond: C—O -->
+  <line x1="172" y1="100" x2="218" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- C—H left -->
+  <line x1="148" y1="100" x2="130" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <!-- C—H up -->
+  <line x1="160" y1="88" x2="160" y2="70" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+  <!-- C—H down -->
+  <line x1="160" y1="112" x2="160" y2="130" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- O—H right -->
+  <line x1="242" y1="100" x2="260" y2="100" stroke="#4fc3f7" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Functional group highlight: —OH -->
+  <rect x="217" y="87" width="68" height="26" rx="6" ry="6" stroke="#81c784" stroke-width="1.5" stroke-dasharray="4 3" fill="none"/>
+  <text x="251" y="165" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#81c784">hydroxyl (—OH)</text>
+</svg>

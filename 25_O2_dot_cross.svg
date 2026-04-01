@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Oxygen</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">O₂ (double covalent bond)</text>
+
+  <!--
+    O₂ DOT-AND-CROSS — STANDARD COVALENT LAYOUT
+    ==============================================
+    O₁ at (182,68), O₂ at (218,68). Distance 36px.
+    × text y shifted +2px vs dot cy to correct visual alignment.
+  -->
+
+  <!-- Atom labels -->
+  <text x="182" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffb74d">O</text>
+  <text x="218" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="bold" fill="#ffb74d">O</text>
+
+  <!-- O₁ lone pairs (× crosses) — top and bottom. × y+1 for visual alignment -->
+  <text x="178" y="55" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="186" y="55" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="178" y="83" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="186" y="83" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+
+  <!-- O₂ lone pairs (• dots) — top and bottom -->
+  <circle cx="214" cy="54" r="2.5" fill="#ffb74d"/>
+  <circle cx="222" cy="54" r="2.5" fill="#ffb74d"/>
+  <circle cx="214" cy="82" r="2.5" fill="#ffb74d"/>
+  <circle cx="222" cy="82" r="2.5" fill="#ffb74d"/>
+
+  <!-- Shared pairs at midpoint (x=200) — × y+1 for alignment -->
+  <!-- Pair 1 -->
+  <text x="197" y="63" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <circle cx="203" cy="62" r="2.5" fill="#ffb74d"/>
+  <!-- Pair 2 -->
+  <text x="197" y="75" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <circle cx="203" cy="74" r="2.5" fill="#ffb74d"/>
+
+  <!-- Key (two lines, coloured symbols, matching dot size) -->
+  <text x="148" y="106" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="155" y="105" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = O atom 1 electron</text>
+  <circle cx="148" cy="119" r="3" fill="#ffb74d"/>
+  <text x="155" y="118" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff"> = O atom 2 electron</text>
+</svg>

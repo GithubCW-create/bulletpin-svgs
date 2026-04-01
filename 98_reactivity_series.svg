@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Reactivity Series</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">Metals arranged by reactivity</text>
+
+  <!--
+    REACTIVITY SERIES
+    ===================
+    Vertical list from most reactive (top) to least reactive (bottom).
+    Colour coded: most reactive = bright, least = dimmer.
+    Arrow showing decreasing reactivity.
+  -->
+
+  <!-- Arrow (left side — shifted right for compactness) -->
+  <line x1="75" y1="55" x2="75" y2="265" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <polygon points="75,265 71,257 79,257" fill="#ffffff"/>
+  <text x="60" y="160" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ffffff" transform="rotate(-90 60 160)">Increasing reactivity</text>
+
+  <!-- Metals list -->
+  <text x="100" y="60" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ef5350">K</text>
+  <text x="130" y="60" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Potassium</text>
+
+  <text x="100" y="80" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ef5350">Na</text>
+  <text x="130" y="80" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Sodium</text>
+
+  <text x="100" y="100" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffb74d">Ca</text>
+  <text x="130" y="100" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Calcium</text>
+
+  <text x="100" y="120" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#ffb74d">Mg</text>
+  <text x="130" y="120" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Magnesium</text>
+
+  <text x="100" y="140" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#81c784">Al</text>
+  <text x="130" y="140" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Aluminium</text>
+
+  <!-- Carbon marker — shorter dashed line -->
+  <line x1="90" y1="155" x2="230" y2="155" stroke="#4fc3f7" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+  <text x="235" y="155" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">(Carbon)</text>
+
+  <text x="100" y="170" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#81c784">Zn</text>
+  <text x="130" y="170" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Zinc</text>
+
+  <text x="100" y="190" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#81c784">Fe</text>
+  <text x="130" y="190" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Iron</text>
+
+  <!-- Hydrogen marker — shorter dashed line -->
+  <line x1="90" y1="205" x2="230" y2="205" stroke="#4fc3f7" stroke-width="0.5" stroke-dasharray="4 3" opacity="0.4"/>
+  <text x="235" y="205" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">(Hydrogen)</text>
+
+  <text x="100" y="220" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#4fc3f7">Cu</text>
+  <text x="130" y="220" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Copper</text>
+
+  <text x="100" y="240" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#4fc3f7">Ag</text>
+  <text x="130" y="240" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Silver</text>
+
+  <text x="100" y="260" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#4fc3f7">Au</text>
+  <text x="130" y="260" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffffff">Gold</text>
+
+  <!-- Extraction methods — aligned with (Carbon)/(Hydrogen) at x=235 -->
+  <text x="235" y="110" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#ef5350">Electrolysis</text>
+  <text x="235" y="180" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#81c784">Carbon reduction</text>
+  <text x="235" y="240" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4fc3f7">Found native</text>
+</svg>

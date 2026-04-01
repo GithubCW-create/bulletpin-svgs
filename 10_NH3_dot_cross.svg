@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!--
+    Vertical Rhythm: Title(20) → Subtitle(35) → Diagram(65) → Annotation(+13) → Key(+20)
+    Dot-and-Cross Grid: top/bottom ±14, left/right ±16, pairs ±4
+    NH₃: N has 5 outer e⁻ (×). Each H has 1 (○ dot). 3 shared pairs (×○), 1 lone pair (××) on N.
+    Layout: N centre, H left, H right, H bottom. Lone pair top.
+    Shared pairs sit midway between atom symbols.
+  -->
+
+  <!-- Title -->
+  <text x="200" y="20" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="#ffffff">Dot-and-Cross — Ammonia</text>
+  <text x="200" y="35" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">NH₃ (covalent bonding)</text>
+
+  <!-- N centre: x=200, y=68 -->
+  <text x="200" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#81c784">N</text>
+
+  <!-- Lone pair ××: top of N, y=68-14=54, x=200±4 -->
+  <text x="196" y="54" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="204" y="54" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+
+  <!-- LEFT H: x=200-35=165, y=68 (35px = same as N→bottom H) -->
+  <text x="165" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+  <!-- Shared pair between left H and N: midpoint x=183, y=68±4 -->
+  <text x="183" y="64" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <circle cx="183" cy="72" r="2.5" fill="#ffffff"/>
+
+  <!-- RIGHT H: x=200+35=235, y=68 -->
+  <text x="235" y="68" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+  <!-- Shared pair between N and right H: midpoint x=217, y=68±4 -->
+  <text x="217" y="64" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <circle cx="217" cy="72" r="2.5" fill="#ffffff"/>
+
+  <!-- BOTTOM H: x=200, y=103 -->
+  <text x="200" y="103" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#ffffff">H</text>
+  <!-- Shared pair between N and bottom H: midpoint y=86, x=200±4 -->
+  <text x="196" y="86" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <circle cx="204" cy="86" r="2.5" fill="#ffffff"/>
+
+  <!-- Annotation: y = 103 + 14 + 13 = 117 (bottom of diagram + 13) -->
+  <text x="200" y="120" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#81c784">3 bonding pairs, 1 lone pair</text>
+
+  <!-- Key: y = 120 + 20 = 140 -->
+  <circle cx="110" cy="140" r="2.5" fill="#ffffff"/>
+  <text x="118" y="140" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= H electron (dot)</text>
+  <text x="225" y="140" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#ffb74d">×</text>
+  <text x="235" y="140" text-anchor="start" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#ffffff">= N electron (cross)</text>
+</svg>
