@@ -1,0 +1,59 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Flame Emission Spectroscopy</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Instrumental Analysis Method</text>
+
+  <!-- Process flow labels main -->
+  <text x="60" y="60" font-size="12px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Sample</text>
+  <text x="155" y="60" font-size="12px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Light</text>
+  <text x="260" y="60" font-size="12px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Spectroscope</text>
+  <text x="355" y="60" font-size="12px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Spectrum</text>
+
+  <!-- Arrows between steps -->
+  <path d="M 90 60 L 125 60" stroke="#ffffff" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 185 60 L 230 60" stroke="#ffffff" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 290 60 L 325 60" stroke="#ffffff" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ffffff"/>
+    </marker>
+  </defs>
+
+  <!-- Below labels: description -->
+  <text x="60" y="80" font-size="8px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">heated</text>
+  <text x="155" y="80" font-size="8px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">emitted</text>
+  <text x="260" y="80" font-size="8px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">disperses</text>
+  <text x="355" y="80" font-size="8px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">analysed</text>
+
+  <!-- Spectrum visual -->
+  <rect x="80" y="100" width="240" height="16" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <!-- Sodium yellow lines close together -->
+  <line x1="175" y1="100" x2="175" y2="116" stroke="#ffb74d" stroke-width="2"/>
+  <line x1="178" y1="100" x2="178" y2="116" stroke="#ffb74d" stroke-width="2"/>
+  <!-- Lithium red line -->
+  <line x1="140" y1="100" x2="140" y2="116" stroke="#ef5350" stroke-width="2"/>
+  <!-- Lithium orange line -->
+  <line x1="165" y1="100" x2="165" y2="116" stroke="#ff6b35" stroke-width="2"/>
+  <!-- Additional spectral lines for variety -->
+  <line x1="210" y1="100" x2="210" y2="116" stroke="#4fc3f7" stroke-width="2"/>
+  <line x1="240" y1="100" x2="240" y2="116" stroke="#81c784" stroke-width="2"/>
+
+  <!-- Spectrum label -->
+  <text x="200" y="130" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Each element gives a unique line spectrum</text>
+
+  <!-- Advantages section heading -->
+  <text x="200" y="150" font-size="11px" fill="#4fc3f7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Advantages over flame tests</text>
+
+  <!-- Bullet points -->
+  <text x="200" y="168" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Detects multiple metals in mixtures</text>
+  <text x="200" y="182" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">More sensitive — works with tiny samples</text>
+  <text x="200" y="196" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">More accurate identification</text>
+  <text x="200" y="210" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Can be automated</text>
+</svg>

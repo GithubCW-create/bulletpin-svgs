@@ -1,0 +1,52 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#1a1a2e"/>
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Sustainable Development</text>
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Using resources wisely</text>
+
+  <!-- The 3Rs heading -->
+  <text x="200" y="58" font-size="13px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">The 3Rs</text>
+
+  <!-- Three smaller boxes with gaps for arrows -->
+  <!-- Box 1: Reduce -->
+  <rect x="65" y="76" width="70" height="36" stroke="#81c784" stroke-width="1.5" fill="none" rx="3"/>
+  <text x="100" y="87" font-size="12px" fill="#81c784" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Reduce</text>
+  <text x="100" y="100" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Use less</text>
+
+  <!-- Arrow 1→2 -->
+  <line x1="135" y1="94" x2="155" y2="94" stroke="#ffffff" stroke-width="1.5"/>
+  <polygon points="158,94 152,90 152,98" fill="#ffffff"/>
+
+  <!-- Box 2: Reuse -->
+  <rect x="165" y="76" width="70" height="36" stroke="#4fc3f7" stroke-width="1.5" fill="none" rx="3"/>
+  <text x="200" y="87" font-size="12px" fill="#4fc3f7" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Reuse</text>
+  <text x="200" y="100" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Use again</text>
+
+  <!-- Arrow 2→3 -->
+  <line x1="235" y1="94" x2="255" y2="94" stroke="#ffffff" stroke-width="1.5"/>
+  <polygon points="258,94 252,90 252,98" fill="#ffffff"/>
+
+  <!-- Box 3: Recycle -->
+  <rect x="265" y="76" width="70" height="36" stroke="#ffb74d" stroke-width="1.5" fill="none" rx="3"/>
+  <text x="300" y="87" font-size="12px" fill="#ffb74d" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Recycle</text>
+  <text x="300" y="100" font-size="9px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Reprocess</text>
+
+  <!-- Resources heading -->
+  <text x="200" y="132" font-size="12px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Resources</text>
+
+  <!-- Two-column comparison -->
+  <text x="145" y="150" font-size="11px" fill="#ef5350" font-weight="bold" text-anchor="end" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Finite</text>
+  <text x="145" y="164" font-size="9px" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Coal, oil, metal ores</text>
+  <text x="145" y="177" font-size="9px" fill="#ffffff" text-anchor="end" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Will run out one day</text>
+
+  <text x="255" y="150" font-size="11px" fill="#81c784" font-weight="bold" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Renewable</text>
+  <text x="255" y="164" font-size="9px" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Wood, crops, wind</text>
+  <text x="255" y="177" font-size="9px" fill="#ffffff" text-anchor="start" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Can be replaced</text>
+
+  <!-- Why recycle section -->
+  <text x="200" y="205" font-size="11px" fill="#4fc3f7" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Why recycle?</text>
+
+  <text x="200" y="222" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Saves energy vs extracting from ore</text>
+  <text x="200" y="238" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Reduces landfill waste</text>
+  <text x="200" y="254" font-size="10px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Conserves finite resources</text>
+  <text x="200" y="274" font-size="9px" fill="#81c784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Glass, metals, paper — all recyclable</text>
+</svg>

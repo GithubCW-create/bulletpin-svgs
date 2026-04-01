@@ -1,0 +1,78 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1a1a2e"/>
+
+  <!-- Title -->
+  <text x="200" y="20" font-size="15px" fill="#ffffff" font-weight="bold" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Natural Polymers</text>
+
+  <!-- Subtitle -->
+  <text x="200" y="35" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Biological Condensation Polymers</text>
+
+  <!-- Table Header -->
+  <rect x="30" y="50" width="100" height="20" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="80" y="60" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Polymer</text>
+
+  <rect x="130" y="50" width="100" height="20" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="180" y="60" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Monomer</text>
+
+  <rect x="230" y="50" width="140" height="20" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="300" y="60" font-size="12px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Function</text>
+
+  <!-- Row 1: DNA -->
+  <rect x="30" y="70" width="100" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="80" y="82" font-size="13px" fill="#4fc3f7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">DNA</text>
+
+  <rect x="130" y="70" width="100" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="180" y="82" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Nucleotides</text>
+
+  <rect x="230" y="70" width="140" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="300" y="82" font-size="11px" fill="#81c784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Genetic information</text>
+
+  <!-- Row 2: Proteins -->
+  <rect x="30" y="95" width="100" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="80" y="107" font-size="13px" fill="#4fc3f7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Proteins</text>
+
+  <rect x="130" y="95" width="100" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="180" y="107" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Amino acids</text>
+
+  <rect x="230" y="95" width="140" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="300" y="107" font-size="11px" fill="#ef5350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Enzymes, muscle, hair</text>
+
+  <!-- Row 3: Starch -->
+  <rect x="30" y="120" width="100" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="80" y="132" font-size="13px" fill="#4fc3f7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Starch</text>
+
+  <rect x="130" y="120" width="100" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="180" y="132" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Glucose</text>
+
+  <rect x="230" y="120" width="140" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="300" y="132" font-size="11px" fill="#ffb74d" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Energy storage in plants</text>
+
+  <!-- Row 4: Cellulose -->
+  <rect x="30" y="145" width="100" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="80" y="157" font-size="13px" fill="#4fc3f7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Cellulose</text>
+
+  <rect x="130" y="145" width="100" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="180" y="157" font-size="11px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Glucose</text>
+
+  <rect x="230" y="145" width="140" height="25" fill="#1a1a2e" stroke="#ffffff" stroke-width="1"/>
+  <text x="300" y="157" font-size="11px" fill="#81c784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central">Plant cell walls, wood</text>
+
+  <!-- Key Information Section -->
+  <text x="200" y="180" font-size="13px" fill="#ffffff" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Key Facts</text>
+
+  <!-- Condensation Polymers -->
+  <rect x="25" y="195" width="350" height="18" fill="#1a1a2e" stroke="#4fc3f7" stroke-width="1" rx="2"/>
+  <text x="200" y="204" font-size="11px" fill="#4fc3f7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">All condensation polymers (water released when monomers join)</text>
+
+  <!-- Essential for life -->
+  <rect x="25" y="218" width="350" height="18" fill="#1a1a2e" stroke="#81c784" stroke-width="1" rx="2"/>
+  <text x="200" y="227" font-size="11px" fill="#81c784" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Biological polymers are essential for all living organisms</text>
+
+  <!-- Examples in human body -->
+  <rect x="25" y="241" width="350" height="18" fill="#1a1a2e" stroke="#ef5350" stroke-width="1" rx="2"/>
+  <text x="200" y="250" font-size="11px" fill="#ef5350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-weight="bold">Humans contain DNA, proteins, and starch (from food)</text>
+
+  <!-- Footer -->
+  <text x="200" y="275" font-size="11px" fill="#ce93d8" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" dominant-baseline="central" font-style="italic">Different from synthetic polymers (plastics) made from oil</text>
+</svg>
