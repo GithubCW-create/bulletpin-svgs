@@ -1,4 +1,127 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 290">
-  
-  
+  <rect width="400" height="290" fill="#1a1a2e"/>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse">
+      <polygon points="0 1, 8 4, 0 7" fill="none" stroke="#b0b0c8" stroke-width="1"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="200" y="14" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="14" font-weight="bold" fill="#ffffff">Practical: Preparation of Ethyl Ethanoate</text>
+
+  <g stroke="#ffffff" stroke-width="0.8" fill="none" stroke-linejoin="round">
+
+    <!-- Electric heater (yellow block) - shifted right 15px -->
+    <rect x="135.0" y="230.0" width="92.0" height="16.0" fill="#ffb81c"/>
+    <circle cx="215.0" cy="238.0" r="3.2" fill="#d0021b" stroke-width="0.6"/>
+    <line x1="135.0" y1="234.0" x2="227.0" y2="234.0" stroke-width="0.4"/>
+
+    <!-- Water bath semicircle - shifted up extra -10px -->
+    <path d="M 148.0 172.0 A 32.0 32.0 0 0 0 212.0 172.0 Z" fill="#99ddff"/>
+    <path d="M 148.0 172.0 Q 180.0 178.0 212.0 172.0" stroke-width="0.4"/>
+
+    <!-- Bubbles -->
+    <circle cx="164.0" cy="188.0" r="2.0" fill="#1a1a2e" stroke-width="0.6"/>
+    <circle cx="180.0" cy="180.0" r="2.4" fill="#1a1a2e" stroke-width="0.6"/>
+    <circle cx="192.0" cy="192.0" r="1.6" fill="#1a1a2e" stroke-width="0.6"/>
+    <circle cx="172.0" cy="196.0" r="1.6" fill="#1a1a2e" stroke-width="0.6"/>
+    <circle cx="184.0" cy="200.0" r="1.2" fill="#1a1a2e" stroke-width="0.6"/>
+
+    <!-- Steam lines - left one cut in half -->
+    <path d="M 160.0 182.0 Q 166.0 170.0 160.0 158.0" stroke="#888888" stroke-width="0.6"/>
+    <path d="M 192.0 182.0 Q 186.0 170.0 192.0 158.0 T 190.0 138.0" stroke="#888888" stroke-width="0.6"/>
+    <path d="M 176.0 174.0 Q 182.0 162.0 176.0 150.0 T 178.0 130.0" stroke="#888888" stroke-width="0.6"/>
+
+    <!-- Flask body -->
+    <path d="M 168.0 110.0 L 168.0 142.0 A 34.0 34.0 0 1 0 192.0 142.0 L 192.0 130.0"/>
+
+    <!-- Cork/stopper -->
+    <ellipse cx="180.0" cy="110.0" rx="14.0" ry="2.4" fill="#1a1a2e"/>
+
+    <!-- Purple liquid in flask -->
+    <polygon points="166.0,110.0 194.0,110.0 190.0,130.0 170.0,130.0" fill="#660099"/>
+
+    <!-- Condenser outer (water jacket) -->
+    <polygon points="212.0,138.0 206.0,150.0 287.0,192.0 293.0,181.0" fill="#b3e6ff"/>
+
+    <!-- Water jacket clips -->
+    <polygon points="218.0,141.2 222.0,133.2 226.0,135.2 222.0,143.2" fill="#b3e6ff"/>
+    <polygon points="280.0,184.8 276.0,192.8 280.0,194.8 284.0,186.8" fill="#b3e6ff"/>
+    <line x1="218.4" y1="141.2" x2="221.6" y2="142.8" stroke="#b3e6ff" stroke-width="1.2"/>
+    <line x1="276.4" y1="192.8" x2="279.6" y2="194.4" stroke="#b3e6ff" stroke-width="1.2"/>
+
+    <!-- Condenser inner tubes -->
+    <path d="M 188.0 132.0 L 292.0 186.8 Q 296.0 188.8 296.0 232.0"/>
+    <path d="M 190.0 140.0 L 286.0 190.8 Q 288.8 192.0 288.8 232.0"/>
+
+    <!-- Rubber bungs (green) -->
+    <polygon points="224.0,130.0 228.0,132.0 232.0,124.0 236.0,126.0 234.0,118.0 226.0,120.0 230.0,122.0" fill="#61e099"/>
+    <polygon points="273.0,208.0 277.0,210.0 281.0,202.0 285.0,204.0 283.0,196.0 275.0,198.0 279.0,200.0" fill="#61e099"/>
+
+    <!-- Thermometer body -->
+    <rect x="178.0" y="38.0" width="4.0" height="92.0" rx="2.0" fill="#1a1a2e"/>
+
+    <!-- Thermometer red mercury -->
+    <line x1="180.0" y1="134.0" x2="180.0" y2="86.0" stroke="#d0021b" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- Thermometer markings -->
+    <g stroke-width="0.6">
+      <line x1="178.0" y1="50.0" x2="182.0" y2="50.0"/>
+      <line x1="178.0" y1="54.0" x2="180.0" y2="54.0"/>
+      <line x1="178.0" y1="58.0" x2="180.0" y2="58.0"/>
+      <line x1="178.0" y1="62.0" x2="180.0" y2="62.0"/>
+      <line x1="178.0" y1="66.0" x2="182.0" y2="66.0"/>
+      <line x1="178.0" y1="70.0" x2="180.0" y2="70.0"/>
+      <line x1="178.0" y1="74.0" x2="180.0" y2="74.0"/>
+      <line x1="178.0" y1="78.0" x2="180.0" y2="78.0"/>
+      <line x1="178.0" y1="82.0" x2="182.0" y2="82.0"/>
+      <line x1="178.0" y1="86.0" x2="180.0" y2="86.0"/>
+      <line x1="178.0" y1="90.0" x2="180.0" y2="90.0"/>
+    </g>
+
+    <!-- Collection beaker -->
+    <path d="M 272.0 234.0 L 272.0 274.0 A 4.0 4.0 0 0 0 276.0 278.0 L 304.0 278.0 A 4.0 4.0 0 0 0 308.0 274.0 L 308.0 234.0"/>
+
+    <!-- Collected ester (water in beaker) -->
+    <path d="M 272.4 250.0 L 272.4 274.0 A 3.6 3.6 0 0 0 276.0 277.6 L 304.0 277.6 A 3.6 3.6 0 0 0 307.6 274.0 L 307.6 250.0 Z" fill="#99ddff" stroke="none"/>
+    <path d="M 272.4 250.0 Q 290.0 254.0 307.6 250.0" stroke-width="0.4"/>
+
+    <!-- Drips from condenser -->
+    <path d="M 291.4 236.0 Q 293.4 244.0 293.4 244.0 Q 295.4 244.0 293.4 236.0 Z" fill="#99ddff" stroke-width="0.6"/>
+    <path d="M 291.4 246.0 Q 293.4 250.0 293.4 250.0 Q 295.4 250.0 293.4 246.0 Z" fill="#99ddff" stroke-width="0.6"/>
+  </g>
+
+  <!-- Labels -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">
+
+    <!-- THERMOMETER -->
+    <text x="200.0" y="50.0"> THERMOMETER</text>
+    <path d="M 196.0 47.2 L 184.0 47.2" fill="none" stroke="#b0b0c8" stroke-width="0.6" marker-end="url(#arrow)"/>
+
+    <!-- COOLING WATER OUT - right 10, up 10 -->
+    <text x="206.0" y="94.0">COOLING</text>
+    <text x="206.0" y="110.0">WATER OUT</text>
+
+    <!-- MIXTURE label - right 30 -->
+    <text x="20.0" y="170.0">MIXTURE OF</text>
+    <text x="20.0" y="186.0">ETHANOL,</text>
+    <text x="20.0" y="202.0">ETHANOIC ACID</text>
+    <text x="20.0" y="218.0">&amp; HâSOâ</text>
+    <path d="M 113.0 183.0 Q 131.0 185.0 143.0 191.0" fill="none" stroke="#b0b0c8" stroke-width="0.6" marker-end="url(#arrow)"/>
+
+    <!-- ELECTRIC HEATER -->
+    <text x="20.0" y="279.0">ELECTRIC HEATER</text>
+    <path d="M 149.0 277.0 Q 163.0 268.0 170.0 246.0" fill="none" stroke="#b0b0c8" stroke-width="0.6" marker-end="url(#arrow)"/>
+
+    <!-- COOLING WATER IN - right 20, up 10 -->
+    <text x="204.0" y="209.0">COOLING</text>
+    <text x="204.0" y="225.0">WATER IN</text>
+
+    <!-- ESTER -->
+    <text x="213.0" y="279.0">ESTER</text>
+    <path d="M 260.0 277.0 L 272.0 256.0" fill="none" stroke="#b0b0c8" stroke-width="0.6" marker-end="url(#arrow)"/>
+
+  </g>
 </svg>
