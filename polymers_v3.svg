@@ -1,4 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280">
-  
-  
+  <rect width="400" height="280" fill="#1a1a2e"/>
+  <defs>
+    <marker id="ga" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <polygon points="0 1, 8 4, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+  <text x="200" y="14" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Drawing Polymers and Repeat Units</text>
+  <text x="200" y="32" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">1,2-DICHLOROETHENE</text>
+  <g stroke="#ffffff" stroke-width="1" fill="none">
+    <!-- Monomer C=C -->
+    <line x1="98" y1="68" x2="106" y2="68"/>
+    <line x1="98" y1="72" x2="106" y2="72"/>
+    <line x1="87" y1="65" x2="79" y2="56"/>
+    <line x1="87" y1="75" x2="79" y2="84"/>
+    <line x1="117" y1="65" x2="125" y2="56"/>
+    <line x1="117" y1="75" x2="125" y2="84"/>
+    <line x1="145" y1="70" x2="225" y2="70" stroke="#2ecc71" stroke-width="1.5" marker-end="url(#ga)"/>
+    <!-- Repeating unit C-C -->
+    <line x1="288" y1="70" x2="296" y2="70"/>
+    <line x1="281" y1="63" x2="281" y2="52"/>
+    <line x1="281" y1="77" x2="281" y2="88"/>
+    <line x1="303" y1="63" x2="303" y2="52"/>
+    <line x1="303" y1="77" x2="303" y2="88"/>
+    <path d="M 266 42 L 260 42 L 260 100 L 266 100" stroke-width="1.2"/>
+    <path d="M 318 42 L 324 42 L 324 100 L 318 100" stroke-width="1.2"/>
+    <line x1="252" y1="70" x2="260" y2="70"/>
+    <line x1="324" y1="70" x2="332" y2="70"/>
+    <line x1="102" y1="130" x2="102" y2="170" stroke="#2ecc71" stroke-width="1.5" marker-end="url(#ga)"/>
+    <!-- Polymer chain bonds (+10px shift) -->
+    <line x1="65" y1="218" x2="73" y2="218"/>
+    <line x1="87" y1="218" x2="95" y2="218"/>
+    <line x1="109" y1="218" x2="117" y2="218"/>
+    <line x1="131" y1="218" x2="139" y2="218"/>
+    <line x1="51" y1="218" x2="41" y2="218"/>
+    <line x1="153" y1="218" x2="163" y2="218"/>
+    <line x1="58" y1="211" x2="58" y2="200"/>
+    <line x1="58" y1="225" x2="58" y2="236"/>
+    <line x1="80" y1="211" x2="80" y2="200"/>
+    <line x1="80" y1="225" x2="80" y2="236"/>
+    <line x1="102" y1="211" x2="102" y2="200"/>
+    <line x1="102" y1="225" x2="102" y2="236"/>
+    <line x1="124" y1="211" x2="124" y2="200"/>
+    <line x1="124" y1="225" x2="124" y2="236"/>
+    <line x1="146" y1="211" x2="146" y2="200"/>
+    <line x1="146" y1="225" x2="146" y2="236"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="14" text-anchor="middle" dominant-baseline="central">
+    <text x="91" y="70">C</text>
+    <text x="113" y="70">C</text>
+    <text x="75" y="52">H</text>
+    <text x="75" y="88">Cl</text>
+    <text x="129" y="52">Cl</text>
+    <text x="129" y="88">H</text>
+    <text x="281" y="70">C</text>
+    <text x="303" y="70">C</text>
+    <text x="281" y="46">H</text>
+    <text x="281" y="94">Cl</text>
+    <text x="303" y="46">Cl</text>
+    <text x="303" y="94">H</text>
+    <text x="336" y="106" font-size="14" text-anchor="start" dominant-baseline="auto">n</text>
+    <text x="58" y="218">C</text>
+    <text x="58" y="194">H</text>
+    <text x="58" y="242">Cl</text>
+    <text x="80" y="218">C</text>
+    <text x="80" y="194">Cl</text>
+    <text x="80" y="242">H</text>
+    <text x="102" y="218">C</text>
+    <text x="102" y="194">H</text>
+    <text x="102" y="242">Cl</text>
+    <text x="124" y="218">C</text>
+    <text x="124" y="194">Cl</text>
+    <text x="124" y="242">H</text>
+    <text x="146" y="218">C</text>
+    <text x="146" y="194">H</text>
+    <text x="146" y="242">Cl</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8" text-anchor="middle">
+    <text x="102" y="120">MONOMER</text>
+    <text x="292" y="120">REPEATING UNIT</text>
+    <text x="102" y="182">POLYMER</text>
+    <text x="102" y="265">(POLY)CHLOROETHENE</text>
+  </g>
 </svg>
