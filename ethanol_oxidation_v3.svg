@@ -1,4 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 305">
-  
-  
+  <rect width="400" height="305" fill="#1a1a2e"/>
+
+  <text x="200" y="16" text-anchor="middle" dominant-baseline="central"
+        font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">The Oxidation of Ethanol</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse">
+      <polygon points="0 1, 8 4, 0 7" fill="none" stroke="#b0b0c8" stroke-width="1"/>
+    </marker>
+    <marker id="redArrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse">
+      <polygon points="0 2, 8 4, 0 6" fill="none" stroke="#ff6b6b" stroke-width="1.5"/>
+    </marker>
+  </defs>
+
+  <!-- Apparatus (shifted up 35px) -->
+  <g transform="translate(0,-35)">
+  <path d="M 181 246 Q 200 248 219 246 Q 216 270 200 278 Q 184 270 181 246 Z" fill="#7cd320" fill-opacity="0.4" stroke="#ffffff" stroke-width="1"/>
+  <circle cx="194" cy="270" r="2" fill="#1a1a2e" stroke="#ffffff" stroke-width="0.8"/>
+  <circle cx="198" cy="274" r="2" fill="#1a1a2e" stroke="#ffffff" stroke-width="0.8"/>
+  <circle cx="204" cy="268" r="2" fill="#1a1a2e" stroke="#ffffff" stroke-width="0.8"/>
+  <circle cx="202" cy="272" r="1" fill="#1a1a2e" stroke="#ffffff" stroke-width="0.8"/>
+  <path d="M 194 218 L 194 230 Q 176 238 180 262 Q 184 282 200 282 Q 216 282 220 262 Q 224 238 206 230 L 206 218" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <rect x="190" y="212" width="20" height="6" rx="1" fill="#2a2a4e" stroke="#ffffff" stroke-width="1"/>
+  <line x1="196" y1="110" x2="196" y2="218" stroke="#ffffff" stroke-width="1.2"/>
+  <line x1="204" y1="110" x2="204" y2="218" stroke="#ffffff" stroke-width="1.2"/>
+  <path d="M 190 122 L 190 190 Q 190 194 184 194 L 174 194" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <path d="M 174 202 L 184 202 Q 190 202 190 206 L 190 210 Q 190 214 196 214" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <path d="M 210 210 L 210 142 Q 210 138 216 138 L 226 138" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <path d="M 226 130 L 216 130 Q 210 130 210 126 L 210 122 Q 210 118 204 118" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <path d="M 210 210 Q 210 214 204 214" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <rect x="192" y="104" width="16" height="6" rx="1" fill="#2a2a4e" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 192 104 L 188 98 L 212 98 L 208 104" fill="#2a2a4e" stroke="#ffffff" stroke-width="1"/>
+  <path d="M 190 122 Q 190 118 196 118" fill="none" stroke="#ffffff" stroke-width="1.2"/>
+  <line x1="200" y1="314" x2="200" y2="290" stroke="#ff6b6b" stroke-width="2" marker-end="url(#redArrow)"/>
+
+  <!-- Labels (all bumped to min 14px, left labels shifted right to x=130 to avoid clipping) -->
+  <text x="200" y="328" text-anchor="middle" dominant-baseline="central" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#ff6b6b" font-weight="bold">HEAT</text>
+  <text x="130" y="198" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">COLD WATER IN</text>
+  <path d="M 136 196 L 168 196" fill="none" stroke="#b0b0c8" stroke-width="0.8" marker-end="url(#arrow)"/>
+  <text x="130" y="240" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">PEAR-SHAPED</text>
+  <text x="130" y="256" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">FLASK</text>
+  <path d="M 136 244 Q 168 244 176 252" fill="none" stroke="#b0b0c8" stroke-width="0.8" marker-end="url(#arrow)"/>
+  <text x="244" y="78" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">OPEN TOP</text>
+  <path d="M 238 76 Q 200 76 200 92" fill="none" stroke="#b0b0c8" stroke-width="0.8" marker-end="url(#arrow)"/>
+  <text x="244" y="132" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">WATER OUT</text>
+  <path d="M 238 130 L 232 130" fill="none" stroke="#b0b0c8" stroke-width="0.8" marker-end="url(#arrow)"/>
+  <text x="244" y="168" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">LIEBIG</text>
+  <text x="244" y="184" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">CONDENSER</text>
+  <path d="M 238 172 L 214 172" fill="none" stroke="#b0b0c8" stroke-width="0.8" marker-end="url(#arrow)"/>
+  <text x="244" y="260" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">ANTI-BUMPING</text>
+  <text x="244" y="276" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8">GRANULES</text>
+  <path d="M 238 268 L 210 272" fill="none" stroke="#b0b0c8" stroke-width="0.8" marker-end="url(#arrow)"/>
+  </g>
 </svg>
