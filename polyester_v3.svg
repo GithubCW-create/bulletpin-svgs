@@ -1,4 +1,81 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 320">
-  
-  
+  <rect width="400" height="320" fill="#1a1a2e"/>
+  <defs>
+    <marker id="ga" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <polygon points="0 0, 6 3, 0 6" fill="#b0b0c8"/>
+    </marker>
+  </defs>
+  <text x="200" y="14" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Condensation Polymerisation</text>
+  <g stroke="#ffffff" stroke-width="0.8" stroke-linecap="round" fill="none">
+    <line x1="70" y1="76" x2="78" y2="76"/>
+    <line x1="86" y1="73" x2="92" y2="63"/>
+    <line x1="94" y1="56" x2="88" y2="47"/>
+    <line x1="92" y1="57" x2="86" y2="48"/>
+    <line x1="100" y1="60" x2="107" y2="60"/>
+    <line x1="141" y1="60" x2="148" y2="60"/>
+    <line x1="154" y1="56" x2="160" y2="47"/>
+    <line x1="156" y1="57" x2="162" y2="48"/>
+    <line x1="155" y1="64" x2="163" y2="73"/>
+    <line x1="170" y1="76" x2="178" y2="76" stroke="#ff6b6b"/>
+    <line x1="222" y1="76" x2="228" y2="76"/>
+    <line x1="236" y1="76" x2="241" y2="76"/>
+    <line x1="271" y1="76" x2="276" y2="76"/>
+    <line x1="284" y1="76" x2="290" y2="76"/>
+    <line x1="112" y1="236" x2="132" y2="236"/>
+    <line x1="134" y1="232" x2="134" y2="224"/>
+    <line x1="138" y1="232" x2="138" y2="224"/>
+    <line x1="140" y1="236" x2="147" y2="236"/>
+    <line x1="181" y1="236" x2="188" y2="236"/>
+    <line x1="190" y1="232" x2="190" y2="224"/>
+    <line x1="194" y1="232" x2="194" y2="224"/>
+    <line x1="196" y1="236" x2="204" y2="236"/>
+    <line x1="212" y1="236" x2="215" y2="236"/>
+    <line x1="245" y1="236" x2="248" y2="236"/>
+    <line x1="256" y1="236" x2="276" y2="236"/>
+    <path d="M 122 214 Q 110 236 122 258"/>
+    <path d="M 266 214 Q 278 236 266 258"/>
+    <path d="M 280 280 Q 244 276 212 244" stroke="#b0b0c8" marker-end="url(#ga)"/>
+  </g>
+  <rect x="160" y="66" width="64" height="20" rx="3" fill="none" stroke="#b0b0c8" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <rect x="186" y="214" width="28" height="28" rx="3" fill="none" stroke="#b0b0c8" stroke-width="0.7" stroke-dasharray="3,2"/>
+  <path d="M 198 50 h 4 v 3 h 3 v 4 h -3 v 3 h -4 v -3 h -3 v -4 h 3 z" fill="#2ecc71"/>
+  <rect x="197" y="139" width="6" height="12" fill="#2ecc71" rx="1"/>
+  <polygon points="193,189 207,189 200,203" fill="#2ecc71"/>
+  <path d="M 288 231 h 4 v 3 h 3 v 4 h -3 v 3 h -4 v -3 h -3 v -4 h 3 z" fill="#2ecc71"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#ffffff" font-size="14" text-anchor="middle" dominant-baseline="central">
+    <text x="66" y="76">H</text>
+    <text x="82" y="76">O</text>
+    <text x="96" y="60">C</text>
+    <text x="86" y="44">O</text>
+    <text x="124" y="60">C<tspan baseline-shift="sub" font-size="0.75em">6</tspan>H<tspan baseline-shift="sub" font-size="0.75em">4</tspan></text>
+    <text x="152" y="60">C</text>
+    <text x="162" y="44">O</text>
+    <text x="166" y="76" fill="#ff6b6b">O</text>
+    <text x="182" y="76" fill="#ff6b6b">H</text>
+    <text x="218" y="76" fill="#ff6b6b">H</text>
+    <text x="232" y="76">O</text>
+    <text x="256" y="76">C<tspan baseline-shift="sub" font-size="0.75em">2</tspan>H<tspan baseline-shift="sub" font-size="0.75em">4</tspan></text>
+    <text x="280" y="76">O</text>
+    <text x="294" y="76">H</text>
+    <text x="136" y="236">C</text>
+    <text x="136" y="220">O</text>
+    <text x="164" y="236">C<tspan baseline-shift="sub" font-size="0.75em">6</tspan>H<tspan baseline-shift="sub" font-size="0.75em">4</tspan></text>
+    <text x="192" y="236">C</text>
+    <text x="192" y="220">O</text>
+    <text x="208" y="236">O</text>
+    <text x="230" y="236">C<tspan baseline-shift="sub" font-size="0.75em">2</tspan>H<tspan baseline-shift="sub" font-size="0.75em">4</tspan></text>
+    <text x="252" y="236">O</text>
+    <text x="320" y="236" fill="#ff6b6b">H<tspan baseline-shift="sub" font-size="0.75em">2</tspan>O</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#b0b0c8" text-anchor="middle">
+    <text x="124" y="108"><tspan fill="#ff6b6b">HOOC</tspan>C<tspan baseline-shift="sub" font-size="0.8em">6</tspan>H<tspan baseline-shift="sub" font-size="0.8em">4</tspan><tspan fill="#ff6b6b">COOH</tspan></text>
+    <text x="124" y="126">TEREPHTHALIC ACID</text>
+    <text x="256" y="108"><tspan fill="#ff6b6b">OH</tspan>C<tspan baseline-shift="sub" font-size="0.8em">2</tspan>H<tspan baseline-shift="sub" font-size="0.8em">4</tspan><tspan fill="#ff6b6b">OH</tspan></text>
+    <text x="256" y="126">ETHANE-1,2-DIOL</text>
+    <text x="200" y="166">CONDENSATION</text>
+    <text x="200" y="184">POLYMERISATION</text>
+    <text x="286" y="286" text-anchor="start">ESTER LINK</text>
+    <text x="195" y="288">REPEATING UNIT</text>
+    <text x="195" y="306">OF A POLYESTER</text>
+  </g>
 </svg>
